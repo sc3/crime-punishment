@@ -1,0 +1,64 @@
+{% extends "_base.html" %}
+
+{% block content %}
+<div class="container">
+  <p><em>Get rid of this sample content by creating <code>{{ PROJECT_PATH }}/{{ PATH }}</code>.</em> Take a look at <code>{{ PROJECT_PATH }}/_base/index.html</code> to see source code for the default page.</p>
+  
+  <h1>Values</h1>
+
+  <div class="jumbotron">
+    <p>The key is <code>headline</code> and the value <strong>{{ headline }}</strong>.</p>
+    <p>Print this headline in your code with something like <code>{{ "<strong>{{ headline }}</strong>" }}</code>.
+  </div>
+
+  <h1>Data</h1>
+
+<div class="row">
+  <div class="col-md-6">
+    <h2>Access data with a loop:</h2>
+    <p><em>Use the worksheet name to access data.</em></p>
+
+<pre>
+{{ "{% for row in data %}" }}
+{{ "<p>" }}
+{{ "  <strong>{{ row.column1 }}</strong>:" }}
+{{ "  {{ row.column2 }}" }}
+{{ "</p>" }}
+{{ "{% endfor %}" }}
+</pre>
+
+    <p>Output:</p>
+
+    {% for row in data %}
+    <p>
+      <strong>{{ row.column1 }}:</strong>
+      {{ row.column2 }}
+    </p>
+    {% endfor %}
+  </div>
+  <div class="col-md-6">
+    <h2>Access data by key</h2>
+    <p><em>Requires a column named <code>key</code>.</em></p>
+
+<pre>
+{{ "<p>" }}
+{{ "  <strong>key1, column 1</strong>:" }} 
+{{ "  {{ keyed_data.key1.column1 }}" }}
+{{ "</p>" }}
+{{ "<p>" }}
+{{ "  <strong>key2, column 2</strong>:" }} 
+{{ "  {{ keyed_data.key2.column2 }}" }}
+{{ "</p>" }}
+</pre>
+
+    <p>Output:</p>
+    <p>
+      <strong>key1, column 1</strong>:
+      {{ keyed_data.key1.column1 }}
+    </p>
+    <p>
+      <strong>key2, column 2</strong>:
+      {{ keyed_data.key2.column2 }}</p>
+  </div>
+</div>
+{% endblock content %}
