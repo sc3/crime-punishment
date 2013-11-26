@@ -1,9 +1,18 @@
-<div id="call-info" class="container">
-  <h1>Call for Service</h1>
-  <div class="well">
-	<p>There are two potential starting points for crime. The City of Chicago Data Portal provides some data regarding 9-1-1 calls made to police but there is no way of knowing which of these calls will result in a report being filed or even whether they are responded to in x% of cases.</p>
-	<p>An obvious point of discretion at this stage is whether or not an officer responds to a 9-1-1 call in the first place.</p>
-	<p>The data about this stage of the system is not publicly available, and must be requested through the FOIA.</p>
-  </div>
-  <a class="btn btn-primary" href="#toCall" id="toCall">Go Back</a>
-</div>
+{% extends "_base.html" %}
+
+{% block preview %}{% endblock preview %}
+{% block content %}
+	<div id="main" class="container">
+	  <h1>Call for Service</h1>
+	  <div class="col-md-6">
+		<p>There are two potential starting points for crime. The City of Chicago Data Portal provides some data regarding 9-1-1 calls made to police but there is no way of knowing which of these calls will result in a report being filed or even whether they are responded to in x% of cases.</p>
+		<p>An obvious point of discretion at this stage is whether or not an officer responds to a 9-1-1 call in the first place.</p>
+		<p>The data about this stage of the system is not publicly available, and must be requested through the FOIA.</p>
+	  </div>
+	</div>
+{% endblock content %}
+
+{% block scripts %}  
+  {{ super() }}
+  <script type="text/javascript" src="js/holder.js"></script>
+{% endblock scripts %}

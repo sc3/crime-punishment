@@ -1,0 +1,27 @@
+{% extends "_base.html" %}
+
+{% block preview %}{% endblock preview %}
+
+{% block css %}
+  {{ super() }}
+  <link rel="stylesheet" type="text/css" href="css/simple.css">
+{% endblock css %}
+
+
+{% block content %}
+
+  <div id="main">
+  </div>
+  <div class="container">
+      <a class="btn btn-primary" id="previous">Previous</a>
+      <a class="btn btn-primary" id="next">Next</a>
+  </div>
+  
+{% endblock content %}
+
+
+{% block scripts %}  
+  {{ super() }}
+  <script type="text/javascript" src="js/holder.js"></script>
+  <script type="text/javascript" src="js/switch.js"></script>
+{% endblock scripts %}

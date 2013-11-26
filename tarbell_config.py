@@ -8,7 +8,7 @@ Tarbell project configuration
 NAME = "crime_punishment"
 
 # Descriptive title of project
-TITLE = "Crime, Punishment, and Discretion in Chicago"
+TITLE = "Crime and Punishment"
 
 # Google spreadsheet key
 #SPREADSHEET_KEY = "None"
@@ -29,5 +29,5 @@ TEMPLATE_REPO_URL = "https://github.com/newsapps/tarbell-template"
 DEFAULT_CONTEXT = {
 
     'name': 'crime_punishment',
-    'title': 'Crime, Punishment, and Discretion in Chicago',
+    'title': "Crime and Punishment Stuff12121",
 }
