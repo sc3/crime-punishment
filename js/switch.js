@@ -6,12 +6,20 @@ var last = 3;
 
 
 function loadPage(url, callback) {
+/* Loads the content inside the #main element" on the
+   page found at <url> into the #main element of the 
+   current page. Then sets the links and buttons 
+   accordingly. */
+
   $('#main').load(url + "#main", callback);
   setLinks(url);
 }
 
 
 function setLinks(url) {
+/* Changes the urls the "next" and "previous" buttons
+   point at, and, when at either end of the sequence
+   of pages, removes the appropriate button from view. */
 
   for (i=0; i<=last; i++) {
 	if (pages[i] == url) {
@@ -30,10 +38,6 @@ function setLinks(url) {
   	$('#previous').attr('href', pages[previous]);
   }
 
-  console.log('url: ' + url);
-  console.log('page_num: ' + page_num);
-  console.log('next: ' + next);
-  console.log('last: ' + last);
   if (next > last) {
   	$('#next').addClass('disappear');
   }
