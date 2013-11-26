@@ -35,7 +35,7 @@ function setLinks(url) {
   }
   else {
   	$('#previous').removeClass('disappear');
-  	$('#previous').attr('href', pages[previous]);
+  	$('#previous').attr('title', pages[previous]);
   }
 
   if (next > last) {
@@ -43,7 +43,7 @@ function setLinks(url) {
   }
   else {
   	$('#next').removeClass('disappear');
-  	$('#next').attr('href', pages[next]);
+  	$('#next').attr('title', pages[next]);
   }
 }
 
@@ -52,8 +52,9 @@ $(document).ready(function() {
 
   loadPage(pages[first]);
 
-  $('a').on('click', function(e) {
-  	nextUrl = e.target.pathname;
+  $('span').on('click', function(e) {
+  	console.log(e)
+  	nextUrl = e.target.title;
   	loadPage(nextUrl);
   	return false;
   });
