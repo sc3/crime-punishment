@@ -3,7 +3,10 @@ chicago-justice
 
 Crime, Punishment and Discretion in Chicago
 
-# Previewing this mockup
+...
+
+
+## Previewing this mockup
 
 ### Getting Tarbell
 First, make sure you have [Tarbell](http://tarbell.tribapps.com/) installed and setup. 
