@@ -66,7 +66,7 @@ $(document).ready(function() {
 
   // We already preloaded in the first page's content,
   // so we just set the links for it.
-  setLinks(pages[first]);
+  loadPage(pages[first]);
 
   $('div .boxed').on('click', function(e) {
     //console.log(e);

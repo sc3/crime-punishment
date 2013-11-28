@@ -2,12 +2,10 @@
 
 {% block preview %}{% endblock preview %}
 {% block content %}
-	<div id="main" class="col-sm-10">
+	<br><br>
+	<div id="main" class="col-sm-12">
 	  <div class="col-sm-6">
-	  	<h1>Call for Service</h1>
-		<p>There are two potential starting points for crime. The City of Chicago Data Portal provides some data regarding 9-1-1 calls made to police but there is no way of knowing which of these calls will result in a report being filed or even whether they are responded to in x% of cases.</p>
-		<p>An obvious point of discretion at this stage is whether or not an officer responds to a 9-1-1 call in the first place.</p>
-		<p>The data about this stage of the system is not publicly available, and must be requested through the FOIA.</p>
+	  	{{ call_text|markdown }}
 	  </div>
 	  <div id="image-part" class="col-sm-6">
 	    <img src="js/holder.js/400x300">

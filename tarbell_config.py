@@ -29,5 +29,11 @@ TEMPLATE_REPO_URL = "https://github.com/newsapps/tarbell-template"
 DEFAULT_CONTEXT = {
 
     'name': 'crime_punishment',
-    'title': "Crime and Punishment Stuff1212",
+    'title': 'Crime and Punishment Stuff1212',
+    'call_text': unicode(open('copy/call.md').read()),
+    'police_text': unicode(open('copy/police.md').read()),
+    'charges_text': open('copy/charges.md').read(),
+    'courts_text': open('copy/courts.md').read(),
+
 }
+

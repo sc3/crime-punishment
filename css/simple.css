@@ -39,6 +39,12 @@ img {
 #left .boxed {
 }
 
+.highlight {
+    background: yellow;
+    color: black;
+    box-shadow: 0 0 0 1px yellow;
+}
+
 /* 
 * { border: 1px solid; }
 */

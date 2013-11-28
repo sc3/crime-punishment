@@ -2,12 +2,13 @@
 
 {% block preview %}{% endblock preview %}
 {% block content %}
-	<div id="main" class="container">
-	  <h1>State's Attourney's Office</h1>
-	  <div class="col-md-6">
-		<p>Donec viverra mi quis quam pulvinar at malesuada arcu rhoncus. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. In rutrum accumsan ultricies. </p>
-		<p>Vivamus fermentum semper porta. Nunc diam velit, adipiscing ut tristique vitae, sagittis vel odio. Maecenas convallis ullamcorper ultricies. Curabitur ornare, ligula semper consectetur sagittis, nisi diam iaculis velit, id fringilla sem nunc vel mi. </p>
-		<p>Nam dictum, odio nec pretium volutpat, arcu ante placerat erat, non tristique elit urna et turpis. Quisque mi metus, ornare sit amet fermentum et, tincidunt et orci. Fusce eget orci a orci congue vestibulum.</p>
+	<br><br>
+	<div id="main" class="col-sm-12">
+	  <div class="col-sm-6">
+	  	{{ charges_text|markdown }}
+	  </div>
+	  <div id="image-part" class="col-sm-6">
+	    <img src="js/holder.js/400x300">
 	  </div>
 	</div>
 {% endblock content %}
