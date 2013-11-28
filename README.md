@@ -3,31 +3,25 @@ chicago-justice
 
 Crime, Punishment and Discretion in Chicago
 
-# Previewing This Mockup
+# Previewing this mockup
 
-## getting tarbell
+## Getting Tarbell
 First make sure you have [Tarbell](http://tarbell.tribapps.com/) installed and setup. 
 
-If you don't have it installed, you can do so as follows:  
-```sudo pip install tarbell==0.9b2``` 
+If you don't have it installed, you can get it as follows:  
+```sudo pip install tarbell==0.9b2
+   tarbell configure```
 
-To set up tarbell, run the following command, and follow its prompts:  
-```tarbell configure```
+Note: When it asks you, you don't need to have either Google Spreadsheets or Amazoon S3 setup for this project.
 
-Note: You don't need to have either Google Spreadsheets or Amazoon S3 setup for this project.
+## Getting the mockup
 
-## getting the mockup
-After that, from the directory of your tarbell projects, download this project:  
+Clone the repo:
 ```git clone git@github.com:bepetersn/chicago-justice.git```
 
-Next, change to the directory you just downloaded the mockup to:  
-```cd chicago-justice```
-
-And get the underlying template for the project updated:  
-```git submodule update --init```
-
-## preview
-**Finally**, preview the project by running the following command from the project root:  
-```tarbell serve```
+Do some setup and launch the Tarbell preview server:
+```cd chicago-justice
+   git submodule update --init
+   tarbell serve```
 
 You should be able to view the results in a browser at `localhost:5000`.
