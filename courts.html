@@ -4,16 +4,29 @@
 	<div id="main" class="container">
 	  <header class="row">
 	  	<div class="headline">
-	      <h1>{{ charges.title|markdown }}</h1>
+	      <h1>{{ courts.title|markdown }}</h1>
 	    </div>
 	    <div class="explanation">
-	      {{ charges.intro|markdown }}
+	      {{ courts.intro|markdown }}
 	    </div>
 	  </header>
-	  <div class="row">
-		<img src="js/holder.js/500x400">
-	    <div class="content">
-		  {{ charges.text|markdown }}
+	  <div class="content row">
+	    <div class="col-sm-12">
+	      <h2>Data</h2>
+	      
+	      <h4>Availability</h4>
+		  {{ courts.data_available|markdown }}
+		  
+		  <h4>Format</h4>
+		  {{ courts.data_format|markdown }}
+		  
+		  <h4>Summary</h4>
+		  {{ courts.data_summary|markdown }}
+		  
+		  <hr>
+		  
+		  <h2>Limitations</h2>
+		  {{ courts.data_limits|markdown }}
 	    </div>
 	  </div>
 	</div>

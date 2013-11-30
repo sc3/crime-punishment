@@ -21,20 +21,20 @@
 }
 
 .navbar {
-  background-color: #231f20;
+ 	background-color: #231f20;
 }
 
 .navbar .sections>li>a:hover {
-  background-color: #4f4c4d;
+  	background-color: #4f4c4d;
 }
-
-a {}
-a:hover { color: #ed1c24; }
 
 	/* Overriding */
 .navbar a { color: #DDD !important; }
 .navbar a:hover { color: #AAA !important; }
+.navbar-nav>.active>a { background-color: #4f4c4d !important; }
 
+a {}
+a:hover { color: #ed1c24; }
 
 h1, h2, h3, h4, h5, h6 {
   font-family: "Lusitana";

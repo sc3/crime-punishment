@@ -69,7 +69,6 @@ DEFAULT_CONTEXT = {
             "classification, like police crime reports, so that comparing different datasets "
             "doesn't tell you much.")
     },
-
     'police': {
         'title': '',
         'intro': '',
