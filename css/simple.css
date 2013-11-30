@@ -1,21 +1,3 @@
-.disappear {
-    visibility: hidden;
-}
-
-img {
-    width: auto;
-    height: auto;
-    max-width: 100%
-}
-
-#image-part {
-}
-
-#all {
-}
-
-#main {
-}
 
 #left {
 	text-align: center;
@@ -33,18 +15,58 @@ img {
 	padding: 15px;
 }
 
-#right .boxed {
+.boxed:hover {
+	cursor: pointer;
 }
 
-#left .boxed {
+.navbar {
+  background-color: #231f20;
 }
 
-.highlight {
-    background: yellow;
-    color: black;
-    box-shadow: 0 0 0 1px yellow;
+.navbar .sections>li>a:hover {
+  background-color: #4f4c4d;
 }
 
-/* 
+a {}
+a:hover { color: #ed1c24; }
+
+	/* Overriding */
+.navbar a { color: #DDD !important; }
+.navbar a:hover { color: #AAA !important; }
+
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: "Lusitana";
+}
+
+.headline {
+  text-align: center;
+  margin: 15px 15% 15px 15%;
+}
+
+.explanation {
+  margin: 15px 15% 15px 15%;
+}
+
+.content {
+  margin: 15px 8% 15px 8%;
+}
+
+.disappear {
+    visibility: hidden;
+}
+
+img {
+	max-height: 100%;
+	max-width: 100%;
+    float: right;
+    margin: 15px;
+}
+
+.glyphicon: {
+	font-size: 24px;
+}
+
+/*
 * { border: 1px solid; }
 */
