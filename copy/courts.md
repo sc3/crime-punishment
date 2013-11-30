@@ -1,4 +1,3 @@
-# Courts
 
 The court system consists of four major steps: a bond hearing, a discovery hearing, a trial by either judge or jury, and a sentencing hearing. While the suspect is going through the court process, the ones who are not able to make bail remain in jail, where, as stated previously, the chances of them getting yet another charge added to their record likely.
 

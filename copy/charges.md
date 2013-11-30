@@ -1,4 +1,3 @@
-# State's Attorney's Office
 
 However, police cannot charge felonies in Cook County. Almost every single felony charge must go through Felony Review, a construct unique to Cook County and Rockford. It is a method that appears to let the Cook County State's Attorney "try" a case before a judge is even involved, thereby leading to a supposedly higher conviction rate. Eighty percent of misdemeanor cases that have been dismissed since 2006 were thrown out by the Cook County State's Attorney's Office or city attorneys--not by a trial or a judge. Roughly half were dismissed without a stated reason.
 

@@ -1,4 +1,4 @@
-### Data
+## Data
 
 #### Availability
 
@@ -20,8 +20,8 @@ From this data, you can extract information about the areas with the highest and
 
 ------------------------------------------------------------------------------------------------
 
-### Limitations
+## Limitations 
 
-Because of the aggregated nature of the data received by way of FOIA request it is not possible to follow up on a specific call by tying it to incident reports of police, or court cases, or jail sentences. 
+- Because of the aggregated nature of the data received by way of FOIA request it is not possible to follow up on a specific call by tying it to incident reports of police, or court cases, or jail sentences. 
 
-The whole picture is similarly atomized in that the event types recorded reflect only the judgment of 911 operators, and may differ from later stages of classification, like police crime reports, so that even aggregate correlations between different datasets can't necessarily be trusted.
+- The whole picture is similarly atomized in that the event types recorded reflect only the judgment of 911 operators, and may differ from later stages of classification, like police crime reports, so that even aggregate correlations between different datasets can't necessarily be trusted.

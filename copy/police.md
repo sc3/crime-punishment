@@ -1,5 +1,3 @@
-# Police Response
-
 Cases can also be initiated by the police. Most arrests made by police are not in response to any sort of complaint; they happen when officers see a suspicious individual and detain them for a minor crime to prevent them from committing a major one. This tactic has been compared to New York City's "stop and frisk" policy, which was recently declared an unconstitutional guise of racial profiling. While this practice may reduce immediate crime, it seems to be a contributing factor in polluting Chicago's criminal justice system.
 
 At this node in the system, the department has two types of discretion points.
