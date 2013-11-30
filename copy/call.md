@@ -8,11 +8,11 @@ Although it is known that data-collection happens for this entry point to Chicag
 
 #### Format
 
-The data we have is aggregated, meaning that there are no individual records of calls, nor any specific addresses that can be linked to specific incidents. It is broken down by the 25 police districts, by event type that the operator judged the call to represent (of which there are about 300), as well as sometimes by day of the week (for 2008-2010).
+The data we have is available in .xls spreadsheet format. It is aggregated yearly data, meaning that there are no individual records of calls, nor any specific addresses that can be linked to specific incidents. It is broken down by the 25 police districts, by event type that the operator judged the call to represent (out of about 300 possibilities), as well as sometimes by day of the week (for 2008-2010).
 
 #### Summary
 
-For the year of 2011, there were 6,595,636 total calls received. . . .
+For the year of 2011, there were 6,595,636 total calls received.... Highest/lowest districts.... Highest event type total, highest event type in highest districts.... Highest/lowest day of the week....
 
 #### Uses
 
@@ -22,6 +22,6 @@ From this data, you can extract information about the areas with the highest and
 
 ## Limitations 
 
-- Because of the aggregated nature of the data received by way of FOIA request it is not possible to follow up on a specific call by tying it to incident reports of police, or court cases, or jail sentences. 
+- Because of the aggregated nature of the data the CJP received by way of FOIA request it is not possible to follow up on a specific call by tying it to incident reports of police, or court cases, or jail sentences. 
 
-- The whole picture is similarly atomized in that the event types recorded reflect only the judgment of 911 operators, and may differ from later stages of classification, like police crime reports, so that even aggregate correlations between different datasets can't necessarily be trusted.
+- The whole picture is similarly atomized in that the event types recorded reflect only the judgment of 911 operators, and may differ from later stages of classification, like police crime reports, so that comparing different datasets doesn't tell you much.
