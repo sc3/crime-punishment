@@ -47,7 +47,7 @@ h1 {
 hr {
 	margin-top: 45px;
 	margin-bottom: 45px;
-	border-top: 1.5px solid #eee
+	border-top: 2px solid #eee
 }
 
 .content {
@@ -64,7 +64,7 @@ hr {
 }
 
 .content {
-  margin: 15px 8% 15px 8%;
+  margin: 15px 0 15px 0;
 }
 
 .disappear {
@@ -76,10 +76,6 @@ img {
 	max-width: 100%;
     float: right;
     margin: 15px;
-}
-
-.glyphicon: {
-	font-size: 24px;
 }
 
 .call-limit {

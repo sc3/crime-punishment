@@ -1,19 +1,19 @@
-{% extends "_stage.html" %}
+{% extends "_cpd.html" %}
 
 {% block content %}
 	<div id="main" class="container">
 	  <header class="row">
 	  	<div class="headline">
-	      <h1>{{ courts_page.title|markdown }}</h1>
+	      <h1>{{ charges.title|markdown }}</h1>
 	    </div>
 	    <div class="explanation">
-	      {{ courts_page.intro|markdown }}
+	      {{ charges.intro|markdown }}
 	    </div>
 	  </header>
 	  <div class="row">
 		<img src="js/holder.js/500x400">
 	    <div class="content">
-		  {{ courts_page.text|markdown }}
+		  {{ charges.text|markdown }}
 	    </div>
 	  </div>
 	</div>

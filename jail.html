@@ -1,1 +1,20 @@
-{% extends "_stage.html" %}
+{% extends "_cpd.html" %}
+
+{% block content %}
+	<div id="main" class="container">
+	  <header class="row">
+	  	<div class="headline">
+	      <h1>{{ jail.title|markdown }}</h1>
+	    </div>
+	    <div class="explanation">
+	      {{ jail.intro|markdown }}
+	    </div>
+	  </header>
+	  <div class="row">
+		<img src="js/holder.js/500x400">
+	    <div class="content">
+		  {{ jail.text|markdown }}
+	    </div>
+	  </div>
+	</div>
+{% endblock content %}
