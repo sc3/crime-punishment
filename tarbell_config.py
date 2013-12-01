@@ -11,7 +11,7 @@ NAME = "crime_punishment"
 TITLE = "Crime, Punishment and Discretion in Chicago"
 
 # Google spreadsheet key
-#SPREADSHEET_KEY = "None"
+SPREADSHEET_KEY = "0AtIgbhrbjJC_dGZldkpEUDB0bmRhY1Z3aU9jRlI1VlE"
 
 # Create JSON data at ./data.json, disabled by default
 # CREATE_JSON = True
