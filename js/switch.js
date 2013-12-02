@@ -21,8 +21,10 @@ function loadPage(hash, callback) {
    accordingly. */
 
   url = hash.split('#')[1] + '.html'
-  $('#main').load(url + "#main", callback);
-  setLinks(hash);
+  $('#main').load(url + "#main", function() {
+    setLinks(hash);
+    callback();
+  });
 }
 
 
@@ -66,7 +68,9 @@ function setLinks(url) {
   	$(right).attr('title', pages[next]);
   }
 
-  //$('.sections li').removeClass('active');
+  $('.sections li').removeClass('active');
+  $('.sections li').eq(page_num).addClass('active');
+
 }
 
 
@@ -80,13 +84,17 @@ $(document).ready(function() {
     //console.log(e);
     nextUrl = e.currentTarget.title;
     if (nextUrl != ""){
-  	 	loadPage(nextUrl);
+  	 	loadPage(nextUrl, function() {
+        // whatever I want after page-load
+      });
     }
     return false;
   });
 
   $(window).on('hashchange', function() {
-    loadPage(window.location.hash);
+    loadPage(window.location.hash, function() {
+      // whatever I want after page-load
+    });
   });
 
 });
