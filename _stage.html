@@ -16,32 +16,50 @@
 	  <div class="headline">
 	    <h1>{{ current_stage.title.value|markdown }}</h1>
 	  </div>
-	  <div class="explanation">
-	    {{current_stage.intro.value|markdown }}
-	  </div>
 	</header>
-	<div class="image">
+	<div class="non-overlap">
 	    <img src="js/holder.js/500x400">
 	  </div>
 	<div class="content row">
-	  <div>
-	    <h2>Data</h2>
-	      
-	    <h4>Availability</h4>
-		{{ current_stage.data_availability.value|markdown }}
-		  
-		<h4>Format</h4>
-		{{ current_stage.data_format.value|markdown }}
-		  
-		<h4>Summary</h4>
-		{{ current_stage.data_summary.value|markdown }}
-		  
-		<hr>
-		  
-		<h2>Limitations</h2>
-		{{ current_stage.data_limits.value|markdown }}
+	 
+
+	  	{% block intro %}
+	  	<div class="intro">
+	  	  <h2>Basics</h2> 
+	      {{ current_stage.intro.value|markdown }}
+	    </div>
+	  	{% endblock intro %}
+
+	  	{% block data %}
+		  <div class="non-overlap data well">
+		    <h2>Data</h2>
+		      
+		    {% block available %}
+			  <h4>Availability</h4>
+		      {{ current_stage.data_availability.value|markdown }}
+			{% endblock available %}
+			  
+			{% block format %}
+		      <h4>Format</h4>
+			  {{ current_stage.data_format.value|markdown }}
+			{% endblock format %}
+			  
+			{% block summary %}
+			  <h4>Summary</h4>
+			  {{ current_stage.data_summary.value|markdown }}
+			{% endblock summary %}
+		  </div>
+
+		{% endblock data %}
+		
+		{% block limits %}
+		  <div class="non-overlap">
+		  	<hr>
+		  	<h2>Limitations</h2>
+		  	{{ current_stage.data_limits.value|markdown }}
+		  </div>
+		{% endblock limits %}
 	  </div>
-    </div>
   </div>
 
 {% endblock content %}
