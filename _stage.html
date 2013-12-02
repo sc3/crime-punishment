@@ -54,17 +54,20 @@
 			  <h4>Summary</h4>
 			  {{ current_stage.data_summary.value|markdown }}
 			{% endblock summary %}
-		  </div>
 
+			{% block limits %}
+		  	  <h4>Limitations</h4>
+		  	  {{ current_stage.data_limits.value|markdown }}
+			{% endblock limits %}
+
+		  </div>
 		{% endblock data %}
 		
-		{% block limits %}
-		  <div class="non-overlap">
-		  	<hr>
-		  	<h2>Limitations</h2>
-		  	{{ current_stage.data_limits.value|markdown }}
-		  </div>
-		{% endblock limits %}
+	    <hr>
+	    {% block conclusion %}
+	    {% endblock block conclusion %}
+		
+		
 	  </div>
   </div>
 
