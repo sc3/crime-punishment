@@ -29,6 +29,6 @@ TEMPLATE_REPO_URL = "https://github.com/newsapps/tarbell-template"
 DEFAULT_CONTEXT = {
 
     'name': u'crime_punishment',
-    'title': u'Crime and Punishment in Chicago',
+    'title': u'Crime and Punishment',
 
 }
