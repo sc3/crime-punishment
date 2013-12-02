@@ -1,33 +1,3 @@
-{% extends "_cpd.html" %}
+{% set current_stage = page_charges %}
+{% extends "_stage.html" %}
 
-{% block content %}
-	<div id="main" class="container">
-	  <header class="row">
-	  	<div class="headline">
-	      <h1>{{ charges.title|markdown }}</h1>
-	    </div>
-	    <div class="explanation">
-	      {{ charges.intro|markdown }}
-	    </div>
-	  </header>
-	  <div class="content row">
-	    <div class="col-sm-12">
-	      <h2>Data</h2>
-	      
-	      <h4>Availability</h4>
-		  {{ charges.data_available|markdown }}
-		  
-		  <h4>Format</h4>
-		  {{ charges.data_format|markdown }}
-		  
-		  <h4>Summary</h4>
-		  {{ charges.data_summary|markdown }}
-		  
-		  <hr>
-		  
-		  <h2>Limitations</h2>
-		  {{ charges.data_limits|markdown }}
-	    </div>
-	  </div>
-	</div>
-{% endblock content %}
