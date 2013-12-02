@@ -4,16 +4,7 @@
    	See /call.html for an example.
 #}
 
-{% extends "_base.html" %}
-
-{% block preview %}{% endblock preview %}
-
-{% block css %}
-  {{ super() }}
-  <link rel="stylesheet" type="text/css" href="css/simple.css" />
-  <link href="//netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css" rel="stylesheet">
-  <link href='http://fonts.googleapis.com/css?family=Lusitana:400,400italic' rel='stylesheet' type='text/css'>
-{% endblock css %}
+{% extends "_cpd.html" %}
 
 {% block content %} 
 
@@ -23,9 +14,9 @@
 	    <h1>{{ current_stage.title.value|markdown }}</h1>
 	  </div>
 	</header>
-	<div class="non-overlap">
-	    <img src="js/holder.js/500x400">
-	  </div>
+	<div>
+	  <img src="js/holder.js/500x400">
+	</div>
 	<div class="content row">
 	 
 
@@ -37,21 +28,22 @@
 	  	{% endblock intro %}
 
 	  	{% block data %}
-		  <div class="non-overlap data well">
-		    <h2>Data</h2>
-		      
-		    {% block available %}
-			  <h4>Availability</h4>
+	  	  {% block available %}
+		    <div class="well keep-left">
+		      <h4><span class="data">Data: </span>Availability</h4>
 		      {{ current_stage.data_availability.value|markdown }}
-			{% endblock available %}
-			  
+		    </div>
+		  {% endblock available %}
+
 			{% block format %}
-		      <h4>Format</h4>
+			<div class="well">
+		      <h4><span class="data">Data: </span>Format</h4>
 			  {{ current_stage.data_format.value|markdown }}
+			</div>
 			{% endblock format %}
 			  
 			{% block summary %}
-			  <h4>Summary</h4>
+			  <h4><span class="data">Data: </span>Summary</h4>
 			  {{ current_stage.data_summary.value|markdown }}
 			{% endblock summary %}
 
@@ -66,14 +58,7 @@
 	    <hr>
 	    {% block conclusion %}
 	    {% endblock block conclusion %}
-		
-		
 	  </div>
   </div>
 
 {% endblock content %}
-
-{% block scripts %}  
-  {{ super() }}
-  <script type="text/javascript" src="js/holder.js"></script>
-{% endblock scripts %}

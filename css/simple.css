@@ -1,31 +1,31 @@
 
 #left {
-	text-align: center;
-	float: left;
-	margin-top: 25%;
+  text-align: center;
+  float: left;
+  margin-top: 25%;
 }
 
 #right {
-	text-align: center;
-	float: right;
-	margin-top: 25%;
+  text-align: center;
+  float: right;
+  margin-top: 25%;
 }
 
 .boxed {
-	padding: 15px;
-	position: fixed;
+  padding: 15px;
+  position: fixed;
 }
 
 .boxed:hover {
-	cursor: pointer;
+  cursor: pointer;
 }
 
 .navbar {
- 	background-color: #231f20;
+  background-color: #231f20;
 }
 
 .navbar .sections>li>a:hover {
-  	background-color: #4f4c4d;
+  background-color: #4f4c4d;
 }
 
 	/* Overriding */
@@ -42,18 +42,18 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 h1 {
-	font-size: 5em;
+  font-size: 5em;
 }
 
 hr {
-	margin-top: 30px;
-	margin-bottom: 30px;
-	border-top: 2px solid #eee
+  margin-top: 30px;
+  margin-bottom: 30px;
+  border-top: 2px solid #eee
 }
 
 .content {
-	font-size: 1.2em;
-	margin-left: 15px;
+  font-size: 1.2em;
+  margin-left: 15px;
 }
 
 .headline {
@@ -70,21 +70,27 @@ hr {
 }
 
 .disappear {
-    visibility: hidden;
+  visibility: hidden;
 }
 
 img {
-	max-height: 100%;
-	max-width: 100%;
-    margin: 15px 30px 30px 0px;
+  max-height: 100%;
+  max-width: 100%;
+  margin: 15px 15px 30px 30px; 
+  float: right;
+}
+
+.well {
+  margin-left: 15px;
+}
+
+.keep-left {
+  width: 450px;
+  margin-right: 700px;
 }
 
 .data {
-	margin-left: 15px;
-}
-
-.non-overlap {
-    float: left;
+  font-size: 150%;
 }
 
 /*
