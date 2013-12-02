@@ -41,7 +41,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 h1 {
-	font-size: 5em;
+	font-size: 4em;
 }
 
 hr {
@@ -78,15 +78,6 @@ img {
     float: left;
 }
 
-.call-limit {
-	background-color: red;
-	padding: 10px;
-}
-
-/*
-* { border: 1px solid; }
-*/
-
 @media (max-width: 1000px) {
   .navbar .social-menu {
     display: none;
@@ -106,3 +97,7 @@ img {
   	display: none;
   }
 }
+
+/*
+* { border: 1px solid; }
+*/
