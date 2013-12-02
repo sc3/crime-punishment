@@ -2,13 +2,13 @@
 #left {
 	text-align: center;
 	float: left;
-	margin-top: 20%;
+	margin-top: 25%;
 }
 
 #right {
 	text-align: center;
 	float: right;
-	margin-top: 20%;
+	margin-top: 25%;
 }
 
 .boxed {
@@ -74,8 +74,7 @@ hr {
 img {
 	max-height: 100%;
 	max-width: 100%;
-    float: right;
-    margin: 15px;
+    margin: 15px 15px 15px 5%;
 }
 
 .call-limit {
