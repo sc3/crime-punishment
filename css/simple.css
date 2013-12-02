@@ -92,3 +92,17 @@ img {
     display: none;
   }
 }
+
+@media (max-width: 482px) {
+  .main {
+  	padding: 0px;
+  }
+
+  .content, .headline {
+  	margin: 0px;
+  }
+
+  .boxed, #left, #right {
+  	display: none;
+  }
+}
