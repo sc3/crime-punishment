@@ -85,3 +85,9 @@ img {
 /*
 * { border: 1px solid; }
 */
+
+@media (max-width: 1000px) {
+  .navbar .social-menu {
+    display: none;
+  }
+}
