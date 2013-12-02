@@ -1,22 +1,30 @@
-
 /* Constants */
-var pages = ['/call.html', '/police.html', '/charges.html', '/courts.html'];
+
+var elem = $('.sections li a');
+var pages = [];
+for(i=0; i<elem.length; i++) {
+  //console.log(elem[i])
+  pages[i] = elem[i].hash;
+}
+
 var first = 0;
-var last = 3;
+var last = 5;
 
 /* Selectors for next and previous buttons */
 var left = '#left .boxed'
 var right = '#right .boxed'
 
-function loadPage(url, callback) {
+function loadPage(hash, callback) {
 /* Loads the content inside the "#main" element on the
    page found at <url> into the "#main" element of the 
    current page. Then sets the links and buttons 
    accordingly. */
 
-  // our main  #  url # their main
-  $('#main').load(url + "#main", callback);
-  setLinks(url);
+  url = hash.split('#')[1] + '.html'
+  $('#main').load(url + "#main", function() {
+    setLinks(hash);
+    callback();
+  });
 }
 
 
@@ -59,6 +67,10 @@ function setLinks(url) {
   	$(right).removeClass('disappear');
   	$(right).attr('title', pages[next]);
   }
+
+  $('.sections li').removeClass('active');
+  $('.sections li').eq(page_num).addClass('active');
+
 }
 
 
@@ -68,13 +80,21 @@ $(document).ready(function() {
   // so we just set the links for it.
   loadPage(pages[first]);
 
-  $('div .boxed').on('click', function(e) {
+  $('.boxed').on('click', function(e) {
     //console.log(e);
     nextUrl = e.currentTarget.title;
     if (nextUrl != ""){
-  	 	loadPage(nextUrl);
+  	 	loadPage(nextUrl, function() {
+        // whatever I want after page-load
+      });
     }
     return false;
+  });
+
+  $(window).on('hashchange', function() {
+    loadPage(window.location.hash, function() {
+      // whatever I want after page-load
+    });
   });
 
 });
