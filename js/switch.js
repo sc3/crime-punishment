@@ -66,9 +66,7 @@ function setLinks(url) {
   	$(right).attr('title', pages[next]);
   }
 
-  $('.sections li').removeClass('active');
-  $('.sections li').eq(page_num).addClass('active');
-
+  //$('.sections li').removeClass('active');
 }
 
 
