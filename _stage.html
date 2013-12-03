@@ -1,7 +1,7 @@
 {# 
 	Note that you are expected to set the value of the 
    	current_stage variable prior to extending this template. 
-   	See call.html for an example.
+   	See /call.html for an example.
 #}
 
 {% extends "_cpd.html" %}
@@ -9,67 +9,66 @@
 {% block content %} 
 
   <div id="main" class="container">
-
 	<header class="row">
 	  <div class="headline">
 	    <h1>{{ current_stage.title.value|markdown }}</h1>
 	  </div>
+	  <div class="explanation">
+	    {{ current_stage.intro.value|markdown }}
+	  </div>
 	</header>
-
 	<div class="image">
-	  <img src="js/holder.js/500x400">
-	</div>
-
+	    <img src="js/holder.js/500x400">
+	  </div>
 	<div class="content row">
-	 
 
-	  	{% block intro %}
+	  {% block intro %}
 	  	<div class="intro">
 	  	  <h2>Basics</h2> 
 	      {{ current_stage.intro.value|markdown }}
 	    </div>
-	  	{% endblock intro %}
+	  {% endblock intro %}
 
-	  	{% block data %}
+	  {% block data %}
 
-	  	  
-          <div class="well no-overlap">
+        <div>
 
-			<h2>Data</h2>
+		  <h2>Data</h2>
 
-			{% block available %}
-				<h4>Availability</h4>
-				{{ current_stage.data_availability.value|markdown }}
-			{% endblock available %}
+		  {% block available %}
+			<h4>Availability</h4>
+			{{ current_stage.data_availability.value|markdown }}
+		  {% endblock available %}
 
-			{% block format %}
-				<h4>Format</h4>
-				{{ current_stage.data_format.value|markdown }}
-			{% endblock format %}
+		  {% block format %}
+			<h4>Format</h4>
+			{{ current_stage.data_format.value|markdown }}
+		  {% endblock format %}
 
-			{% block summary %}
-				<h4>Summary</h4>
-				{{ current_stage.data_summary.value|markdown }}
-			{% endblock summary %}
+		  {% block summary %}
+			<h4>Summary</h4>
+			{{ current_stage.data_summary.value|markdown }}
+		  {% endblock summary %}
 
-			{% block limits %}
-				<h4>Limitations</h4>
-				{{ current_stage.data_limits.value|markdown }}
-			{% endblock limits %}
+		  {% block limits %}
+		    <h4>Limitations</h4>
+			{{ current_stage.data_limits.value|markdown }}
+		  {% endblock limits %}
 
-		  </div>
+		</div>
 
-		{% endblock data %}
-	    {% block conclusion %}
+	  {% endblock data %}
 
-	      <div class="no-overlap">
-	        <hr>
-	    	This stage sucks.
-	      </div>
+	  {% block conclusion %}
 
-	    {% endblock conclusion %}
+	    <div>
+	      <hr>
+	      This stage sucks.
+	    </div>
 
-	</div>
+	  {% endblock conclusion %}
+
+    </div>
   </div>
 
 {% endblock content %}
