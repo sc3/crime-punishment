@@ -1,38 +1,37 @@
 
 #left {
-  text-align: center;
-  float: left;
-  margin-top: 25%;
+	text-align: center;
+	float: left;
+	margin-top: 25%;
 }
 
 #right {
-  text-align: center;
-  float: right;
-  margin-top: 25%;
+	text-align: center;
+	float: right;
+	margin-top: 25%;
 }
 
 .boxed {
-  padding: 15px;
-  position: fixed;
+	padding: 15px;
+	position: fixed;
 }
 
 .boxed:hover {
-  cursor: pointer;
+	cursor: pointer;
 }
 
 .navbar {
-  background-color: #231f20;
+ 	background-color: #231f20;
 }
 
 .navbar .sections>li>a:hover {
-  background-color: #4f4c4d;
+  	background-color: #4f4c4d;
 }
 
 	/* Overriding */
 .navbar a { color: #DDD !important; }
 .navbar a:hover { color: #AAA !important; }
 .navbar-nav>.active>a { background-color: #4f4c4d !important; }
-.navbar-nav>.active> { color: #4f4c4d !important; }
 
 a {}
 a:hover { color: #ed1c24; }
@@ -42,25 +41,17 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 h1 {
-  font-size: 4em;
-
-hr {
-  margin-top: 30px;
-  margin-bottom: 30px;
-  border-top: 2px solid #eee
+	font-size: 4em;
 }
 
-.content {
-  font-size: 1.2em;
-  margin-left: 15px;
+hr {
+	margin-top: 45px;
+	margin-bottom: 45px;
+	border-top: 2px solid #eee
 }
 
 .headline {
   text-align: center;
-  margin: 15px 15% 15px 15%;
-}
-
-.explanation {
   margin: 15px 15% 15px 15%;
 }
 
@@ -69,28 +60,27 @@ hr {
 }
 
 .disappear {
-  visibility: hidden;
+    visibility: hidden;
 }
 
-img {
-  max-height: 100%;
-  max-width: 100%;
-  margin: 15px 15px 30px 45px; 
-  float: right;
+.resize {
+	max-height: 100%;
+	max-width: 100%;
 }
 
-.well {
-  margin-left: 15px;
+.image {
+	margin: 15px 30px 30px 15px;
 }
 
 .no-overlap {
-  float: left;
+	float: left;
 }
 
 @media (max-width: 1000px) {
   .navbar .social-menu {
     display: none;
   }
+}
 
 @media (max-width: 482px) {
   .main {

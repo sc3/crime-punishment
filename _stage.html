@@ -1,7 +1,7 @@
 {# 
-	Note that you are expected to set the value of the 
-   	current_stage variable prior to extending this template. 
-   	See /call.html for an example.
+	Note that you are expected to set the value of the current_stage 
+	variable just before extending this template. See "/call.html" 
+	for an example.
 #}
 
 {% extends "_cpd.html" %}
@@ -13,12 +13,9 @@
 	  <div class="headline">
 	    <h1>{{ current_stage.title.value|markdown }}</h1>
 	  </div>
-	  <div class="explanation">
-	    {{ current_stage.intro.value|markdown }}
-	  </div>
 	</header>
-	<div class="image">
-	    <img src="js/holder.js/500x400">
+	<div class="image no-overlap">
+	    <img class="resize" src="js/holder.js/500x400">
 	  </div>
 	<div class="content row">
 
@@ -31,7 +28,7 @@
 
 	  {% block data %}
 
-        <div>
+        <div class="well no-overlap">
 
 		  <h2>Data</h2>
 
@@ -61,9 +58,10 @@
 
 	  {% block conclusion %}
 
-	    <div>
+	    <div class="no-overlap">
 	      <hr>
-	      This stage sucks.
+	      <h2>Conclusion</h2>
+	      <p>This stage sucks.</p>
 	    </div>
 
 	  {% endblock conclusion %}
