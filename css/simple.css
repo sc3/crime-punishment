@@ -1,3 +1,7 @@
+body {
+  background-color: #fafafa;
+}
+
 
 #left {
 	text-align: center;
@@ -47,7 +51,8 @@ h1 {
 hr {
 	margin-top: 45px;
 	margin-bottom: 45px;
-	border-top: 2px solid #eee
+	border-top: 2px solid #ddd
+
 }
 
 .headline {
@@ -70,6 +75,10 @@ hr {
 
 .image {
 	margin: 15px 30px 30px 15px;
+}
+
+.conclude {
+  margin: 30px 30px 15px 15px;
 }
 
 .stay-right {
