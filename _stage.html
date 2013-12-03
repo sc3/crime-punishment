@@ -1,19 +1,10 @@
 {# 
-	Note that you are expected to set the value of the 
-   	current_stage variable prior to extending this template. 
-   	See /call.html for an example.
+	Note that you are expected to set the value of the current_stage 
+	variable just before extending this template. See "/call.html" 
+	for an example.
 #}
 
-{% extends "_base.html" %}
-
-{% block preview %}{% endblock preview %}
-
-{% block css %}
-  {{ super() }}
-  <link rel="stylesheet" type="text/css" href="css/simple.css" />
-  <link href="//netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css" rel="stylesheet">
-  <link href='http://fonts.googleapis.com/css?family=Lusitana:400,400italic' rel='stylesheet' type='text/css'>
-{% endblock css %}
+{% extends "_cpd.html" %}
 
 {% block content %} 
 
@@ -22,37 +13,60 @@
 	  <div class="headline">
 	    <h1>{{ current_stage.title.value|markdown }}</h1>
 	  </div>
-	  <div class="explanation">
-	    {{current_stage.intro.value|markdown }}
-	  </div>
 	</header>
-	<div class="image">
-	    <img src="js/holder.js/500x400">
+	<div class="image no-overlap">
+	    <img class="resize" src="js/holder.js/500x400">
 	  </div>
 	<div class="content row">
-	  <div>
-	    <h2>Data</h2>
-	      
-	    <h4>Availability</h4>
-		{{ current_stage.data_availability.value|markdown }}
-		  
-		<h4>Format</h4>
-		{{ current_stage.data_format.value|markdown }}
-		  
-		<h4>Summary</h4>
-		{{ current_stage.data_summary.value|markdown }}
-		  
-		<hr>
-		  
-		<h2>Limitations</h2>
-		{{ current_stage.data_limits.value|markdown }}
-	  </div>
+
+	  {% block intro %}
+	  	<div class="intro">
+	  	  <h2>Basics</h2> 
+	      {{ current_stage.intro.value|markdown }}
+	    </div>
+	  {% endblock intro %}
+
+	  {% block data %}
+
+        <div class="well no-overlap">
+
+		  <h2>Data</h2>
+
+		  {% block available %}
+			<h4>Availability</h4>
+			{{ current_stage.data_availability.value|markdown }}
+		  {% endblock available %}
+
+		  {% block format %}
+			<h4>Format</h4>
+			{{ current_stage.data_format.value|markdown }}
+		  {% endblock format %}
+
+		  {% block summary %}
+			<h4>Summary</h4>
+			{{ current_stage.data_summary.value|markdown }}
+		  {% endblock summary %}
+
+		  {% block limits %}
+		    <h4>Limitations</h4>
+			{{ current_stage.data_limits.value|markdown }}
+		  {% endblock limits %}
+
+		</div>
+
+	  {% endblock data %}
+
+	  {% block conclusion %}
+
+	    <div class="no-overlap">
+	      <hr>
+	      <h2>Conclusion</h2>
+	      <p>This stage sucks.</p>
+	    </div>
+
+	  {% endblock conclusion %}
+
     </div>
   </div>
 
 {% endblock content %}
-
-{% block scripts %}  
-  {{ super() }}
-  <script type="text/javascript" src="js/holder.js"></script>
-{% endblock scripts %}
