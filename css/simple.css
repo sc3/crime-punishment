@@ -42,8 +42,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 h1 {
-  font-size: 5em;
-}
+  font-size: 4em;
 
 hr {
   margin-top: 30px;
@@ -84,21 +83,26 @@ img {
   margin-left: 15px;
 }
 
-.keep-left {
-  width: 450px;
-  margin-right: 700px;
-}
-
-.data {
-  font-size: 150%;
-}
-
-/*
-* { border: 1px solid; }
-*/
-
 @media (max-width: 1000px) {
   .navbar .social-menu {
     display: none;
   }
 }
+
+@media (max-width: 482px) {
+  .main {
+  	padding: 0px;
+  }
+
+  .content, .headline {
+  	margin: 0px;
+  }
+
+  .boxed, #left, #right {
+  	display: none;
+  }
+}
+
+/*
+* { border: 1px solid; }
+*/
