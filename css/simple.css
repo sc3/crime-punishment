@@ -75,7 +75,7 @@ hr {
 img {
   max-height: 100%;
   max-width: 100%;
-  margin: 15px 15px 30px 30px; 
+  margin: 15px 15px 30px 45px; 
   float: right;
 }
 
@@ -83,11 +83,14 @@ img {
   margin-left: 15px;
 }
 
+.no-overlap {
+  float: left;
+}
+
 @media (max-width: 1000px) {
   .navbar .social-menu {
     display: none;
   }
-}
 
 @media (max-width: 482px) {
   .main {
