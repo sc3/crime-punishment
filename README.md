@@ -3,10 +3,14 @@ chicago-justice
 
 Crime, Punishment and Discretion in Chicago
 
-...
+## Previewing
+
+You can see the current version of this website here: http://chicago-justice.smartchicagoapps.org/slide.html.
 
 
-## Previewing this mockup
+
+
+## Local Development
 
 ### Getting Tarbell
 First, make sure you have [Tarbell](http://tarbell.tribapps.com/) installed and setup. 
