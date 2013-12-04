@@ -23,7 +23,9 @@ function loadPage(hash, callback) {
   url = hash.split('#')[1] + '.html'
   $('#main').load(url + "#main", function() {
     setLinks(hash);
-    //callback();
+    if(callback) {
+        callback();
+    };
   });
 }
 
