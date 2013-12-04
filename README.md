@@ -20,7 +20,7 @@ If it's not already installed, here's the two steps you need to get it:
     sudo pip install tarbell==0.9b2  
     tarbell configure  
 
-Note: When it asks you, you don't need to have either Google Spreadsheets or Amazoon S3 setup for this project.
+Note: When it asks you, you should set up Google Spreadsheets, but we can laeve Amazoon S3 setup for later.
 
 ### Getting the mockup
 
