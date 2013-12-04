@@ -19,14 +19,22 @@ function loadPage(hash, callback) {
    page found at <url> into the "#main" element of the 
    current page. Then sets the links and buttons 
    accordingly. */
-
-  url = hash.split('#')[1] + '.html'
-  $('#main').load(url + "#main", function() {
-    setLinks(hash);
-    if(callback) {
+  try {
+    url = hash.split('#')[1] + '.html'
+    $('#main').load(url + "#main", function() {
+      setLinks(hash);
+      if(callback) {
         callback();
-    };
-  });
+      };
+    });
+  }
+  catch(err) {
+    /* dynamically trying to get html pages based on hash
+       could cause problems if user inputs a hash of their
+       own */
+    console.log(e);
+  }
+  
 }
 
 
@@ -77,14 +85,13 @@ function setLinks(url) {
 
 
 $(document).ready(function() { 
-
-  // We already preloaded in the first page's content,
-  // so we just set the links for it.
-  if(location.hash == "") {
+  
+  var initial_hash = location.hash;
+  if(initial_hash == "") {
     loadPage(pages[first]);
   }
   else {
-    loadPage(location.hash)
+    loadPage(initial_hash);
   }
 
   $('.boxed').on('click', function(e) {
