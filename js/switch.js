@@ -80,17 +80,21 @@ $(document).ready(function() {
 
   // We already preloaded in the first page's content,
   // so we just set the links for it.
-  loadPage(pages[first]);
+  if(location.hash == "") {
+    loadPage(pages[first]);
+  }
+  else {
+    loadPage(location.hash)
+  }
 
   $('.boxed').on('click', function(e) {
-    //console.log(e);
     nextUrl = e.currentTarget.title;
     if (nextUrl != ""){
   	 	loadPage(nextUrl, function() {
         // whatever I want after page-load
       });
     }
-    return false;
+    e.preventDefault();
   });
 
   $(window).on('hashchange', function() {
