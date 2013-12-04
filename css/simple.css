@@ -60,10 +60,6 @@ hr {
   margin: 15px 15% 15px 15%;
 }
 
-.content {
-  margin: 15px;
-}
-
 .disappear {
     visibility: hidden;
 }
@@ -75,6 +71,10 @@ hr {
 
 .image {
 	margin: 15px;
+}
+
+.ending {
+  float: left;
 }
 
 .conclude {

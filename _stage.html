@@ -10,13 +10,13 @@
 
   <div id="main" class="container">
 	
-	<header class="row">
+	<div class="header row">
 	  <div class="headline">
 	    <h1>{{ current_stage.title.value|markdown }}</h1>
 	  </div>
-	</header>
+	</div>
 	
-	<div class="row">
+	<div class="content row">
 		
 	  <div class="stay-right col-sm-7">
 		  
@@ -86,13 +86,15 @@
 
 	  {% block conclusion %}
 
-		<div class="row">
+		<div class="ending row">
+
+		  <hr>
 
 		  <div class="conclude">
 
-		    <hr>
 		    <h2>Conclusion</h2>
 		    {{ current_stage.conclude.value }}
+
 		  </div>
 
 	    </div>
