@@ -21,7 +21,7 @@ function loadPage(hash, callback) {
    accordingly. */
   try {
     url = hash.split('#')[1] + '.html'
-    $('#main').load(url + "#slide", function() {
+    $('#main').load(url + " #slide", function() {
       setLinks(hash);
       if(callback) {
         callback();
