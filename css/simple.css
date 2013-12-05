@@ -60,9 +60,9 @@ hr {
   margin: 15px 15% 15px 15%;
 }
 
-.disappear {
+/*.disappear {
     visibility: hidden;
-}
+}*/
 
 .resize {
 	max-height: 100%;
