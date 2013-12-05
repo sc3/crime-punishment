@@ -15,13 +15,13 @@ var left = '#left .boxed'
 var right = '#right .boxed'
 
 function loadPage(hash, callback) {
-/* Loads the content inside the "#main" element on the
+/* Loads the content inside the "#slide" element on the
    page found at <url> into the "#main" element of the 
    current page. Then sets the links and buttons 
    accordingly. */
   try {
     url = hash.split('#')[1] + '.html'
-    $('#main').load(url + "#main", function() {
+    $('#main').load(url + "#slide", function() {
       setLinks(hash);
       if(callback) {
         callback();
@@ -85,7 +85,7 @@ function setLinks(url) {
 
 
 $(document).ready(function() { 
-  
+
   var initial_hash = location.hash;
   if(initial_hash == "") {
     loadPage(pages[first]);
