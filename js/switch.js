@@ -32,7 +32,7 @@ function loadPage(hash, callback) {
     /* dynamically trying to get html pages based on hash
        could cause problems if user inputs a hash of their
        own */
-    console.log(e);
+    console.log(err);
   }
   
 }
