@@ -42,13 +42,6 @@
               </a>
           </li>
           {% endif %}
-          {% if opengraph_description and opengraph_image %}
-          <li>
-              <a target="_blank" href="http://pinterest.com/pin/create/button/?url={{ ROOT_URL }}/{{ PATH }}&media={{ opengraph_image }}&description={{ opengraph_description|urlencode }}" class="pin-it-button" count-layout="horizontal">
-                  <i class="icon-white icon-pinterest-sign"></i> <span class="hidden">Pinterest</span>
-              </a>
-          </li>
-          {% endif %}
       </ul>
 
     </div>{# /.navbar-collapse #}
