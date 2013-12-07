@@ -34,5 +34,5 @@ Do some setup and launch the Tarbell preview server:
     git submodule update --init  
     tarbell serve  
 
-You should be able to view the results in a browser at `localhost:5000/slide.html`,
+You should be able to view the results in a browser at `localhost:5000`,
 for the time being.
