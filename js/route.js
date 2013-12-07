@@ -8,8 +8,8 @@ var Router = Backbone.Router.extend({
   },
 
   initial: function() {
-    console.log("HERE I AM");
-    this.slideToStage(slides.at(0).toJSON());
+    slide = slides.at(0).attributes;
+    this.slideToStage(slide.stage, slide.section);
   },
 
 
@@ -19,14 +19,14 @@ var Router = Backbone.Router.extend({
     correct_slide = slides.findWhere({
       stage: stage,
       section: section ? section : 1
-    });
+    }).attributes;
 
     // do a get request for it
     $.get(correct_slide.url, function(data) {
 
       // hide, and then remove the old #slide element
       $('#slide')
-      .fadeOut(3000)
+      .fadeOut(2000)
       .remove();
 
       // create the new slide element, hide it, append it to #main
@@ -48,7 +48,6 @@ $(document).ready(function() {
   slides = new SlideCollection();
   router = new Router();
   Backbone.history.start();
-  slides.on("change")
 
 });
 
