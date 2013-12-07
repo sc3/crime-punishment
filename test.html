@@ -1,0 +1,9 @@
+{% set i = 0 %}
+{% set slide_num = i %}
+{% set current_stage = "call" %}
+
+{% for slide in slides %}
+  {{ current_stage }}
+  {{ i }}
+  {% set i = i + 1 %}
+{% endfor %}
