@@ -1,6 +1,4 @@
-/*var PAGES = [];
-var FIRST = 0;
-var LAST = PAGES.LENGTH;*/
+{% include "js/slide.js" %}
 
 var Router = Backbone.Router.extend({
 
@@ -10,30 +8,26 @@ var Router = Backbone.Router.extend({
   },
 
   initial: function() {
-    this.slideToStage(PAGES[FIRST]);
+    console.log("HERE I AM");
+    this.slideToStage(slides.at(0).toJSON());
   },
 
 
   slideToStage: function(stage, section) {
-    
-    // handle sections such that if none is specified, 
-    // we go to the first
-    if (section) {
-      stage += ('-' + section);
-    }
-    else {
-      stage += '-1';
-    }
 
-    // we're interested in the corresponding html file
-    stage += '.html';
+    // get correct slide
+    correct_slide = slides.findWhere({
+      stage: stage,
+      section: section ? section : 1
+    });
 
     // do a get request for it
-    $.get(stage, function(data) {
+    $.get(correct_slide.url, function(data) {
 
       // hide, and then remove the old #slide element
-      $('#slide').fadeOut();
-      $('#slide').remove();
+      $('#slide')
+      .fadeOut(3000)
+      .remove();
 
       // create the new slide element, hide it, append it to #main
       $(data)
@@ -41,18 +35,20 @@ var Router = Backbone.Router.extend({
       .appendTo('#main');
 
       //fade in the new #slide element
-      $('#slide').fadeIn(2000);
+      $('#slide').fadeIn(3000);
 
     });
 
-  },
+  }
 
 });
 
 $(document).ready(function() { 
 
+  slides = new SlideCollection();
   router = new Router();
   Backbone.history.start();
+  slides.on("change")
 
 });
 
