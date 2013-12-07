@@ -1,44 +1,45 @@
-{% include "js/slide.js" %}
+{% include "js/slideView.js" %}
+{% include "js/slideModel.js" %}
 
 var Router = Backbone.Router.extend({
 
+  stages : ['project', 'call', 'police', 'charges', 'jail', 'court'],
+
   routes: {
-    "":  "initial",
-    ":stage(/:section)":  "slideToStage"
+    "(:stage)(/:section)":  "slideToStage"
   },
 
-  initial: function() {
-    slide = slides.at(0).attributes;
-    this.slideToStage(slide.stage, slide.section);
+  populateSlides : function() {
+    var s = [];
+    for(stage_num in this.stages) {
+      stage = this.stages[stage_num]; 
+      switch(stage) {
+        case "project": num_sections = 2;
+        default: num_sections = 3;
+      }
+      for (i=1; i<num_sections+1; i++) {
+        s.push({
+          'stage': stage,
+          'section': i
+        });
+      } 
+    }
+    return s;
   },
 
+  initialize: function(options) {
+    slides = this.populateSlides();
+    this.collection = new SlideCollection(slides);
+    this.view = new SlideView({
+      el: $('#slide'),
+      collection: this.collection,
+    });
+  },
 
   slideToStage: function(stage, section) {
-
-    // get correct slide
-    correct_slide = slides.findWhere({
-      stage: stage,
-      section: section ? section : 1
-    }).attributes;
-
-    // do a get request for it
-    $.get(correct_slide.url, function(data) {
-
-      // hide, and then remove the old #slide element
-      $('#slide')
-      .fadeOut(2000)
-      .remove();
-
-      // create the new slide element, hide it, append it to #main
-      $(data)
-      .css('display', 'none')
-      .appendTo('#main');
-
-      //fade in the new #slide element
-      $('#slide').fadeIn(3000);
-
-    });
-
+    stage = stage ? stage : "project";
+    section = section ? section : 1;
+    this.view.render(stage, section);
   }
 
 });
@@ -50,5 +51,3 @@ $(document).ready(function() {
   Backbone.history.start();
 
 });
-
-
