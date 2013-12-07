@@ -1,0 +1,16 @@
+{% set stage_num = 1 %}
+{% extends "_slide.html" %}
+  
+
+
+{% block content %}
+  <div class="container">
+    <div class="title">
+      <h1>{{ stages[stage_num].title }}</h1>
+    </div>
+    <div class="fact">
+      <p>{{ stages[stage_num].description }}</p>
+    </div>
+    <img src="img/project.jpg">
+  </div>
+{% endblock content %}
