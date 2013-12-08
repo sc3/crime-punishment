@@ -3,22 +3,35 @@ Slide = Backbone.Model.extend({
 
     var stage = options.stage;
     var section = options.section;
+    var next = options.next
 
     this.set({
       stage: stage,
       section: section,
-      url: stage + "-" + section + ".html"
+      url: stage + "-" + section + ".html",
+      next: 
     })
   }
 });
 
-/*var mycollection = SlideCollection([
-  { name: 'project', 'sections': 2, 'title': 'Project'},
-  ...
-], o)*/
-
 SlideCollection = Backbone.Collection.extend({
 
-  model: Slide
+  model: Slide,
+
+  /*index: function(slide) {
+    for (model_num in self.models) {
+      if (self.models[model_num] == slide) {
+        return model_num;
+      }
+    }
+  },
+
+  next: function() {
+    return self.at(self.index() + 1);
+  },
+
+  previous: function() {
+    return self.at(self.index() - 1);
+  }*/
 
 });

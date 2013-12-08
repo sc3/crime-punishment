@@ -20,7 +20,9 @@ var Router = Backbone.Router.extend({
       for (i=1; i<num_sections+1; i++) {
         s.push({
           'stage': stage,
-          'section': i
+          'section': i,
+          'next': self.next(stage, section)
+
         });
       } 
     }
@@ -28,11 +30,10 @@ var Router = Backbone.Router.extend({
   },
 
   initialize: function(options) {
-    slides = this.populateSlides();
-    this.collection = new SlideCollection(slides);
+    this.slides = new SlideCollection(this.populateSlides());
     this.view = new SlideView({
       el: $('#slide'),
-      collection: this.collection,
+      collection: this.slides,
     });
   },
 
@@ -46,8 +47,7 @@ var Router = Backbone.Router.extend({
 
 $(document).ready(function() { 
 
-  slides = new SlideCollection();
-  router = new Router();
-  Backbone.history.start();
+  window.router = new Router();
+  Backbone.history.start({pushState: true});
 
 });
