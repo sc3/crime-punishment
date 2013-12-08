@@ -5,7 +5,7 @@ Crime, Punishment and Discretion in Chicago
 
 ## Previewing
 
-You can see the current version of this website here: http://chicago-justice.smartchicagoapps.org/slide.html.
+You can see the current version of this website here: http://chicago-justice.smartchicagoapps.org/.
 
 
 
@@ -34,5 +34,4 @@ Do some setup and launch the Tarbell preview server:
     git submodule update --init  
     tarbell serve  
 
-You should be able to view the results in a browser at `localhost:5000`,
-for the time being.
+You should be able to view the results in a browser at `localhost:5000`.
