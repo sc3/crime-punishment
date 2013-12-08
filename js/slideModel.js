@@ -16,20 +16,36 @@ SlideCollection = Backbone.Collection.extend({
 
   model: Slide,
 
-  /*index: function(slide) {
-    for (model_num in self.models) {
-      if (self.models[model_num] == slide) {
-        return model_num;
+  index: function(slide) {
+    for (model_num in this.models) {
+      if (this.models[model_num] == slide) {
+        return parseInt(model_num);
       }
     }
   },
 
-  next: function() {
-    return self.at(self.index() + 1);
+  next: function(slide) {
+    if(slide) {
+      if(this.where(slide)) {
+        var index = this.index(slide) + 1;
+        if(index < 5) {
+          return this.at(index);
+        }
+      }
+    }
+    return null;
   },
 
-  previous: function() {
-    return self.at(self.index() - 1);
-  }*/
+  prev: function(slide) {
+    if(slide) {
+      if(this.where(slide)) {
+        var index = this.index(slide) - 1;
+        if(index >= 0) {
+          return this.at(index);
+        }
+      }
+    }
+    return null;
+  }
 
 });

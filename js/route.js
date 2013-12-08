@@ -1,5 +1,4 @@
-{% include "js/slideView.js" %}
-{% include "js/slideModel.js" %}
+
 
 var Router = Backbone.Router.extend({
 
@@ -45,7 +44,7 @@ var Router = Backbone.Router.extend({
 
 $(document).ready(function() { 
 
-  var router = new Router();
+  window.router = new Router();
   Backbone.history.start();
 
 });

@@ -1,9 +1,5 @@
 var SlideView = Backbone.View.extend({
     
-    events: {
-      "click .boxed #next": "get_next",
-      "click .boxed #previous": "get_previous",
-    },
 
     initialize: function(options) {
       this.slide = null;
@@ -14,20 +10,63 @@ var SlideView = Backbone.View.extend({
         stage: stage,
         section: section
       });
-      return $.get(this.slide.get('url'), _.bind(this.render_fragment, this));
+      return $.get(this.slide.get('url'), _.bind(this.renderFragment, this));
 
     },
 
-    render_fragment: function(data) {
+    renderFragment: function(data) {
         // hide our el, replace it, then fade it back
         this.$el.fadeOut(1000, _.bind(function() {
             this.$el.html(data).fadeIn(1000);
           }, this));
 
+        this.setLinks();
+
         return this;
     },
 
-    get_next: function() {},
+    setLinks: function() {
 
-    get_previous: function() {}
+      var $next = '#next';
+      var $prev = '#previous';
+
+      var next = this.next_url();
+      var prev = this.prev_url();
+
+      if (next) {
+        $($next).attr('href', next);
+      }
+      else {
+        $($next).css({'display': 'none'})
+      }
+      
+      if (prev) {
+        $($prev).attr('href', prev); 
+      }
+      else {
+        $($prev).css({'display': 'none'})
+      }
+    },
+
+    next_url: function() {
+      next_slide = this.collection.next(this.slide);
+      if (next_slide) {
+        return ("#" + next_slide.get('stage') + "/" + next_slide.get('section'));
+      }
+      else {
+        return null;
+      }
+    },
+
+    prev_url: function() {
+      prev_slide = this.collection.prev(this.slide);
+      if (prev_slide) {
+        return ("#" + prev_slide.get('stage') + "/" + prev_slide.get('section'));
+      }
+      else {
+        return null;
+      }
+      
+    },
+
 });
