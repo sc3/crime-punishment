@@ -10,13 +10,18 @@ var Router = Backbone.Router.extend({
 
   populateSlides : function() {
     var s = [];
+    var num_sections = 3;
+
     for(stage_num in this.stages) {
-      stage = this.stages[stage_num]; 
+      stage = this.stages[stage_num];
+
+      // override number of sections for a stage here
       switch(stage) {
         case "project": num_sections = 2;
-        default: num_sections = 3;
       }
+
       for (i=1; i<num_sections+1; i++) {
+
         s.push({
           'stage': stage,
           'section': i,
