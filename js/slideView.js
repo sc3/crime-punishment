@@ -20,6 +20,8 @@ var SlideView = Backbone.View.extend({
             this.$el.html(data).fadeIn(1000);
           }, this));
 
+        // NOTE: the slider's arrows are outside the #main block that is 
+        // being changed, so it's ok if there's no need for synchronicity.
         this.setLinks();
 
         return this;
