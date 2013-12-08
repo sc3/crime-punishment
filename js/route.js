@@ -5,23 +5,26 @@ var Router = Backbone.Router.extend({
   stages : ['project', 'call', 'police', 'charges', 'jail', 'court'],
 
   routes: {
-    "(:stage)(/:section)":  "slideToStage"
+    "": "slideToStage",
+    ":stage(/)": "slideToStage",
+    ":stage/:section":  "slideToStage"
   },
 
   populateSlides : function() {
     var s = [];
-    var num_sections = 3;
+    var num_sections = 0;
 
     for(stage_num in this.stages) {
-      stage = this.stages[stage_num];
 
+      stage = this.stages[stage_num];
+      
       // override number of sections for a stage here
       switch(stage) {
-        case "project": num_sections = 2;
+        case "project": num_sections = 2; break;
+        default: num_sections = 3;
       }
 
       for (i=1; i<num_sections+1; i++) {
-
         s.push({
           'stage': stage,
           'section': i,
@@ -40,8 +43,17 @@ var Router = Backbone.Router.extend({
   },
 
   slideToStage: function(stage, section) {
+
+    console.log(stage);
+    console.log(section);
+
+    // defining defaults
     stage = stage ? stage : "project";
     section = section ? section : 1;
+
+    console.log(stage);
+    console.log(section);
+
     this.view.render(stage, parseInt(section));
   }
 
