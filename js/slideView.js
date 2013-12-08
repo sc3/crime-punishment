@@ -1,17 +1,23 @@
 var SlideView = Backbone.View.extend({
-    
-
+    template: $("#slide-template").html(),
     initialize: function(options) {
       this.slide = null;
     },
 
     render: function(stage, section) {
+    	console.log(stage, section);
+      
       this.slide = this.collection.findWhere({
         stage: stage,
         section: section
       });
-      return $.get(this.slide.get('url'), _.bind(this.renderFragment, this));
 
+      var html = _.template(this.template, this.slide.toJSON());
+	  this.$el.fadeOut(1000, _.bind(function() {
+	      this.$el.html(html).fadeIn(1000);
+
+	  }, this));
+	  return this;
     },
 
     renderFragment: function(data) {

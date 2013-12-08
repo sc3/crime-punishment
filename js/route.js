@@ -1,8 +1,7 @@
 
 
 var Router = Backbone.Router.extend({
-
-  stages : ['project', 'call', 'police', 'charges', 'jail', 'court'],
+  stages : spreadsheet.stages,
 
   routes: {
     "(:stage)(/:section)":  "slideToStage"
@@ -32,7 +31,8 @@ var Router = Backbone.Router.extend({
   },
 
   initialize: function(options) {
-    this.slides = new SlideCollection(this.populateSlides());
+    // this.slides = new SlideCollection(this.populateSlides());
+    this.slides = new SlideCollection(this.stages);
     this.view = new SlideView({
       el: $('#slide'),
       collection: this.slides,

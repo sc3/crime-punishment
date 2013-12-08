@@ -1,21 +1,55 @@
 {% extends "_cpd.html" %}
 
 {% block content %}
-  <div id="all">
-    <div id="left">
-      <div class="boxed">
-        <a class="fa fa-chevron-left fa-2x" id="previous"></a>
+  <div id="slide"></div>
+  <script type="text/template" id="slide-template">
+    <div id="all">
+      <div id="left">
+        <div class="boxed">
+          <a class="fa fa-chevron-left fa-2x" id="previous"></a>
+        </div>
+      </div>
+      <div id="right">
+        <div class="boxed">
+          <a class="fa fa-chevron-right fa-2x" id="next"></a>
+        </div>
+      </div>
+      <div id="main">
+        <div>
+
+          <div class="container">
+            <div class="title">
+              <h1><%= title %></h1>
+            </div>
+            <div>
+              <% if (content) { %>
+                <%= content %>
+              <% } %>
+            </div>
+            <% if (image_name) { %>
+              <img class="resize" src="img/<%= image_name %>">
+            <% } %>
+          </div>
+
+        </div>
       </div>
     </div>
-    <div id="right">
-      <div class="boxed">
-        <a class="fa fa-chevron-right fa-2x" id="next"></a>
-      </div>
-    </div>
-    <div id="main">
-      <div id="slide"></div>
-    </div>
-  </div>
+  </script>
+  <script>
+    spreadsheet = {
+      'stages': []
+    }
     
-  
+    {% for stage in stages %}
+      {% set sections = [stage.fact, stage.description, stage.data_availability, stage.data_format, stage.data_limits] %}
+      {% for section in sections %}
+
+        spreadsheet.stages.push({"title": "{{ stage.title }}", "section": {{ loop.index }},
+                                 "content": "{{ section }}", "image_name": "{{ stage.featured_image }}", "stage": "{{ stage.id }}"});
+      
+      {% endfor %}
+    {% endfor %}
+
+    console.log(spreadsheet);
+  </script>
 {% endblock content %}
