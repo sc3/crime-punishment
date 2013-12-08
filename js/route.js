@@ -21,8 +21,6 @@ var Router = Backbone.Router.extend({
         s.push({
           'stage': stage,
           'section': i,
-          'next': self.next(stage, section)
-
         });
       } 
     }
