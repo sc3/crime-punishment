@@ -30,15 +30,14 @@ h1 {
 #left {
 	text-align: center;
 	float: left;
-	margin-top: 25%;
-  margin-bottom: 25%;
+	margin-top: 22%;
 }
 
 #right {
 	text-align: center;
-	float: right;
-	margin-top: 25%;
-  margin-bottom: 25%;
+    float: right;
+	margin-top: 22%;
+    margin-right: 3.5%;
 }
 
 .boxed {
