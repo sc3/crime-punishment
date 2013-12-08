@@ -45,7 +45,7 @@ var Router = Backbone.Router.extend({
 
 $(document).ready(function() { 
 
-  window.router = new Router();
-  Backbone.history.start({pushState: true});
+  var router = new Router();
+  Backbone.history.start();
 
 });
