@@ -35,16 +35,18 @@ var SlideView = Backbone.View.extend({
 
       if (next) {
         $($next).attr('href', next);
+        $($next).show();
       }
       else {
-        $($next).css({'display': 'none'})
+        $($next).hide();
       }
       
       if (prev) {
         $($prev).attr('href', prev); 
+        $($prev).show();
       }
       else {
-        $($prev).css({'display': 'none'})
+        $($prev).hide();
       }
     },
 
