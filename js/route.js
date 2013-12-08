@@ -37,7 +37,7 @@ var Router = Backbone.Router.extend({
   slideToStage: function(stage, section) {
     stage = stage ? stage : "project";
     section = section ? section : 1;
-    this.view.render(stage, section);
+    this.view.render(stage, parseInt(section));
   }
 
 });
