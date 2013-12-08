@@ -17,20 +17,21 @@ SlideCollection = Backbone.Collection.extend({
   model: Slide,
 
   index: function(slide) {
-    for (model_num in this.models) {
-      if (this.models[model_num] == slide) {
-        return parseInt(model_num);
-      }
+    if (slide) {
+      for (model_num in this.models) {
+        if (this.models[model_num] == slide) {
+          return parseInt(model_num);
+        }
+      } 
+      return null;
     }
   },
 
   next: function(slide) {
     if(slide) {
-      if(this.where(slide)) {
-        var index = this.index(slide) + 1;
-        if(index < 5) {
-          return this.at(index);
-        }
+      var index = this.index(slide) + 1;
+      if(index < 5) {
+        return this.at(index);
       }
     }
     return null;
@@ -38,11 +39,9 @@ SlideCollection = Backbone.Collection.extend({
 
   prev: function(slide) {
     if(slide) {
-      if(this.where(slide)) {
-        var index = this.index(slide) - 1;
-        if(index >= 0) {
-          return this.at(index);
-        }
+      var index = this.index(slide) - 1;
+      if(index >= 0) {
+        return this.at(index);
       }
     }
     return null;

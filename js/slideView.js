@@ -17,38 +17,35 @@ var SlideView = Backbone.View.extend({
     renderFragment: function(data) {
         // hide our el, replace it, then fade it back
         this.$el.fadeOut(1000, _.bind(function() {
+            this.setLinks();
             this.$el.html(data).fadeIn(1000);
           }, this));
-
-        // NOTE: the slider's arrows are outside the #main block that is 
-        // being changed, so it's ok if there's no need for synchronicity.
-        this.setLinks();
 
         return this;
     },
 
     setLinks: function() {
 
-      var $next = '#next';
-      var $prev = '#previous';
+      var $next = $('#next');
+      var $prev = $('#previous');
 
-      var next = this.next_url();
-      var prev = this.prev_url();
+      var next_url = this.next_url();
+      var prev_url = this.prev_url();
 
-      if (next) {
-        $($next).attr('href', next);
-        $($next).show();
+      if (next_url) {
+        $next.attr('href', next_url);
+        $next.show();
       }
       else {
-        $($next).hide();
+        $next.hide();
       }
       
-      if (prev) {
-        $($prev).attr('href', prev); 
-        $($prev).show();
+      if (prev_url) {
+        $prev.attr('href', prev_url); 
+        $prev.show();
       }
       else {
-        $($prev).hide();
+        $prev.hide();
       }
     },
 
