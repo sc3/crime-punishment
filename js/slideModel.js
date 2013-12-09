@@ -3,11 +3,18 @@ Slide = Backbone.Model.extend({
 
     var stage = options.stage;
     var section = options.section;
+    var content = options.content;
+    var title = options.title;
+    var image_name = options.image_name;
 
     this.set({
       stage: stage,
       section: section,
-      url: stage + "-" + section + ".html"
+      url: stage + "-" + section + ".html",
+      title: title,
+      content: content,
+      image_name: image_name
+
     })
   }
 });
