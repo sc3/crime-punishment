@@ -4,12 +4,12 @@
   <img class="featured-image" src={{ stages[current_stage].featured_image }}>
   <div class="slide">
     <div class="title">
-      <h1>{{ stages[current_stage].title }}</h1>
+      <h1>{{ stages[current_stage].title|markdown }}</h1>
     </div>
   </div>
   <div class="slide">
     <div class="about">
-      <h3>{{ stages[current_stage].description }}</h3>
+      <h3>{{ stages[current_stage].description|markdown }}</h3>
     </div>
   </div>
 </div>
