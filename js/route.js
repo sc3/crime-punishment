@@ -10,7 +10,7 @@ var Router = Backbone.Router.extend({
     ":stage/:section":  "slideToStage"
   },
 
-  populateSlides : function() {
+  populateStages : function() {
     var s = [];
     var num_sections = 0;
 
@@ -24,35 +24,27 @@ var Router = Backbone.Router.extend({
         default: num_sections = 3;
       }
 
-      for (i=1; i<num_sections+1; i++) {
-        s.push({
-          'stage': stage,
-          'section': i,
-        });
-      } 
+      s.push({
+        'name': stage,
+        'sections': num_sections
+      });
     }
     return s;
   },
 
   initialize: function(options) {
-    this.slides = new SlideCollection(this.populateSlides());
+    this.stages = new StageCollection(this.populateStages());
     this.view = new SlideView({
-      el: $('#slide'),
-      collection: this.slides,
+      el: $('#stage'),
+      collection: this.stages,
     });
   },
 
   slideToStage: function(stage, section) {
 
-    console.log(stage);
-    console.log(section);
-
     // defining defaults
     stage = stage ? stage : "project";
     section = section ? section : 1;
-
-    console.log(stage);
-    console.log(section);
 
     this.view.render(stage, parseInt(section));
   }
