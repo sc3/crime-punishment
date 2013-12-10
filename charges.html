@@ -1,0 +1,20 @@
+{% set current_stage = 3 %}
+
+<div class="stage">
+  <img class="featured-image" src={{ stages[current_stage].featured_image }}>
+  <div class="slide">
+    <div class="title">
+      <h1>{{ stages[current_stage].title }}</h1>
+    </div>
+  </div>
+  <div class="slide">
+    <div class="about">
+      <h2>{{ stages[current_stage].fact }}</h2>
+      <h3>{{ stages[current_stage].description }}</h3>
+    </div>
+  </div>
+  <div class="slide">
+    <div class="about">
+    </div>
+  </div>
+</div>
