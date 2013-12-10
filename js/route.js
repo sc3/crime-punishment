@@ -35,7 +35,7 @@ var Router = Backbone.Router.extend({
   initialize: function(options) {
     this.stages = new StageCollection(this.populateStages());
     this.view = new SlideView({
-      el: $('#stage'),
+      el: $('#main'),
       collection: this.stages,
     });
   },

@@ -16,26 +16,34 @@ var SlideView = Backbone.View.extend({
 
     renderFragment: function(data) {
 
-        // hide the el
-        this.$el.fadeOut(500, _.bind(function() {
+      var template = $(data);
 
-            // empty the el
-            this.$el.empty();
+      // hide the el
+      this.$el.fadeOut(500, _.bind(function() {
 
-            // fill the el
-            $($('.slide', $(data)[0])[this.section-1])
-              .appendTo(this.$el)
-            $('.featured-image', $(data)[0])
-              .appendTo(this.$el)
+          // empty the el
+          this.$el.empty();
 
-            // fade it back in
-            this.$el.fadeIn(500);
+          // fill the el with content in the 
+          // order it should appear in the html
 
-          }, this));
+          console.log(template);
+          console.log($('.slide', template));
 
-        this.setLinks();
+          // pull the correct slide from the template
+          $($('.slide', template)[this.section-1])
+            .appendTo(this.$el);
+          $('.featured-image', template)
+            .appendTo(this.$el);
 
-        return this;
+          // fade it back in
+          this.$el.fadeIn(500);
+
+        }, this));
+
+      this.setLinks();
+
+      return this;
     },
 
     setLinks: function() {

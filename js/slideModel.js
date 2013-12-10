@@ -36,11 +36,9 @@ StageCollection = Backbone.Collection.extend({
   next: function(stage, section) {
     var index = this.index(stage);
 
-    console.log(section);
-    console.log(stage.get('sections'));
     if (section == stage.get('sections')) {
       var next_stage = this.at(index+1);
-      console.log(next_stage);
+      
       if (next_stage) {
         return [next_stage, 1];
       }
