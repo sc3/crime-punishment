@@ -23,9 +23,9 @@ var SlideView = Backbone.View.extend({
             this.$el.empty();
 
             // fill the el
-            $('.featured-image', $(data)[0])
-              .appendTo(this.$el)
             $($('.slide', $(data)[0])[this.section-1])
+              .appendTo(this.$el)
+            $('.featured-image', $(data)[0])
               .appendTo(this.$el)
 
             // fade it back in
