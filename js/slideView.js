@@ -17,7 +17,7 @@ var SlideView = Backbone.View.extend({
     renderFragment: function(data) {
 
         // hide the el
-        this.$el.fadeOut(1000, _.bind(function() {
+        this.$el.fadeOut(500, _.bind(function() {
 
             // empty the el
             this.$el.empty();
@@ -29,7 +29,7 @@ var SlideView = Backbone.View.extend({
               .appendTo(this.$el)
 
             // fade it back in
-            this.$el.fadeIn(1000);
+            this.$el.fadeIn(500);
 
           }, this));
 
