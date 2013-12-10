@@ -11,6 +11,7 @@ body {
 
 a {}
 a:hover { color: #ed1c24; }
+a.fa:hover { border-bottom: none; }
 
 h1, h2, h3, h4, h5, h6 {
   font-family: "Lusitana";
@@ -36,17 +37,22 @@ h1 {
 #right {
 	text-align: center;
     float: right;
-	margin-top: 22%;
+	/*margin-top: 22%;*/
     margin-right: 3.5%;
 }
 
 .boxed {
-	padding: 15px;
 	position: fixed;
+    background-color: #CCC;
+    border-radius: 20px;
+    width: 40px;
+    height: 40px;
 }
 
 .fa {
     color: #333;
+    margin: auto;
+    margin-top: 6px;
 }
 
 
@@ -65,38 +71,14 @@ h1 {
 .navbar-nav>.active>a { background-color: #4f4c4d !important; }
 
 
-
 /* Images */
 
-h1, h2, h3, h4, h5, h6 {
-  font-family: "Lusitana";
-}
 
-h1 {
-	font-size: 4em;
-}
-
-hr {
-	margin-top: 45px;
-	margin-bottom: 45px;
-	border-top: 2px solid #ddd
-
-}
-
-.headline {
-  text-align: center;
-  margin: 15px 15% 15px 15%;
-}
-
-/*.disappear {
-    visibility: hidden;
-}*/
-
-
-.resize {
+.featured-image {
   max-height: auto;
   max-width: 100%;
 }
+
 
 /* Responsivity */
 
