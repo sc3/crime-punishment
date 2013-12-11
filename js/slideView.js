@@ -3,17 +3,26 @@ var SlideView = Backbone.View.extend({
 
     initialize: function(options) {
       this.stage = null;
+      this.section = null;
     },
 
     render: function(stage, section) {
-      this.stage = this.collection.findWhere({
-        'name': stage
-      });
+
+      // add stage and section variables to View object
+      this.stage = this.collection.findWhere({'name': stage});
       this.section = section;
+
+      // set the next/prev urls; also hide arrows when necessary
+      this.setLinks();
+
+      // pass View's `this` var to renderFragment
       return $.get(this.stage.get('url'), _.bind(this.renderFragment, this));
 
     },
 
+    /* Hide, empty, re-fill, and transition back
+       in the View's el, with content in the order
+       it should appear in the html. */
     renderFragment: function(data) {
 
       var template = $(data);
@@ -24,15 +33,11 @@ var SlideView = Backbone.View.extend({
           // empty the el
           this.$el.empty();
 
-          // fill the el with content in the 
-          // order it should appear in the html
-
-          console.log(template);
-          console.log($('.slide', template));
-
           // pull the correct slide from the template
           $($('.slide', template)[this.section-1])
             .appendTo(this.$el);
+
+          // add the featured image from the template
           $('.featured-image', template)
             .appendTo(this.$el);
 
@@ -40,8 +45,6 @@ var SlideView = Backbone.View.extend({
           this.$el.fadeIn(500);
 
         }, this));
-
-      this.setLinks();
 
       return this;
     },
