@@ -1,18 +1,18 @@
 {% extends "_cpd.html" %}
+{% set current_stage = 0 %}
 
 {% block content %}
-  <div id="all">
-    <div id="left">
-      <div class="boxed">
-        <a class="fa fa-chevron-left fa-2x" id="previous"></a>
-      </div>
-    </div>
-    <div id="right">
-      <div class="boxed">
-        <a class="fa fa-chevron-right fa-2x" id="next"></a>
-      </div>
-    </div>
-    <div id="main">
+<div class="container">
+  <img class="featured-image img-responsive" src={{ stages[current_stage].featured_image }}>
+  <div class="slide">
+    <div class="title">
+      <h1>{{ stages[current_stage].title|markdown }}</h1>
     </div>
   </div>
+  <div class="slide">
+    <div class="about">
+      <h3>{{ stages[current_stage].description|markdown }}</h3>
+    </div>
+  </div>
+</div>
 {% endblock content %}

@@ -1,3 +1,7 @@
+body {
+  padding-top: 35px;
+}
+
 /* Text */
 a:hover { color: #ed1c24; }
 a.fa:hover { text-decoration: none; }
