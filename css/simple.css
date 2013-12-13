@@ -1,15 +1,4 @@
-
-/* Body */
-
-
-body {
-  background-color: #FFF;
-}
-
-
 /* Text */
-
-a {}
 a:hover { color: #ed1c24; }
 a.fa:hover { text-decoration: none; }
 
@@ -25,6 +14,23 @@ h1 {
   text-align: center;
 }
 
+/* Nav */
+.circle {
+  font-size: 11px;
+  color: #fff;
+  background-color: #333;
+  border-radius: 8px;
+  height: 16px;
+  width: 16px;
+  line-height: 16px;
+  display: inline-block;
+  text-align: center;
+}
+
+.navbar {
+  height: 37px;
+  min-height: 37px;
+}
 
 /* Sidebars */
 
@@ -89,13 +95,18 @@ h1 {
   }
 }
 
+@media (min-width: 768px) {
+  .navbar-nav>li>a, .navbar-brand {
+    padding-top: 8px;
+    padding-bottom: 8px;
+  }
+}
+
 @media (max-width: 768px) {
   .navbar .social-menu {
     margin: 30px 20px 30px 20px;
     display: none; 
   }
-
-  .fa
 }
 
 @media (max-width: 482px) {
@@ -122,13 +133,3 @@ h1 {
     left: 75%;
   }
 }
-
-* {
-  -webkit-box-sizing: border-box;
-     -moz-box-sizing: border-box;
-          box-sizing: border-box;
-}
-
-/*
-* { border: 1px solid; }
-*/
