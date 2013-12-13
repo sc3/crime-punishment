@@ -2,7 +2,9 @@
 {% set current_stage = 1 %}
 
 {% block content %}
-<img class="featured-image" src={{ stages[current_stage].featured_image }}>
+<div class="featured-image-wrapper">
+  <img class="featured-image" src={{ stages[current_stage].featured_image }}>
+</div>
 <div class="container">
   <div class="slide">
     <div class="title">
