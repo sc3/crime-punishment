@@ -2,6 +2,12 @@ body {
   padding-top: 0;
 }
 
+body .container {
+  max-width: 1088px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
 /* Text */
 a:hover { color: #ed1c24; }
 a.fa:hover { text-decoration: none; }
@@ -14,13 +20,47 @@ h1 {
   font-size: 4em;
 }
 
-.title {
-  text-align: center;
+h3 {
+  font-size: 1.5em;
+}
+
+.title-wrapper {
+  position: relative;
+  top: 50%;
+  padding: 10px 20px;
+  margin: 15px;
+  opacity: 0.9;
+  z-index: 1;
+  background-color: rgba(230,230,230,.7);
+  max-width: 33%;
+  max-height: 50%
+}
+
+#about {
+  margin-top: 50px;
+  text-align: left;
+}
+
+#explain {
+  font-family: Arial;
+  font-size: 15px;
+  margin: 20px 50px;
+}
+
+#explain p {
+  padding-top: 6px;
+  padding-bottom: 6px;
+}
+
+hr {
+  margin-top: 40px;
+  color: #AAA;
 }
 
 /* Sidebars */
+/* Turn this into bottom and top arrows eventually */
 
-#left, #right {
+/*#left, #right {
   z-index: 1;
   margin-top: 21%;
   margin-bottom: 21%;
@@ -46,7 +86,7 @@ h1 {
   color: #333;
   margin: auto;
   margin-top: 7px;
-}
+}*/
 
 
 /* Navbar */
@@ -65,14 +105,15 @@ h1 {
 .navbar {
   height: 37px;
   min-height: 37px;
- 	background-color: rgba(20, 20, 20, 0.92);
+  background-color: rgba(20, 20, 20, 0.92);
 }
 .navbar-default {
   border: none;
 }
-/*.navbar .sections>li>a:hover {*/
-  /*background-color: #4f4c4d;*/
-/*}*/
+
+.navbar .sections>li>a:hover {
+  background-color: #4f4c4d;
+}
 
 .navbar-default .navbar-brand,
 .navbar-default .navbar-nav>li>a { color: #ddd; }

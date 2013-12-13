@@ -9,6 +9,7 @@
   <link href='http://fonts.googleapis.com/css?family=Lusitana:400,400italic' rel='stylesheet' type='text/css'>
 {% endblock css %}
 
+
 {% block scripts %}
 {{ super() }}
 <script src="//cdnjs.cloudflare.com/ajax/libs/underscore.js/1.5.2/underscore-min.js"></script>
@@ -18,10 +19,8 @@
 $(document).ready(function() {
   $('.featured-image-wrapper').css({
     height: $(window).height() + 'px',
-    width: $(window).width() + 'px',
-  })
-  .imgLiquid()
-  ;
+    width: ($(window).width() - 1) + 'px',
+  }).imgLiquid();
 });
 </script>
 {% endblock scripts %}

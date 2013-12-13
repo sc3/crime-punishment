@@ -2,19 +2,22 @@
 {% set current_stage = 0 %}
 
 {% block content %}
-<div class="featured-image-wrapper">
+<div id="project" class="featured-image-wrapper">
   <img class="featured-image" src={{ stages[current_stage].featured_image }}>
+  <div class="title-wrapper">
+    <h1>{{ stages[current_stage].title|markdown }}</h1>
+  </div>
 </div>
 <div class="container">
-  <div class="slide">
-    <div class="title">
-      <h1>{{ stages[current_stage].title|markdown }}</h1>
+  <hr>
+  <div id="about">
+    <div id="brief">
+      <h3> Exploring Transparency in Chicago's Criminal Justice System </h3>
     </div>
-  </div>
-  <div class="slide">
-    <div class="about">
-      <h3>{{ stages[current_stage].description|markdown }}</h3>
+    <div id="explain">
+      {{ lipsum(n=3, html=True, min=40, max=60) }}
     </div>
+
   </div>
 </div>
 {% endblock content %}
