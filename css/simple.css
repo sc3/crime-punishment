@@ -1,5 +1,5 @@
 body {
-  padding-top: 35px;
+  padding-top: 0;
 }
 
 /* Text */
@@ -16,24 +16,6 @@ h1 {
 
 .title {
   text-align: center;
-}
-
-/* Nav */
-.circle {
-  font-size: 11px;
-  color: #fff;
-  background-color: #333;
-  border-radius: 8px;
-  height: 16px;
-  width: 16px;
-  line-height: 16px;
-  display: inline-block;
-  text-align: center;
-}
-
-.navbar {
-  height: 37px;
-  min-height: 37px;
 }
 
 /* Sidebars */
@@ -68,19 +50,37 @@ h1 {
 
 
 /* Navbar */
+.circle {
+  font-size: 11px;
+  color: #fff;
+  background-color: #822;
+  border-radius: 8px;
+  height: 17px;
+  width: 17px;
+  line-height: 16px;
+  display: inline-block;
+  text-align: center;
+}
 
 .navbar {
- 	background-color: #231f20;
+  height: 37px;
+  min-height: 37px;
+ 	background-color: rgba(20, 20, 20, 0.92);
 }
-
-.navbar .sections>li>a:hover {
-  background-color: #4f4c4d;
+.navbar-default {
+  border: none;
 }
+/*.navbar .sections>li>a:hover {*/
+  /*background-color: #4f4c4d;*/
+/*}*/
 
-.navbar a { color: #DDD !important; }
-.navbar a:hover { color: #AAA !important; }
-.navbar-nav>.active>a { background-color: #4f4c4d !important; }
-
+.navbar-default .navbar-brand,
+.navbar-default .navbar-nav>li>a { color: #ddd; }
+.navbar-default .navbar-brand:hover,
+.navbar-default .navbar-nav>li>a:hover { color: #fff; }
+.navbar a:hover .circle {
+  background-color: #b33;
+}
 
 /* Images */
 

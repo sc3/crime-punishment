@@ -2,8 +2,8 @@
 {% set current_stage = 0 %}
 
 {% block content %}
+<img class="featured-image" src={{ stages[current_stage].featured_image }}>
 <div class="container">
-  <img class="featured-image img-responsive" src={{ stages[current_stage].featured_image }}>
   <div class="slide">
     <div class="title">
       <h1>{{ stages[current_stage].title|markdown }}</h1>
