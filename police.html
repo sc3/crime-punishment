@@ -1,12 +1,14 @@
+{% extends "_cpd.html" %}
 {% set current_stage = 2 %}
 
-<div class="stage">
+{% block content %}
+<div id="police-landing" class="featured-image-wrapper">
   <img class="featured-image" src={{ stages[current_stage].featured_image }}>
-  <div class="slide">
-    <div class="title">
-      <h1>{{ stages[current_stage].title|markdown }}</h1>
-    </div>
+  <div class="title-wrapper">
+    <h1>{{ stages[current_stage].title|markdown }}</h1>
   </div>
+</div>
+<div class="container">
   <div class="slide">
     <div class="">
       <h2>{{ stages[current_stage].fact|markdown }}</h2>
@@ -18,3 +20,4 @@
     </div>
   </div>
 </div>
+{% endblock content %}
