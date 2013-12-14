@@ -12,15 +12,16 @@
 
 {% block scripts %}
 {{ super() }}
-<script src="//cdnjs.cloudflare.com/ajax/libs/underscore.js/1.5.2/underscore-min.js"></script>
-<script src="//cdnjs.cloudflare.com/ajax/libs/backbone.js/1.1.0/backbone-min.js"></script>
 <script src="js/imgLiquid-min.js"></script>
+<script src="js/holder.js"></script>
 <script type="text/javascript">
 $(document).ready(function() {
-  $('.featured-image-wrapper').css({
-    height: $(window).height() + 'px',
-    width: ($(window).width() - 1) + 'px',
-  }).imgLiquid();
+  $('.featured-image-wrapper')
+    .css({
+      height: $(window).height() + 'px',
+      width: $(window).width() + 'px',
+    })
+    .imgLiquid();
 });
 </script>
 {% endblock scripts %}
