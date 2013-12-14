@@ -53,6 +53,12 @@ h1 {
   max-height: 50%;
 }
 
+#project-about {
+    background-color: black;
+    text-align: center;
+    color: white;
+}
+
 hr {
   margin: 40px 0;
   border-top-color: #BBB;
@@ -64,8 +70,10 @@ hr {
 
 .circle {
   font-size: 11px;
-  color: #fff;
-  background-color: #822;
+  /*color: #fff;
+  background-color: #822; */
+  color: #000;
+  background-color: white;
   border-radius: 8px;
   height: 17px;
   width: 17px;

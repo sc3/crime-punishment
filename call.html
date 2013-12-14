@@ -20,7 +20,7 @@
     <div>
       <img class="chart" src="js/holder.js/750x500">
       <div class="explain">
-        {{ lipsum(n=3, html=True, min=30, max=40) }}
+        {{ stages[current_stage].description|markdown }}
       </div>
     </div>
   </div>

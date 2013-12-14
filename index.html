@@ -5,7 +5,7 @@
 <div id="project-landing" class="featured-image-wrapper">
   <img class="featured-image" src={{ stages[current_stage].featured_image }}>
   <div class="title-wrapper">
-    <h1>{{ stages[current_stage].title|markdown }}</h1>
+    <h4>{{ stages[current_stage].featured_image_description|markdown }}</h4>
   </div>
 </div>
 <div class="container">
@@ -14,7 +14,7 @@
     <div> 
       <h3>{{ stages[current_stage].summary|markdown }}</h3>
       <div class="explain">
-        {{ lipsum(n=3, html=True, min=30, max=40) }}
+        {{ stages[current_stage].description|markdown }}
       </div>
     </div>
   </div>
