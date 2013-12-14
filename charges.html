@@ -1,5 +1,7 @@
+{% extends "_cpd.html" %}
 {% set current_stage = 3 %}
 
+{% block content %}
 <div class="stage">
   <img class="featured-image" src={{ stages[current_stage].featured_image }}>
   <div class="slide">
@@ -18,3 +20,4 @@
     </div>
   </div>
 </div>
+{% endblock content %}

@@ -1,18 +1,22 @@
 {% extends "_cpd.html" %}
+{% set current_stage = 0 %}
 
 {% block content %}
-  <div id="all">
-    <div id="left">
-      <div class="boxed">
-        <a class="fa fa-chevron-left fa-2x" id="previous"></a>
+<div id="project-landing" class="featured-image-wrapper">
+  <img class="featured-image" src={{ stages[current_stage].featured_image }}>
+  <div class="title-wrapper">
+    <h1>{{ stages[current_stage].title|markdown }}</h1>
+  </div>
+</div>
+<div class="container">
+  <div id="project-about" class="slide">
+    <hr>
+    <div> 
+      <h3>{{ stages[current_stage].summary|markdown }}</h3>
+      <div class="explain">
+        {{ lipsum(n=3, html=True, min=30, max=40) }}
       </div>
-    </div>
-    <div id="right">
-      <div class="boxed">
-        <a class="fa fa-chevron-right fa-2x" id="next"></a>
-      </div>
-    </div>
-    <div id="main">
     </div>
   </div>
+</div>
 {% endblock content %}
