@@ -1,20 +1,29 @@
+{% extends "_cpd.html" %}
 {% set current_stage = 1 %}
 
-<div class="stage">
+{% block content %}
+<div id="call-landing" class="featured-image-wrapper">
   <img class="featured-image" src={{ stages[current_stage].featured_image }}>
-  <div class="slide">
-    <div class="title">
-      <h1>{{ stages[current_stage].title|markdown }}</h1>
+  <div class="title-wrapper">
+    <h1>{{ stages[current_stage].title|markdown }}</h1>
+  </div>
+</div>
+<div class="container">
+  <div id="call-fact">
+    <hr>
+    <div class="fact">
+      <h1>{{ stages[current_stage].fact|markdown }}</h2>
     </div>
   </div>
-  <div class="slide">
-    <div class="">
-      <h2>{{ stages[current_stage].fact|markdown }}</h2>
-      <h3>{{ stages[current_stage].description|markdown }}</h3>
-    </div>
-  </div>
-  <div class="slide">
-    <div class="">
+  <div id="call-graph">
+    <hr>
+    <div>
+      <img class="chart" src="js/holder.js/750x500">
+      <div class="explain">
+        {{ stages[current_stage].description|markdown }}
+      </div>
     </div>
   </div>
 </div>
+{% endblock content %}
+
