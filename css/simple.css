@@ -44,19 +44,19 @@ h1 {
 
 .title-wrapper {
   position: absolute;
-  top: 50%;
+  top: 15%;
   padding: 10px 20px;
   margin: 15px;
   z-index: 1;
   background-color: rgba(230, 230, 230, .8);
   max-width: 33%;
-  max-height: 50%;
+  max-height: 60%;
 }
 
 #project-about {
-    background-color: black;
-    text-align: center;
-    color: white;
+  background-color: black;
+  text-align: center;
+  color: white;
 }
 
 hr {
@@ -104,7 +104,9 @@ hr {
 
 .navbar-default .navbar-brand:hover,
 .navbar-default .navbar-nav>li>a:hover, 
-.navbar-default .navbar-nav>li>a.active { 
+.navbar-default .navbar-nav>li>a.active,
+.navbar-default .navbar-nav>li>a:hover>span,
+.navbar-default .navbar-nav>li>a.active>span { 
   color: #fff; 
 }
 
@@ -116,7 +118,7 @@ hr {
 
 /* Images */
 
-.featured-image {
+img {
   max-height: auto;
   max-width: 100%;
 }
@@ -152,6 +154,7 @@ hr {
   }
   .title-wrapper {
     max-width: 50%;
+    max-height: 100%;
   }
 }
 
