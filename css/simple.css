@@ -82,10 +82,16 @@ h1 {
 #stage1-bubble1 {
   max-width: 33%;
   max-height: 60%;
-  top: 35%;
+  top: 15%;
   left: 15px;
 }
 
+/*#begin {
+  z-index: 1;
+  position: absolute;
+  bottom: 15%;
+  left: 45%;
+}*/
 
 /* Navbar */
 
@@ -134,6 +140,30 @@ h1 {
 .navbar a:hover .circle, 
 .navbar a.active .circle {
   background-color: #b33;
+}
+
+
+/* Footer */
+
+#footer {
+  height: 45px;
+  width: 100%;
+  color: #FFF;
+  background-color: rgba(20, 20, 20, 0.92);
+  position: fixed;
+  bottom: 0;
+  z-index: 1000;
+  text-align: center;
+  font-family: Georgia;
+}
+
+#footer #scroll-injunction {
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+#footer i {
+  padding: 5px;
 }
 
 

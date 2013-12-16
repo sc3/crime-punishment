@@ -16,12 +16,18 @@
 <script src="js/holder.js"></script>
 <script type="text/javascript">
 $(document).ready(function() {
+
+  if(location.pathname == '/' || location.pathname == 'index.html') {
+    $('#footer').hide();
+  }
+
   $('.featured-image-wrapper')
     .css({
       height: $(window).height() + 'px',
       width: ($(window).width() + 15) + 'px', // TODO: fix the bug that is causing me to need 15px here
     })
     .imgLiquid();
+    
 });
 </script>
 {% endblock scripts %}
