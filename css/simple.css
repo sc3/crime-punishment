@@ -56,6 +56,11 @@ h1 {
   background-color: rgba(230, 230, 230, .8);
 }
 
+.bubble:hover {
+  opacity: .8;
+  border: 1px solid black;
+}
+
 .bubble-inner {
   padding: 10px 20px;
 }
