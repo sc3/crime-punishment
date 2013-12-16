@@ -4,19 +4,16 @@
 {% block content %}
 <div id="project-landing" class="featured-image-wrapper">
   <img class="featured-image" src={{ stages[current_stage].featured_image }}>
-  <div class="title-wrapper">
-    <h1>{{ stages[current_stage].title }}</h1>
-    <h4>{{ stages[current_stage].featured_image_description|markdown }}</h4>
+  <div id="stage0-bubble1" class="bubble">
+    <div class="bubble-inner">
+      <h1>{{ stages[current_stage].title }}</h1>
+      <h4>{{ stages[current_stage].description|markdown }}</h4>
+    </div>
   </div>
-</div>
-<div class="container">
-  <div id="project-about">
-    <hr>
-    <div> 
-      <h3>{{ stages[current_stage].summary|markdown }}</h3>
-      <div class="explain">
-        {{ stages[current_stage].description|markdown }}
-      </div>
+  <div id="stage0-bubble2" class="bubble">
+    <div class="bubble-inner">
+      <h3>ABOUT THIS PHOTO</h3>
+      <h4>{{ stages[current_stage].featured_image_description|markdown }}</h4>
     </div>
   </div>
 </div>

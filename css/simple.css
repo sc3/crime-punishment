@@ -41,27 +41,44 @@ h1 {
   padding-bottom: 6px;
 }
 
-.title-wrapper {
-  position: absolute;
-  top: 15%;
-  padding: 10px 20px;
-  margin: 15px;
-  z-index: 1;
-  background-color: rgba(230, 230, 230, .8);
-  max-width: 33%;
-  max-height: 60%;
-}
-
 #project-about {
   background-color: black;
   text-align: center;
   color: white;
 }
 
-hr {
-  margin: 40px 0;
-  border-top-color: #BBB;
-  max-width: 100%;
+
+/* Overlays */
+
+.bubble {
+  position: absolute;
+  z-index: 1;
+  background-color: rgba(230, 230, 230, .8);
+}
+
+.bubble-inner {
+  padding: 10px 20px;
+}
+
+#stage0-bubble1 {
+  max-width: 33%;
+  max-height: 60%;
+  top: 15%;
+  left: 15px;
+}
+
+#stage0-bubble2 {
+  max-width: 20%;
+  max-height: 60%;
+  top: 30%;
+  right: 15px;
+}
+
+#stage1-bubble1 {
+  max-width: 33%;
+  max-height: 60%;
+  top: 35%;
+  left: 15px;
 }
 
 
@@ -151,7 +168,7 @@ img {
   h1 {
     font-size: 30px;
   }
-  .title-wrapper {
+  .bubble {
     max-width: 50%;
     max-height: 100%;
   }

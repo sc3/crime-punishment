@@ -19,7 +19,7 @@ $(document).ready(function() {
   $('.featured-image-wrapper')
     .css({
       height: $(window).height() + 'px',
-      width: $(window).width() + 'px',
+      width: ($(window).width() + 15) + 'px', // TODO: fix the bug that is causing me to need 15px here
     })
     .imgLiquid();
 });

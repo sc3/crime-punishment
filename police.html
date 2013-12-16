@@ -4,8 +4,10 @@
 {% block content %}
 <div id="police-landing" class="featured-image-wrapper">
   <img class="featured-image" src={{ stages[current_stage].featured_image }}>
-  <div class="title-wrapper">
-    <h1>{{ stages[current_stage].title|markdown }}</h1>
+  <div id="stage2-bubble1" class="bubble">
+    <div class="bubble-inner">
+      <h1>{{ stages[current_stage].title|markdown }}</h1>
+    </div>
   </div>
 </div>
 <div class="container">
