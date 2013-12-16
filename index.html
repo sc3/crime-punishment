@@ -1,19 +1,19 @@
 {% extends "_cpd.html" %}
-{% set current_stage = 0 %}
+{% set current_stage = stages[0] %}
 
 {% block content %}
 <div id="project-landing" class="featured-image-wrapper">
-  <img class="featured-image" src={{ stages[current_stage].featured_image }}>
+  <img class="featured-image" src={{ current_stage.featured_image }}>
   <div id="stage0-bubble1" class="bubble">
     <div class="bubble-inner">
-      <h1>{{ stages[current_stage].title }}</h1>
-      <h4>{{ stages[current_stage].description|markdown }}</h4>
+      <h1>{{ current_stage.title }}</h1>
+      <h4>{{ current_stage.description|markdown }}</h4>
     </div>
   </div>
   <div id="stage0-bubble2" class="bubble">
     <div class="bubble-inner">
       <h3>ABOUT THIS PHOTO</h3>
-      <h4>{{ stages[current_stage].featured_image_description|markdown }}</h4>
+      <h4>{{ current_stage.featured_image_description|markdown }}</h4>
     </div>
   </div>
 </div>
