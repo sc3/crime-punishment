@@ -25,29 +25,6 @@ h1 {
   font-size: 4em;
 }
 
-.fact {
-  margin: 25% 0;
-  text-align: center;
-}
-
-.explain {
-  font-family: Arial;
-  font-size: 15px;
-  margin: 20px 50px;
-}
-
-.explain p {
-  padding-top: 6px;
-  padding-bottom: 6px;
-}
-
-#project-about {
-  background-color: black;
-  text-align: center;
-  color: white;
-}
-
-
 /* Overlays */
 
 .featured-image-wrapper h1 {
@@ -75,13 +52,6 @@ h1 {
 .featured-image-wrapper .scroll-injunction i {
   margin: 0 5px;
 }
-
-/*#begin {
-  z-index: 1;
-  position: absolute;
-  bottom: 15%;
-  left: 45%;
-}*/
 
 
 /* Navbar */
@@ -134,7 +104,26 @@ h1 {
 
 /* Footer */
 
-/* -- @TODO -- */
+#footer {
+  background-color: rgba(20, 20, 20, .92);
+  position: relative;
+  bottom: 0;
+  height: 37px;
+}
+
+#footer p {
+  margin-bottom: 0;
+}
+
+#footer #next {
+  position: absolute;
+  right: 10%;
+}
+
+#footer #prev {
+  position: absolute;
+  left: 10%;
+}
 
 
 /* Images */
@@ -144,9 +133,14 @@ img {
   max-width: 100%;
 }
 
-.chart {
-  float: right;
-  margin: 0 0 20px 20px;
+#black-hole {
+  background-color: #000;
+  border-radius: 220px;
+  width: 440px;
+  height: 440px;
+  margin-top: 60px;
+  margin-right: auto;
+  margin-left: auto;
 }
 
 

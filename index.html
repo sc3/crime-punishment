@@ -4,13 +4,13 @@
 <div id="call-landing" class="featured-image-wrapper">
   <img class="featured-image" src={{ home.featured_image.value }}>
   <h1>{{ home.headline.value|markdown }}</h1>
-  <div class="scroll-injunction">
-    <i class="fa fa-chevron-down"></i>
-    Scroll To Read
-    <i class="fa fa-chevron-down"></i>
-  </div>
-</div>
-<div class="content container">
-
 </div>
 {% endblock content %}
+
+{% block footer %}
+
+<div id="footer">
+  <a id="next" class="btn btn-primary" href="/reporting.html">Begin Here</a>
+</div>
+
+{% endblock footer %}

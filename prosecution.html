@@ -2,7 +2,7 @@
 
 {% block content %}
 <div id="prosecution-landing" class="featured-image-wrapper">
- <!--  <img class="featured-image" src={{ prosecution.featured_image.value }}> -->
+ <div id="black-hole"></div>
   <h1>{{ prosecution.headline.value|markdown }}</h1>
   <div class="scroll-injunction">
     <i class="fa fa-chevron-down"></i>
@@ -24,3 +24,12 @@
   </div>
 </div>
 {% endblock content %}
+
+{% block footer %}
+
+<div id="footer">
+  <a id="prev" class="btn btn-primary" href="/investigation.html">Previous Stage</a>
+  <a id="next" class="btn btn-primary" href="/jail.html">Next Stage</a>
+</div>
+
+{% endblock footer %}
