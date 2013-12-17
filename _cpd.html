@@ -15,19 +15,27 @@
 <script src="js/imgLiquid-min.js"></script>
 <script src="js/holder.js"></script>
 <script type="text/javascript">
-$(document).ready(function() {
 
-  if(location.pathname == '/' || location.pathname == 'index.html') {
-    $('#footer').hide();
-  }
-
+function responsivize() {
   $('.featured-image-wrapper')
     .css({
       height: $(window).height() + 'px',
-      width: ($(window).width() + 15) + 'px', // TODO: fix the bug that is causing me to need 15px here
-    })
+      width:  $(window).width() + 'px',
+    });
+}
+
+$(document).ready(function() {
+
+  $('.featured-image-wrapper')
     .imgLiquid();
-    
+
+  responsivize();
+  $(window).on('resize', responsivize);
+
+  setTimeout(function() {
+    $('.featured-image-wrapper h1').fadeIn(1000); 
+  }, 300);
+
 });
 </script>
 {% endblock scripts %}

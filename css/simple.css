@@ -58,6 +58,7 @@ h1 {
   left: 0;
   bottom: 60px;
   text-align: center;
+  display: none;
 }
 .featured-image-wrapper .scroll-injunction {
   color: #fff;
