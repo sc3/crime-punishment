@@ -49,6 +49,7 @@ h1 {
 
 
 /* Overlays */
+
 .featured-image-wrapper h1 {
   color: #fff;
   font-size: 80px;
@@ -60,6 +61,7 @@ h1 {
   text-align: center;
   display: none;
 }
+
 .featured-image-wrapper .scroll-injunction {
   color: #fff;
   text-shadow: 2px 2px 3px #000000;
@@ -69,6 +71,7 @@ h1 {
   bottom: 10px;
   text-align: center;
 }
+
 .featured-image-wrapper .scroll-injunction i {
   margin: 0 5px;
 }
@@ -80,14 +83,13 @@ h1 {
   left: 45%;
 }*/
 
+
 /* Navbar */
 
 .circle {
   font-size: 11px;
-  /*color: #fff;
-  background-color: #822; */
   color: #000;
-  background-color: white;
+  background-color: #FFF;
   border-radius: 8px;
   height: 17px;
   width: 17px;
@@ -147,7 +149,9 @@ img {
   margin: 0 0 20px 20px;
 }
 
+
 /* Content */
+
 .content { margin-top: 30px; }
 .content img { max-width: 100%; }
 

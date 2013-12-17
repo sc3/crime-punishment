@@ -1,0 +1,26 @@
+{% extends "_cpd.html" %}
+
+{% block content %}
+<div id="prosecution-landing" class="featured-image-wrapper">
+ <!--  <img class="featured-image" src={{ prosecution.featured_image.value }}> -->
+  <h1>{{ prosecution.headline.value|markdown }}</h1>
+  <div class="scroll-injunction">
+    <i class="fa fa-chevron-down"></i>
+    Scroll To Read
+    <i class="fa fa-chevron-down"></i>
+  </div>
+</div>
+<div class="content container">
+  <div class="col-md-8">
+    {{ prosecution.para1.value|markdown }}
+    {{ prosecution.para2.value|markdown }}
+    {{ prosecution.para3.value|markdown }}
+    {{ prosecution.para4.value|markdown }}
+    {{ prosecution.para5.value|markdown }}
+  </div>
+  <div class="col-md-4">
+    {{ prosecution.sidebar_para1.value|markdown }}
+    {{ prosecution.sidebar_para2.value|markdown }}
+  </div>
+</div>
+{% endblock content %}
