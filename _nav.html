@@ -14,11 +14,9 @@
     {# Collect the nav links, forms, and other content for toggling #}
     <div class="collapse navbar-collapse navbar-ex1-collapse">
       <ul class="sections nav navbar-nav">
-        <li><a href="call.html" class="{% if PATH == "call.html" %}active{% endif %}"><span class="circle">1</span> Reporting</a></li>
-        <li><a href="police.html" class="{% if PATH == "police.html" %}active{% endif %}"><span class="circle">2</span> Investigation</a></li>
-        <li><a href="charges.html" class="{% if PATH == "charges.html" %}active{% endif %}"><span class="circle">3</span> Prosecution</a></li>
-        <li><a href="jail.html" class="{% if PATH == "jail.html" %}active{% endif %}"><span class="circle">4</span> Jail</a></li>
-        <li><a href="court.html" class="{% if PATH == "court.html" %}active{% endif %}"><span class="circle">5</span> Court</a></li>
+        {% for item in nav %}
+        <li><a href="item.path" class="{% if PATH == item.path %}active{% endif %}"><span class="circle">{{ loop.index }}</span> {{ item.title }}</a></li>
+        {% endfor %}
       </ul>
       <ul class="social-menu nav navbar-nav navbar-right">
           {% if opengraph_description and opengraph_image %}
