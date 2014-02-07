@@ -83,10 +83,10 @@ h1 {
   color: #ddd; 
 }
 
-.navbar-default .navbar-nav>li>a:hover,
+/*.navbar-default .navbar-nav>li>a:hover,
 .navbar-default .navbar-nav>li>a.active {
   background-color: #4f4c4d;
-}
+}*/
 
 .navbar-default .navbar-brand:hover,
 .navbar-default .navbar-nav>li>a:hover, 
