@@ -32,9 +32,102 @@
   <div class="col-md-4">
     {{ investigation.sidebar_para1.value|markdown }}
     {{ investigation.sidebar_para2.value|markdown }}
-    {{ investigation.sidebar_para3.value|markdown }}
-
-
+    <table>
+         <tr>
+            <td>
+            </td>
+            <td>
+                <p>Open</p>
+            </td>
+            <td>
+                <p>FOIA</p>
+            </td>
+            <td>
+                <p>Unavailable</p>
+            </td>    
+        </tr>
+        <tr>
+            <td>
+                <p>Report</p>
+            </td>
+            <td>
+                <div class="circle_some" id="gray">
+                </div>
+            </td>
+            <td>
+                <div class="circle_lots" id="gray">
+                </div>
+            </td>
+            <td>
+                <div class="circle_little" id="gray">
+                </div>
+            </td>
+        </tr bgcolor="F0F0F0">
+            <tr>
+            <td>
+                <p>Investigate</p>
+            </td>
+            <td>
+                <div class="circle_lots" id="blue">
+                </div>
+            </td>
+            <td>
+                <div class="circle_some" id="blue">
+                </div>
+            </td>
+            <td>
+                <div class="circle_little" id="blue">
+                </div>
+            </td>
+        </tr>
+            <tr>
+            <td>
+                <p>Prosecute</p>
+            </td>
+            <td>
+            </td>
+            <td>
+                <div class="circle_little" id="gray">
+                </div>
+            </td>
+            <td>
+                <div class="circle_lots" id="gray">
+                </div>
+            </td>
+        </tr>
+            <tr>
+            <td>
+                <p>Jail</p>
+            </td>
+            <td>
+                <div class="circle_little" id="gray">
+                </div>
+            </td>
+            <td>
+                <div class="circle_lots" id="gray">
+                </div>
+            </td>
+            <td>
+                <div class="circle_little" id="gray">
+                </div>
+            </td>
+        </tr>
+            <tr>
+            <td>
+                <p>Court</p>
+            </td>
+            <td>
+                <div class="circle_little" id="gray">
+                </div>
+            </td>
+            <td>
+            </td>
+            <td>
+                <div class="circle_lots" id="gray">
+                </div>
+            </td>
+        </tr>
+    </table>
   </div>
 </div>
 {% endblock content %}

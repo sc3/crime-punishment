@@ -143,6 +143,44 @@ img {
   margin-left: auto;
 }
 
+/* Table */
+td {
+    width: 100px;
+    text-align: center;
+}
+.circle_lots
+    {
+        padding: 12px;
+        width: 1px;
+        border-radius: 100%;
+        margin-left: auto;
+        margin-right: auto;
+        width: 1%;
+        background: black;
+    }
+
+.circle_some
+    {
+        padding: 12px;
+        width: 1px;
+        border-radius: 100%;
+        margin-left: auto;
+        margin-right: auto;
+        width: 1%;
+        background: #989898;
+    }
+
+.circle_little
+    {
+        padding: 12px;
+        width: 1px;
+        border-radius: 100%;
+        margin-left: auto;
+        margin-right: auto;
+        width: 1%;
+        background: #b33;
+    }
+    
 
 /* Content */
 
