@@ -98,7 +98,7 @@ h1 {
 
 .navbar a:hover .circle, 
 .navbar a.active .circle {
-  background-color: #b33;
+  background-color: #003399;
 }
 
 
@@ -143,6 +143,47 @@ img {
   margin-left: auto;
 }
 
+/* Table */
+td {
+    width: 100px;
+    text-align: center;
+}
+.circle_big
+    {
+        padding: 18px;
+        width: 2px;
+        border-radius: 100%;
+        margin-left: auto;
+        margin-right: auto;
+        width: 1%;
+    }
+
+.circle_medium
+    {
+        padding: 12px;
+        width: 1px;
+        border-radius: 100%;
+        margin-left: auto;
+        margin-right: auto;
+        width: 1%;
+    }
+
+.circle_small
+    {
+        padding: 6px;
+        width: 1px;
+        border-radius: 100%;
+        margin-left: auto;
+        margin-right: auto;
+        width: 1%;
+    }
+
+#blue {
+    background: #003399;
+}
+#gray {
+    background: #989898;
+}
 
 /* Content */
 
