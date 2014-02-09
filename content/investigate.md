@@ -1,3 +1,11 @@
+## Chicago Police Department (CPD)
+
+#### Summary
+> Investigating crime can start from two places. First, police officers or from a victim of a crime. After an arrest, police officers and detectives have an important discretion; they can choose whether to file a misdemeanor or felony case with the Cook County Court. 
+
+### Data Inventory
+
+#### Crime Incident
 * Name of complainant
 * Home address of complainant
 * Race of complainant
@@ -27,7 +35,7 @@
 * Location (combination of latitude and longitude)
 * Year       
 
-# Crime Incident
+#### Crime Incident
 * Name of complainant
 * Home address of complainant
 * Race of complainant
@@ -57,7 +65,7 @@
 * Location (combination of latitude and longitude)
 * Year    
 
-# Arrest
+#### Arrest
 * Name of arrestee
 * Home address of arrestee
 * Race of arrestee
@@ -67,10 +75,10 @@
 * IUCR of crime type
 * Description of ICUR type
 
-# Charges
+#### Charges
 Nothing is definitely known to be collected at this stage.
 
-# Contact Cards
+#### Contact Cards
 * Address of Contact
 * Data / Time of Contact
 * Submitting Bear
@@ -124,4 +132,18 @@ Nothing is definitely known to be collected at this stage.
 * Other Described Above
 * Preparing Officer Name & Star #
 * Preparing Officer Name & Star #
-* Supervisor Approval Star #                                                                                                        
+* Supervisor Approval Star #    
+
+### How to Access the Data
+[FOIA Resource](https://portal.chicagopolice.org/portal/page/portal/ClearPath/About%20CPD/Freedom%20of%20Information%20Act%20%28FOIA%29)
+
+#### Filing Methods
+* Email: foia@chicagopolice.org
+* Fax: (312) 745-6948
+* Mail: Chicago Police Department
+    > Attn: Freedom of Information Officer
+    > Records Inquiry Section, Unit 163
+    > 3510 S. Michigan Ave.
+    > Chicago, IL 60653
+    
+> To access data from Chicago Police Department you need to file a request for data under Illinois’ Freedom of Information Act. You can file your request through any of the methods listed below. Please try to be reasonably specific for the data you are looking for so that they can more easily process your request.                                                                                        
