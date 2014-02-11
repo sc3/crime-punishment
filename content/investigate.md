@@ -33,37 +33,7 @@ Investigating crime can start from two places. First, police officers or from a 
 * X coordinate of location of incident
 * Y coordinate of location of incident
 * Location (combination of latitude and longitude)
-* Year       
-
-#### Crime Incident
-* Name of complainant
-* Home address of complainant
-* Race of complainant
-* Age of complainant
-* Gender of complainant (observed)
-* Ethnicity of Complainant
-* Report Number
-* Date of incident
-* Address of incident
-* Illinois Uniform Crime Report Code
-* Primary Type
-* Description of Event
-* Any additional crime types that were associated with incident that are of lesser seriousness on the UCR scale
-* Description of any additional crime types that were associated with incident that are of lesser seriousness on the UCR scale
-* Description of any additional crime types that were associated with incident that are of lesser seriousness on the UCR scale
-* Primary Type
-* Location of Description
-* If an arrest was made
-* Whether or not the incident was domestic
-* Beat of occurrence
-* District of occurrence
-* Ward of occurrence
-* Community area of occurrence
-* FBI Code
-* X coordinate of location of incident
-* Y coordinate of location of incident
-* Location (combination of latitude and longitude)
-* Year    
+* Year
 
 #### Arrest
 * Name of arrestee
