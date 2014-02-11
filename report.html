@@ -29,9 +29,6 @@
     {{ reporting.para10.value|markdown }}
   </div>
   <div class="col-md-4">
-    {{ reporting.sidebar_para1.value|markdown }}
-    {{ reporting.sidebar_para2.value|markdown }}
-    {{ reporting.sidebar_para3.value|markdown }}
     <table>
          <tr>
             <td>
@@ -128,6 +125,10 @@
             </td>
         </tr>
     </table>
+    <br><hr><br>
+    {{ reporting.sidebar_para1.value|markdown }}
+    {{ reporting.sidebar_para2.value|markdown }}
+    {{ reporting.sidebar_para3.value|markdown }}
   </div>
 </div>
 {% endblock content %}
