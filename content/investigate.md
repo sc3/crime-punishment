@@ -111,7 +111,7 @@ Nothing is definitely known to be collected at this stage.
 * Employer / School
 * Address
 * R.D. # if related
-* OCD – I #
+* OCD - I #
 * Hot Spot #
 * Event #
 * Veh. Yr.
@@ -147,4 +147,4 @@ Nothing is definitely known to be collected at this stage.
     > 3510 S. Michigan Ave.
     > Chicago, IL 60653  
     
-To access data from Chicago Police Department you need to file a request for data under Illinois’ Freedom of Information Act. You can file your request through any of the methods listed below. Please try to be reasonably specific for the data you are looking for so that they can more easily process your request.                                                                                        
+To access data from Chicago Police Department you need to file a request for data under Illinois' Freedom of Information Act. You can file your request through any of the methods listed below. Please try to be reasonably specific for the data you are looking for so that they can more easily process your request.                                                                                        
