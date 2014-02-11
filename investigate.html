@@ -12,26 +12,10 @@
 </div>
 <div class="content container">
   <div class="col-md-8">
-    {{ investigation.para1.value|markdown }}
-    {{ investigation.para2.value|markdown }}
-    {{ investigation.para3.value|markdown }}
-    {{ investigation.para4.value|markdown }}
-    {{ investigation.para5.value|markdown }}
-    {{ investigation.para6.value|markdown }}
-    {{ investigation.para7.value|markdown }}
-    {{ investigation.para8.value|markdown }}
-    {{ investigation.para9.value|markdown }}
-    {{ investigation.para10.value|markdown }}
-    {{ investigation.para11.value|markdown }}
-    {{ investigation.para12.value|markdown }}
-    {{ investigation.para13.value|markdown }}
-    {{ investigation.para14.value|markdown }}
-    {{ investigation.para15.value|markdown }}
-    {{ investigation.para16.value|markdown }}
+    {{ read_file("content/investigate.md") | markdown }}
   </div>
   <div class="col-md-4">
-    {{ investigation.sidebar_para1.value|markdown }}
-    {{ investigation.sidebar_para2.value|markdown }}
+    {{ read_file("content/investigate_rail.md") | markdown }}
     <table>
          <tr>
             <td>

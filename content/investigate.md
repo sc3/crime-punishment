@@ -1,7 +1,7 @@
 ## Chicago Police Department (CPD)
 
 #### Summary
-> Investigating crime can start from two places. First, police officers or from a victim of a crime. After an arrest, police officers and detectives have an important discretion; they can choose whether to file a misdemeanor or felony case with the Cook County Court. 
+Investigating crime can start from two places. First, police officers or from a victim of a crime. After an arrest, police officers and detectives have an important discretion; they can choose whether to file a misdemeanor or felony case with the Cook County Court.  
 
 ### Data Inventory
 
@@ -76,7 +76,7 @@
 * Description of ICUR type
 
 #### Charges
-Nothing is definitely known to be collected at this stage.
+Nothing is definitely known to be collected at this stage.  
 
 #### Contact Cards
 * Address of Contact
@@ -135,7 +135,8 @@ Nothing is definitely known to be collected at this stage.
 * Supervisor Approval Star #    
 
 ### How to Access the Data
-[FOIA Resource](https://portal.chicagopolice.org/portal/page/portal/ClearPath/About%20CPD/Freedom%20of%20Information%20Act%20%28FOIA%29)
+[FOIA Resource](https://portal.chicagopolice.org/portal/page/portal/ClearPath/About%20CPD/Freedom%20of%20Information%20Act%20%28FOIA%29)  
+
 
 #### Filing Methods
 * Email: foia@chicagopolice.org
@@ -144,6 +145,6 @@ Nothing is definitely known to be collected at this stage.
     > Attn: Freedom of Information Officer
     > Records Inquiry Section, Unit 163
     > 3510 S. Michigan Ave.
-    > Chicago, IL 60653
+    > Chicago, IL 60653  
     
-> To access data from Chicago Police Department you need to file a request for data under Illinois’ Freedom of Information Act. You can file your request through any of the methods listed below. Please try to be reasonably specific for the data you are looking for so that they can more easily process your request.                                                                                        
+To access data from Chicago Police Department you need to file a request for data under Illinois’ Freedom of Information Act. You can file your request through any of the methods listed below. Please try to be reasonably specific for the data you are looking for so that they can more easily process your request.                                                                                        

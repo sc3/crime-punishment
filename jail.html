@@ -12,17 +12,11 @@
 </div>
 <div class="content container">
   <div class="col-md-8">
-    {{ jail.para1.value|markdown }}
-    {{ jail.para2.value|markdown }}
-    {{ jail.para3.value|markdown }}
-    {{ jail.para4.value|markdown }}
-    {{ jail.para5.value|markdown }}
-    {{ jail.para6.value|markdown }}
+    {{ read_file("content/jail.md") | markdown }}
 
   </div>
   <div class="col-md-4">
-    {{ jail.sidebar_para1.value|markdown }}
-    {{ jail.sidebar_para2.value|markdown }}
+    {{ read_file("content/jail_rail.md") | markdown }}
     <table>
          <tr>
             <td>

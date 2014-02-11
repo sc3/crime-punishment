@@ -17,21 +17,10 @@
 </div>
 <div class="content container">
   <div class="col-md-8">
-    {{ reporting.para1.value|markdown }}
-    {{ reporting.para2.value|markdown }}
-    {{ reporting.para3.value|markdown }}
-    {{ reporting.para4.value|markdown }}
-    {{ reporting.para5.value|markdown }}
-    {{ reporting.para6.value|markdown }}
-    {{ reporting.para7.value|markdown }}
-    {{ reporting.para8.value|markdown }}
-    {{ reporting.para9.value|markdown }}
-    {{ reporting.para10.value|markdown }}
+    {{ read_file("content/report.md") | markdown }}
   </div>
   <div class="col-md-4">
-    {{ reporting.sidebar_para1.value|markdown }}
-    {{ reporting.sidebar_para2.value|markdown }}
-    {{ reporting.sidebar_para3.value|markdown }}
+    {{ read_file("content/report_rail.md") | markdown }}
     <table>
          <tr>
             <td>

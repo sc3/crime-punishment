@@ -12,16 +12,10 @@
 </div>
 <div class="content container">
   <div class="col-md-8">
-    {{ prosecution.para1.value|markdown }}
-    {{ prosecution.para2.value|markdown }}
-    {{ prosecution.para3.value|markdown }}
-    {{ prosecution.para4.value|markdown }}
-    {{ prosecution.para5.value|markdown }}
-    {{ prosecution.para6.value|markdown }}
+    {{ read_file("content/prosecute.md") | markdown }}
   </div>
   <div class="col-md-4">
-    {{ prosecution.sidebar_para1.value|markdown }}
-    {{ prosecution.sidebar_para2.value|markdown }}
+    {{ read_file("content/prosecute_rail.md") | markdown }}
     <table>
          <tr>
             <td>
