@@ -1,9 +1,9 @@
 {% extends "_cpd.html" %}
 
 {% block content %}
-<div id="investigation-landing" class="featured-image-wrapper">
-  <img class="featured-image" src={{ investigation.featured_image.value }}>
-  <h1>{{ investigation.headline.value|markdown }}</h1>
+<div id="investigate-landing" class="featured-image-wrapper">
+  <img class="featured-image" src={{ investigate.featured_image.value }}>
+  <h1>{{ investigate.headline.value|markdown }}</h1>
   <div class="scroll-injunction">
     <i class="fa fa-chevron-down"></i>
     Scroll To Read
@@ -112,9 +112,9 @@
         </tr>
     </table>
     <br><hr><br>
-    {{ investigation.sidebar_para1.value|markdown }}
-    {{ investigation.sidebar_para2.value|markdown }}
-    {{ investigation.sidebar_para3.value|markdown }}
+    {{ investigate.sidebar_para1.value|markdown }}
+    {{ investigate.sidebar_para2.value|markdown }}
+    {{ investigate.sidebar_para3.value|markdown }}
   </div>
 </div>
 {% endblock content %}
