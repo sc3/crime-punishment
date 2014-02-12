@@ -15,7 +15,6 @@
     {{ read_file("content/prosecute.md") | markdown }}
   </div>
   <div class="col-md-4">
-    {{ read_file("content/prosecute_rail.md") | markdown }}
     <table>
          <tr>
             <td>
@@ -112,6 +111,11 @@
             </td>
         </tr>
     </table>
+    <br><hr><br>
+    {{ prosecution.sidebar_para1.value|markdown }}
+    {{ prosecution.sidebar_para2.value|markdown }}
+    {{ prosecution.sidebar_para3.value|markdown }}
+    {{ prosecution.sidebar_para4.value|markdown }}
   </div>
 </div>
 {% endblock content %}

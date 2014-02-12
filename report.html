@@ -20,7 +20,6 @@
     {{ read_file("content/report.md") | markdown }}
   </div>
   <div class="col-md-4">
-    {{ read_file("content/report_rail.md") | markdown }}
     <table>
          <tr>
             <td>
@@ -117,6 +116,10 @@
             </td>
         </tr>
     </table>
+    <br><hr><br>
+    {{ reporting.sidebar_para1.value|markdown }}
+    {{ reporting.sidebar_para2.value|markdown }}
+    {{ reporting.sidebar_para3.value|markdown }}
   </div>
 </div>
 {% endblock content %}

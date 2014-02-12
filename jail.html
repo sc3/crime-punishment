@@ -16,7 +16,6 @@
 
   </div>
   <div class="col-md-4">
-    {{ read_file("content/jail_rail.md") | markdown }}
     <table>
          <tr>
             <td>
@@ -113,6 +112,11 @@
             </td>
         </tr>
     </table>
+    <br><hr><br>
+    {{ jail.sidebar_para1.value|markdown }}
+    {{ jail.sidebar_para2.value|markdown }}
+    {{ jail.sidebar_para3.value|markdown }}
+    {{ jail.sidebar_para4.value|markdown }}
   </div>
 </div>
 {% endblock content %}
