@@ -6,20 +6,21 @@ TK
 ### Data Inventory
 
 #### Calls for Police Service
-* Operator age
-* Operator gender
-* Operator race
-* Date of call
-* Time of call
-* Phone number of caller
-* Address / location for incident being reported
-* Address / location of caller
-* Event Type of incident (coded by OEMC)
-* Police district of call
-* Beat of call
-* If a report is written<span class="note"></span>
+* <span style="color:#b33">Operator name</span>
+* <span style="color:#b33">Operator age</span>
+* <span style="color:#b33">Operator gender</span>
+* <span style="color:#b33">Operator race</span>
+* <span style="color:gray">Date of call</span>
+* <span style="color:gray">Time of call</span>
+* <span style="color:#b33">Phone number of caller</span>
+* <span style="color:#b33">Address / location for incident being reported</span>
+* <span style="color:#b33">Address / location of caller</span>
+* <span style="color:gray">Event Type of incident (coded by OEMC)</span>
+* <span style="color:gray">Police district of call</span>
+* <span style="color:gray">Beat of call</span>
+* If a report is written
 * RD #
-* final coded clearance by the officer (this should tell OEMC if a report was written and for what crime type)
+* Final coded clearance by the officer (this should tell OEMC if a report was written and for what crime type)
 
 ### How to Access the Data
 [www.cityofchicago.org/city/en/depts/oem/dataset/foialog.html](http://www.cityofchicago.org/city/en/depts/oem/dataset/foialog.html)  
