@@ -6,9 +6,9 @@
 </div>
 
 {% block content %}
-<div id="reporting-landing" class="featured-image-wrapper">
-  <img class="featured-image" src={{ reporting.featured_image.value }}>
-  <h1>{{ reporting.headline.value|markdown }}</h1>
+<div id="report-landing" class="featured-image-wrapper">
+  <img class="featured-image" src={{ report.featured_image.value }}>
+  <h1>{{ report.headline.value|markdown }}</h1>
   <div class="scroll-injunction">
     <i class="fa fa-chevron-down"></i>
     Scroll To Read
@@ -118,9 +118,9 @@
         </tr>
     </table>
     <br><hr><br>
-    {{ reporting.sidebar_para1.value|markdown }}
-    {{ reporting.sidebar_para2.value|markdown }}
-    {{ reporting.sidebar_para3.value|markdown }}
+    {{ report.sidebar_para1.value|markdown }}
+    {{ report.sidebar_para2.value|markdown }}
+    {{ report.sidebar_para3.value|markdown }}
   </div>
 </div>
 {% endblock content %}

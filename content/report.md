@@ -24,7 +24,7 @@ TK
 ### How to Access the Data
 [www.cityofchicago.org/city/en/depts/oem/dataset/foialog.html](http://www.cityofchicago.org/city/en/depts/oem/dataset/foialog.html)  
 
-To access data from OEMC you need to file a request for data under Illinois’ Freedom of Information Act.  You can file your request through any of the methods listed below.  Please try to be reasonably specific for the data you are looking for so that they can more easily process your request.   
+To access data from OEMC you need to file a request for data under Illinois' Freedom of Information Act.  You can file your request through any of the methods listed below.  Please try to be reasonably specific for the data you are looking for so that they can more easily process your request.   
 
 ##### Filing Methods
 * Email: OEMCfoia@cityofchicago.org
