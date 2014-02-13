@@ -148,39 +148,44 @@ td {
     width: 100px;
     text-align: center;
 }
-.circle_lots
-    {
-        padding: 12px;
-        width: 1px;
-        border-radius: 100%;
-        margin-left: auto;
-        margin-right: auto;
-        width: 1%;
-        background: black;
-    }
+tr:not(:first-of-type) {
+    height: 50px;
+}
+.circle_lots {
+    padding: 16px;
+    width: 1px;
+    border-radius: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    width: 1%;
+}
 
-.circle_some
-    {
-        padding: 12px;
-        width: 1px;
-        border-radius: 100%;
-        margin-left: auto;
-        margin-right: auto;
-        width: 1%;
-        background: #989898;
-    }
+.circle_some {
+    padding: 12px;
+    width: 1px;
+    border-radius: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    width: 1%;
+}
 
-.circle_little
-    {
-        padding: 12px;
-        width: 1px;
-        border-radius: 100%;
-        margin-left: auto;
-        margin-right: auto;
-        width: 1%;
-        background: #b33;
-    }
-    
+.circle_little {
+    padding: 8px;
+    width: 1px;
+    border-radius: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    width: 1%;
+}
+
+#gray {
+    background: #989898;
+}
+
+#blue {
+    background: #b33;
+}
+
 
 /* Content */
 
