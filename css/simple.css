@@ -25,6 +25,19 @@ h1 {
   font-size: 4em;
 }
 
+.unavailable {
+  color: #b33;
+}
+
+.foiable {
+  color: gray;
+}
+
+.available {
+  color: black;
+}
+
+
 /* Overlays */
 
 .featured-image-wrapper h1 {

@@ -6,125 +6,125 @@ Investigating crime can start from two places. First, police officers or from a 
 ### Data Inventory
 
 #### Crime Incident
-* <span style="color:#b33">Name of complainant
-* <span style="color:gray">Exact Home address of complainant
-* <span style="color:gray">Race of complainant
-* <span style="color:gray">Age of complainant
-* <span style="color:gray">Gender of complainant (observed)
-* <span style="color:gray">Whether complainant was intoxicated
-* <span style="color:gray">Relationship between complainant & offender
-* <span style="color:gray">Weapon presence / type of weapon
-* <span style="color:gray">Complainant Injury
-* <span style="color:gray">Whether injured
-* <span style="color:gray">Injury Type
-* <span style="color:gray">Injury Description
-* <span style="color:gray">Number of Complainants involved in incident
-* <span style="color:gray">Number of Offenders involved in incident
-* <span style="color:gray">Whether a witness was present
-* <span style="color:#b33">Name of responding officer(s)
-* <span style="color:gray">Gender of responding officer(s)
-* <span style="color:gray">Age of responding officer(s)
-* <span style="color:gray">Race of responding officer(s)
-* <span style="color:#b33">Badge number of responding officer(s) 
-* <span style="color:gray">Assignment of responding officer(s)
-* <span style="color:#b33">Name of detective(s) assigned
-* <span style="color:gray">Gender of detective(s) assigned
-* <span style="color:gray">Age of detective(s) assigned
-* <span style="color:gray">Race of detective(s) assigned
-* <span style="color:#b33">Badge of detective(s) assigned
-* <span style="color:gray">Assignment of detective(s) assigned
-* Report Number (called RD #)
-* Date of incident
-* Address of incident (hundred block)
-* Illinois Uniform Crime Report Code
-* Primary Type
-* Description of Event
-* <span style="color:gray">Any additional crime types that were associated with incident that are of lesser seriousness on the UCR scale
-* <span style="color:gray">Description of any additional crime types that were associated with incident that are of lesser seriousness on the UCR scale
-* Location Description 
-* If an arrest was made
-* Whether or not the incident was domestic
-* Beat of occurrence
-* District of occurrence
-* Ward of occurrence
-* Community area of occurrence
-* FBI Code
-* X coordinates of location of incident
-* Y coordinates of location of incident
-* Year
-* Latitude of location of incident
-* Longitude of location of incident
-* Location (combination of latitude and longitude)
-* <span style="color:#b33">Relationship between the offender & the victim
+* <span class="unavailable">Name of complainant
+* <span class="foiable">Exact Home address of complainant
+* <span class="foiable">Race of complainant
+* <span class="foiable">Age of complainant
+* <span class="foiable">Gender of complainant (observed)
+* <span class="foiable">Whether complainant was intoxicated
+* <span class="foiable">Relationship between complainant & offender
+* <span class="foiable">Weapon presence / type of weapon
+* <span class="foiable">Complainant Injury
+* <span class="foiable">Whether injured
+* <span class="foiable">Injury Type
+* <span class="foiable">Injury Description
+* <span class="foiable">Number of Complainants involved in incident
+* <span class="foiable">Number of Offenders involved in incident
+* <span class="foiable">Whether a witness was present
+* <span class="unavailable">Name of responding officer(s)
+* <span class="foiable">Gender of responding officer(s)
+* <span class="foiable">Age of responding officer(s)
+* <span class="foiable">Race of responding officer(s)
+* <span class="unavailable">Badge number of responding officer(s) 
+* <span class="foiable">Assignment of responding officer(s)
+* <span class="unavailable">Name of detective(s) assigned
+* <span class="foiable">Gender of detective(s) assigned
+* <span class="foiable">Age of detective(s) assigned
+* <span class="foiable">Race of detective(s) assigned
+* <span class="unavailable">Badge of detective(s) assigned
+* <span class="foiable">Assignment of detective(s) assigned
+* <span class="available">Report Number (called RD #)
+* <span class="available">Date of incident
+* <span class="available">Address of incident (hundred block)
+* <span class="available">Illinois Uniform Crime Report Code
+* <span class="available">Primary Type
+* <span class="available">Description of Event
+* <span class="foiable">Any additional crime types that were associated with incident that are of lesser seriousness on the UCR scale
+* <span class="foiable">Description of any additional crime types that were associated with incident that are of lesser seriousness on the UCR scale
+* <span class="available">Location Description 
+* <span class="available">If an arrest was made
+* <span class="available">Whether or not the incident was domestic
+* <span class="available">Beat of occurrence
+* <span class="available">District of occurrence
+* <span class="available">Ward of occurrence
+* <span class="available">Community area of occurrence
+* <span class="available">FBI Code
+* <span class="available">X coordinates of location of incident
+* <span class="available">Y coordinates of location of incident
+* <span class="available">Year
+* <span class="available">Latitude of location of incident
+* <span class="available">Longitude of location of incident
+* <span class="available">Location (combination of latitude and longitude)
+* <span class="unavailable">Relationship between the offender & the victim
 
 #### Arrest
-* <span style="color:gray">Name of arrestee
-* <span style="color:#b33">Home address of arrestee
-* <span style="color:gray">Race of arrestee
-* <span style="color:gray">Age of arrestee
-* <span style="color:gray">Gender of arrestee (observed)
-* <span style="color:gray">Ethnicity of arrestee
-* <span style="color:gray">IUCR of crime type
-* <span style="color:gray">Description of ICUR type
+* <span class="foiable">Name of arrestee
+* <span class="unavailable">Home address of arrestee
+* <span class="foiable">Race of arrestee
+* <span class="foiable">Age of arrestee
+* <span class="foiable">Gender of arrestee (observed)
+* <span class="foiable">Ethnicity of arrestee
+* <span class="foiable">IUCR of crime type
+* <span class="foiable">Description of ICUR type
 
 #### Charges
 Nothing is definitely known to be collected at this stage.  
 
 #### Contact Cards
-* <span style="color:gray">Address of Contact
-* <span style="color:gray">Data / Time of Contact
-* <span style="color:gray">Submitting Bear
-* <span style="color:gray">Related Card #s: (to identify associates)
-* <span style="color:gray">Type of Contact: Traffic, Crime Victim, Suspicious Person, Gang / Narc Related 
-* <span style="color:gray">R.O.U.G.E.S
-* <span style="color:gray">Offender, other
-* <span style="color:#b33">Name of person being stopped
-* <span style="color:#b33">Nickname
-* <span style="color:#b33">Address of Residence
-* <span style="color:#b33">Apt/Floor
-* <span style="color:gray">City, State, Zip
-* <span style="color:gray">Date of Birth
-* <span style="color:gray">Sex
-* <span style="color:gray">Race
-* <span style="color:gray">Height
-* <span style="color:gray">Weight
-* <span style="color:gray">Eyes
-* <span style="color:gray">Hair
-* <span style="color:gray">Hairstyle
-* <span style="color:gray">Complexion
-* <span style="color:gray">Scars/Marks/Tattoo
-* <span style="color:#b33">Phone #
-* <span style="color:gray">Clothing Type / Color
-* <span style="color:#b33">Cell phone #
-* <span style="color:#b33">Drivers LIC #
-* <span style="color:#b33">Social Security #
-* <span style="color:#b33">Other I.D. Type or means
-* <span style="color:gray">Name verified by I.D.
-* <span style="color:#b33">Employer / School
-* <span style="color:gray">Address
-* <span style="color:gray">R.D. # if related
-* <span style="color:gray">OCD - I #
-* <span style="color:gray">Hot Spot #
-* <span style="color:gray">Event #
-* <span style="color:gray">Vehicle Year
-* <span style="color:gray">Make
-* <span style="color:gray">Model
-* <span style="color:gray">Body Style
-* <span style="color:gray">Color
-* <span style="color:#b33">License Plate
-* <span style="color:#b33">V.I.N. #
-* <span style="color:gray">Describe Reason for Contact
-* <span style="color:gray">Possible involved gang
-* <span style="color:gray">Gangs Known Hangouts
-* <span style="color:gray">Types of Gang Related Criminal Activities
-* <span style="color:gray">Gang Lookout
-* <span style="color:gray">Gang security
-* <span style="color:gray">Intimidation
-* <span style="color:gray">Suspected Narcotic Activity
-* <span style="color:gray">Other Described Above
-* <span style="color:gray">Preparing Officer Name & Star #
-* <span style="color:gray">Preparing Officer Name & Star #
-* <span style="color:gray">Supervisor Approval Star #    
+* <span class="foiable">Address of Contact
+* <span class="foiable">Data / Time of Contact
+* <span class="foiable">Submitting Bear
+* <span class="foiable">Related Card #s: (to identify associates)
+* <span class="foiable">Type of Contact: Traffic, Crime Victim, Suspicious Person, Gang / Narc Related 
+* <span class="foiable">R.O.U.G.E.S
+* <span class="foiable">Offender, other
+* <span class="unavailable">Name of person being stopped
+* <span class="unavailable">Nickname
+* <span class="unavailable">Address of Residence
+* <span class="unavailable">Apt/Floor
+* <span class="foiable">City, State, Zip
+* <span class="foiable">Date of Birth
+* <span class="foiable">Sex
+* <span class="foiable">Race
+* <span class="foiable">Height
+* <span class="foiable">Weight
+* <span class="foiable">Eyes
+* <span class="foiable">Hair
+* <span class="foiable">Hairstyle
+* <span class="foiable">Complexion
+* <span class="foiable">Scars/Marks/Tattoo
+* <span class="unavailable">Phone #
+* <span class="foiable">Clothing Type / Color
+* <span class="unavailable">Cell phone #
+* <span class="unavailable">Drivers LIC #
+* <span class="unavailable">Social Security #
+* <span class="unavailable">Other I.D. Type or means
+* <span class="foiable">Name verified by I.D.
+* <span class="unavailable">Employer / School
+* <span class="foiable">Address
+* <span class="foiable">R.D. # if related
+* <span class="foiable">OCD - I #
+* <span class="foiable">Hot Spot #
+* <span class="foiable">Event #
+* <span class="foiable">Vehicle Year
+* <span class="foiable">Make
+* <span class="foiable">Model
+* <span class="foiable">Body Style
+* <span class="foiable">Color
+* <span class="unavailable">License Plate
+* <span class="unavailable">V.I.N. #
+* <span class="foiable">Describe Reason for Contact
+* <span class="foiable">Possible involved gang
+* <span class="foiable">Gangs Known Hangouts
+* <span class="foiable">Types of Gang Related Criminal Activities
+* <span class="foiable">Gang Lookout
+* <span class="foiable">Gang security
+* <span class="foiable">Intimidation
+* <span class="foiable">Suspected Narcotic Activity
+* <span class="foiable">Other Described Above
+* <span class="foiable">Preparing Officer Name & Star #
+* <span class="foiable">Preparing Officer Name & Star #
+* <span class="foiable">Supervisor Approval Star #    
 
 ### How to Access the Data
 [FOIA Resource](https://portal.chicagopolice.org/portal/page/portal/ClearPath/About%20CPD/Freedom%20of%20Information%20Act%20%28FOIA%29)  
