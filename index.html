@@ -1,8 +1,9 @@
 {% extends "_cpd.html" %}
+{% set home = 0 %}
 
 {% block content %}
 <div id="call-landing" class="featured-image-wrapper">
-  <img class="featured-image" src={{ home.featured_image.value }}>
-  <h1>{{ home.headline.value|markdown }}</h1>
+  <img class="featured-image" src={{ stages[home].featured_image }}>
+  <h1>{{ stages[home].headline|markdown }}</h1>
 </div>
 {% endblock content %}
