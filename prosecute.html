@@ -1,9 +1,10 @@
 {% extends "_cpd.html" %}
+{% set prosecute = 3 %}
 
 {% block content %}
 <div id="prosecute-landing" class="featured-image-wrapper">
  <div id="black-hole"></div>
-  <h1>{{ prosecute.headline.value|markdown }}</h1>
+  <h1>{{ stages[prosecute].headline|markdown }}</h1>
   <div class="scroll-injunction">
     <i class="fa fa-chevron-down"></i>
     Scroll To Read
@@ -12,7 +13,7 @@
 </div>
 <div class="content container">
   <div class="col-md-8">
-    {{ read_file("content/prosecute.md") | markdown }}
+    {{ read_file("content/prosecute.md")|markdown }}
   </div>
   <div class="col-md-4">
     <table>
@@ -111,11 +112,11 @@
             </td>
         </tr>
     </table>
+
     <br><hr><br>
-    {{ prosecute.sidebar_para1.value|markdown }}
-    {{ prosecute.sidebar_para2.value|markdown }}
-    {{ prosecute.sidebar_para3.value|markdown }}
-    {{ prosecute.sidebar_para4.value|markdown }}
+
+    {{ read_file("content/prosecute_rail.md")|markdown }}
+
   </div>
 </div>
 {% endblock content %}

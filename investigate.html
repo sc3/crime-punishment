@@ -1,9 +1,10 @@
 {% extends "_cpd.html" %}
+{% set investigate = 2 %}
 
 {% block content %}
 <div id="investigate-landing" class="featured-image-wrapper">
-  <img class="featured-image" src={{ investigate.featured_image.value }}>
-  <h1>{{ investigate.headline.value|markdown }}</h1>
+  <img class="featured-image" src={{ stages[investigate].featured_image }}>
+  <h1>{{ stages[investigate].headline|markdown }}</h1>
   <div class="scroll-injunction">
     <i class="fa fa-chevron-down"></i>
     Scroll To Read
@@ -12,10 +13,9 @@
 </div>
 <div class="content container">
   <div class="col-md-8">
-    {{ read_file("content/investigate.md") | markdown }}
+    {{ read_file("content/investigate.md")|markdown }}
   </div>
   <div class="col-md-4">
-      {{ read_file("content/report_rail.md") | markdown }}
     <table>
          <tr>
             <td>
@@ -112,10 +112,11 @@
             </td>
         </tr>
     </table>
+
     <br><hr><br>
-    {{ investigate.sidebar_para1.value|markdown }}
-    {{ investigate.sidebar_para2.value|markdown }}
-    {{ investigate.sidebar_para3.value|markdown }}
+
+    {{ read_file("content/investigate_rail.md") | markdown }}
+
   </div>
 </div>
 {% endblock content %}

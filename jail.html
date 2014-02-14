@@ -1,9 +1,10 @@
 {% extends "_cpd.html" %}
+{% set jail = 4 %}
 
 {% block content %}
 <div id="jail-landing" class="featured-image-wrapper">
-  <img class="featured-image" src={{ jail.featured_image.value }}>
-  <h1>{{ jail.headline.value|markdown }}</h1>
+  <img class="featured-image" src={{ stages[jail].featured_image }}>
+  <h1>{{ stages[jail].headline|markdown }}</h1>
   <div class="scroll-injunction">
     <i class="fa fa-chevron-down"></i>
     Scroll To Read
@@ -15,7 +16,6 @@
     {{ read_file("content/jail.md") | markdown }}
   </div>
   <div class="col-md-4">
-    {{ read_file("content/report_rail.md") | markdown }}
     <table>
          <tr>
             <td>
@@ -112,11 +112,11 @@
             </td>
         </tr>
     </table>
+    
     <br><hr><br>
-    {{ jail.sidebar_para1.value|markdown }}
-    {{ jail.sidebar_para2.value|markdown }}
-    {{ jail.sidebar_para3.value|markdown }}
-    {{ jail.sidebar_para4.value|markdown }}
+
+    {{ read_file("content/jail_rail.md") | markdown }}
+
   </div>
 </div>
 {% endblock content %}
