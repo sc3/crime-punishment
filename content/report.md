@@ -1,11 +1,16 @@
-## Office of Emergency Management & Communications (OEMC)
+## Calls for Service
 
 ### Summary
-TK
+
+In Chicago, all Calls for Service data is controlled by the [http://www.cityofchicago.org/city/en/depts/oem.html](Office of Emergency Management & Communications) (OEMC). [http://www.cityofchicago.org/content/dam/city/depts/oemc/general/img/orgchart.htm](Dispatch operations)-- the reception of 911 calls for service and the dispatch of police to respond to calls-- is managed by OEMC.
+
+The City of Chicago releases no Calls for Service data in bulk format. 
+
+There are many muncipalities that publish live or near-live listing of dispatch records for police. There are a number of common elements, including date/time, a unique ID, an address (with a level of specifity going from the block level to the exact address), and a call type. There is often a field for current status or ultimate disposition of the call, including perhaps the source of the call (for instance, whether it was phoned in or if was police-initiated. Often they indicate a geographic area for the call (district, beat, etc.)
 
 ### Data Inventory
 
-#### Calls for Police Service
+#### Calls for Service
 * <span style="color:#b33">Operator name</span>
 * <span style="color:#b33">Operator age</span>
 * <span style="color:#b33">Operator gender</span>
@@ -22,15 +27,5 @@ TK
 * RD #
 * Final coded clearance by the officer (this should tell OEMC if a report was written and for what crime type)
 
-### How to Access the Data
-[www.cityofchicago.org/city/en/depts/oem/dataset/foialog.html](http://www.cityofchicago.org/city/en/depts/oem/dataset/foialog.html)  
-
-To access data from OEMC you need to file a request for data under Illinois' Freedom of Information Act.  You can file your request through any of the methods listed below.  Please try to be reasonably specific for the data you are looking for so that they can more easily process your request.   
-
-##### Filing Methods
-* Email: OEMCfoia@cityofchicago.org
-* Fax: (312) 746-9120
-* Mail: 
-    > Office of Emergency Management and Communications
-    > 1411 W. Madison St.
-    > Chicago, IL 60607
+### How to Access Calls for Service Data in Chicago 
+Currently, the only way to obtain Calls for Service data in Chicago is to file a [www.cityofchicago.org/city/en/depts/oem/dataset/foialog.html](http://www.cityofchicago.org/city/en/depts/oem/dataset/foialog.html). Please try to be reasonably specific for the data you are looking for so that they can more easily process your request.   
