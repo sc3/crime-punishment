@@ -30,7 +30,7 @@ Note: When it asks you, you should set up Google Spreadsheets, but we can laeve 
 
 Clone the repo:  
 
-    git clone git@github.com:bepetersn/chicago-justice.git
+    git clone git@github.com:sc3/chicago-justice.git
 
 Do some setup and launch the Tarbell preview server:  
 
