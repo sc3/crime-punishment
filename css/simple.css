@@ -161,44 +161,44 @@ td {
     width: 100px;
     text-align: center;
 }
-tr:not(:first-of-type) {
-    height: 50px;
+
+.chart td, .chart th {
+  height: 50px;
+  text-align: center;
+  font-weight: normal;
 }
-.circle_lots {
-    padding: 16px;
-    width: 1px;
-    border-radius: 100%;
+
+.chart_circle {
+    width: 1%; 
     margin-left: auto;
     margin-right: auto;
-    width: 1%;
+    border-radius: 100%;
+    background-color: #989898;
+}
+
+.circle_lots {
+    padding: 16px;
 }
 
 .circle_some {
     padding: 12px;
-    width: 1px;
-    border-radius: 100%;
-    margin-left: auto;
-    margin-right: auto;
-    width: 1%;
 }
 
 .circle_little {
     padding: 8px;
-    width: 1px;
-    border-radius: 100%;
-    margin-left: auto;
-    margin-right: auto;
-    width: 1%;
 }
 
-#gray {
-    background: #989898;
+tr.highlighted {
+    background-color: #F0F0F0;
 }
 
-#blue {
-    background: #b33;
+tr.highlighted div.chart_circle {
+    background-color: #b33;
 }
 
+div.circle_none {
+    background-color: none;
+}
 
 /* Content */
 
