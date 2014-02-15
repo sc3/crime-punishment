@@ -44,4 +44,4 @@ You should be able to view the results in a browser at `localhost:5000`.
 ### Priorities
 
 
-Currently, priorities for development are issue [#49](https://github.com/sc3/chicago-justice/issues/49) and [#61](https://github.com/sc3/chicago-justice/issues/61), and after that all the changes which add new tabs to the site.
+Currently, priorities for development are listed [here](https://github.com/sc3/chicago-justice/issues?labels=priority&page=1&state=open).
