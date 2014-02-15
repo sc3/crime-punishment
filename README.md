@@ -12,7 +12,7 @@ You can see the current version of the website this repo backs here: http://chic
 
 
 
-## Local Development
+## Development
 
 In order to get started developing this project, these are the steps you should follow.
 
@@ -39,3 +39,8 @@ Do some setup and launch the Tarbell preview server:
     tarbell serve  
 
 You should be able to view the results in a browser at `localhost:5000`.
+
+
+### Priorities
+
+Currently, priorities for development are issue #49 and #61, and after that all the changes which add new tabs to the site.
