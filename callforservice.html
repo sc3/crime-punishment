@@ -1,15 +1,15 @@
 {% extends "_cpd.html" %}
-{% set court = 7 %}
+{% set callforservice = 2 %}
 
 <div class="side">
-  <a id="prev" class="btn btn-default" href="/jail.html">Previous Stage</a>
-  <a id="next" class="btn btn-primary" href="/">Back to Landing Page</a>
+  <a id="prev" class="btn btn-default" href="/victimization.html">Previous Stage</a>
+  <a id="next" class="btn btn-primary" href="/incidents.html">Next Stage</a>
 </div>
 
 {% block content %}
-<div id="court-landing" class="featured-image-wrapper">
-  <img class="featured-image" src={{ stages[court].featured_image }}>
-  <h1>{{ stages[court].headline|markdown }}</h1>
+<div id="callforservice-landing" class="featured-image-wrapper">
+  <img class="featured-image" src={{  stages[callforservice].featured_image }}>
+  <h1>{{ stages[callforservice].headline|markdown }}</h1>
   <div class="scroll-injunction">
     <i class="fa fa-chevron-down"></i>
     Scroll To Read
@@ -18,10 +18,10 @@
 </div>
 <div class="content container">
   <div class="col-md-8">
-    {{ read_file("content/court.md") | markdown }}
+    {{ read_file("content/callforservice.md") | markdown }}
   </div>
   <div class="col-md-4">
-      <table>
+    <table>
          <tr>
             <td>
             </td>
@@ -35,20 +35,20 @@
                 <p>Unavailable</p>
             </td>    
         </tr>
-        <tr>
+        <tr bgcolor="F0F0F0">
             <td>
                 <p>Call For Service</p>
             </td>
             <td>
-                <div class="circle_some" id="gray">
+                <div class="circle_some" id="red">
                 </div>
             </td>
             <td>
-                <div class="circle_lots" id="gray">
+                <div class="circle_lots" id="red">
                 </div>
             </td>
             <td>
-                <div class="circle_little" id="gray">
+                <div class="circle_little" id="red">
                 </div>
             </td>
         </tr>
@@ -101,27 +101,26 @@
                 </div>
             </td>
         </tr>
-            <tr bgcolor="F0F0F0">
+            <tr>
             <td>
                 <p>Court</p>
             </td>
             <td>
-                <div class="circle_little" id="red">
+                <div class="circle_little" id="gray">
                 </div>
             </td>
             <td>
             </td>
             <td>
-                <div class="circle_lots" id="red">
+                <div class="circle_lots" id="gray">
                 </div>
             </td>
         </tr>
     </table>
 
     <br><hr><br>
-
-    {{ read_file("content/court_rail.md") | markdown }}
-
+    
+    {{ read_file("content/callforservice_rail.md")|markdown }}
   </div>
 </div>
 {% endblock content %}

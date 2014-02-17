@@ -87,6 +87,15 @@ h1 {
   background-color: rgba(20, 20, 20, 0.92);
 }
 
+div.navbar-header {
+    font-size: 18px !important;
+    font-family: "Baskerville", sans-serif !important;
+}
+
+ul.sections.nav.navbar-nav {
+    font-size: 12px !important;
+}
+
 .navbar-default {
   border: none;
 }

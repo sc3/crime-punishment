@@ -1,5 +1,10 @@
 {% extends "_cpd.html" %}
-{% set jail = 4 %}
+{% set jail = 6 %}
+
+<div class="side">
+  <a id="prev" class="btn btn-default" href="/prosecute.html">Previous Stage</a>
+  <a id="next" class="btn btn-primary" href="/court.html">Next Stage</a>
+</div>
 
 {% block content %}
 <div id="jail-landing" class="featured-image-wrapper">
@@ -32,7 +37,7 @@
         </tr>
         <tr>
             <td>
-                <p>Report</p>
+                <p>Call For Service</p>
             </td>
             <td>
                 <div class="circle_some" id="gray">
@@ -49,7 +54,7 @@
         </tr>
             <tr>
             <td>
-                <p>Investigate</p>
+                <p>Incidents</p>
             </td>
             <td>
                 <div class="circle_lots" id="gray">

@@ -1,10 +1,10 @@
 {% extends "_cpd.html" %}
-{% set home = 0 %}
+{% set index = 0 %}
 
 {% block content %}
 <div id="call-landing" class="featured-image-wrapper">
-  <img class="featured-image" src={{ stages[home].featured_image }}>
-  <h1>{{ stages[home].headline|markdown }}</h1>
+  <img class="featured-image" src={{ stages[index].featured_image }}>
+  <h1>{{ stages[index].headline|markdown }}</h1>
   <div class="scroll-injunction">
       <i class="fa fa-chevron-down"></i>
       Scroll To Read
@@ -34,7 +34,7 @@
           </tr>
           <tr>
               <td>
-                  <p>Report</p>
+                  <p>Call For Service</p>
               </td>
               <td>
                   <div class="circle_some" id="red">
@@ -51,7 +51,7 @@
           </tr>
               <tr>
               <td>
-                  <p>Investigate</p>
+                  <p>Incidents</p>
               </td>
               <td>
                   <div class="circle_lots" id="red">
