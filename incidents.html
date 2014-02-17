@@ -1,5 +1,10 @@
 {% extends "_cpd.html" %}
-{% set incidents = 2 %}
+{% set incidents = 3 %}
+
+<div class="side">
+  <a id="prev" class="btn btn-default" href="/callforservice.html">Previous Stage</a>
+  <a id="next" class="btn btn-primary" href="/arrest.html">Next Stage</a>
+</div>
 
 {% block content %}
 <div id="incidents-landing" class="featured-image-wrapper">
