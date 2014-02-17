@@ -1,0 +1,60 @@
+
+{% macro chart_row(name, circle_1, circle_2, circle_3, hightlighted) -%}
+
+    <tr class="{% if name ==  hightlighted or name|lower == hightlighted %} highlighted {% endif %}">
+        <td>
+            <p>{{ name }}</p>
+        </td>
+        <td>
+            <div class="chart_circle {{ circle_1 }}">
+            </div>
+        </td>
+        <td>
+            <div class="chart_circle {{ circle_2 }}">
+            </div>
+        </td>
+        <td>
+            <div class="chart_circle {{ circle_3 }}">
+            </div>
+        </td>
+    </tr>
+
+{%- endmacro %}
+
+{% macro chart(highlight_row) -%}
+<table class="chart">
+    <thead>
+        <tr>
+            <th>
+            </th>
+            <th>
+                <p>Open</p>
+            </th>
+            <th>
+                <p>FOIA</p>
+            </th>
+            <th>
+                <p>Unavailable</p>
+            </th>    
+        </tr>
+    </thead>
+    <tbody>
+
+        {{ chart_row('Report', 'circle_some', 'circle_lots', 'circle_little', highlight_row) }}
+
+        {{ chart_row('Investigate', 'circle_lots', 'circle_some', 'circle_little', highlight_row) }}
+
+        {{ chart_row('Prosecute', 'circle_none', 'circle_little', 'circle_lots', highlight_row) }}
+
+        {{ chart_row('Jail', 'circle_little', 'circle_lots', 'circle_little', highlight_row) }}
+
+        {{ chart_row('Court', 'circle_little', 'circle_none', 'circle_lots', highlight_row) }}
+
+        
+
+    </tbody>
+
+</table>
+<br><hr><br>
+
+{%- endmacro %}
