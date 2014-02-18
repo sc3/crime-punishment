@@ -18,8 +18,8 @@ No information is available from the prosecutor's office about the data they rou
 * Mail: 
     > Mr. Paul Castiglione 
     > Freedom of Information Act Officer
-    > Cook County State’s Attorney’s Office
+    > Cook County State's Attorney's Office
     > 69 West Washington St., Suite 3200
     > Chicago, Illinois 60602
     
-To access data from Cook County State’s Attorney’s Office you need to file a request for data under Illinois’ Freedom of Information Act.  You can file your request through any of the methods listed below.  Please try to be reasonably specific for the data you are looking for so that they can more easily process your request.   
+To access data from Cook County State's Attorney's Office you need to file a request for data under Illinois' Freedom of Information Act.  You can file your request through any of the methods listed below.  Please try to be reasonably specific for the data you are looking for so that they can more easily process your request.   
