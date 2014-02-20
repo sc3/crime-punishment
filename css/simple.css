@@ -26,11 +26,11 @@ h1 {
 }
 
 .unavailable {
-  color: #b33;
+  color: black;
 }
 
 .foiable {
-  color: gray;
+  color: black;
 }
 
 .available {

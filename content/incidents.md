@@ -6,41 +6,13 @@ Investigating crime can start from two places. First, police officers or from a 
 ### Data Inventory
 
 #### Crime Incident
-* <span class="unavailable">        Name of complainant
-* <span class="foiable">            Exact Home address of complainant
-* <span class="foiable">            Race of complainant
-* <span class="foiable">            Age of complainant
-* <span class="foiable">            Gender of complainant (observed)
-* <span class="foiable">            Whether complainant was intoxicated
-* <span class="foiable">            Relationship between complainant & offender
-* <span class="foiable">            Weapon presence / type of weapon
-* <span class="foiable">            Complainant Injury
-* <span class="foiable">            Whether injured
-* <span class="foiable">            Injury Type
-* <span class="foiable">            Injury Description
-* <span class="foiable">            Number of Complainants involved in incident
-* <span class="foiable">            Number of Offenders involved in incident
-* <span class="foiable">            Whether a witness was present
-* <span class="unavailable">        Name of responding officer(s)
-* <span class="foiable">            Gender of responding officer(s)
-* <span class="foiable">            Age of responding officer(s)
-* <span class="foiable">            Race of responding officer(s)
-* <span class="unavailable">        Badge number of responding officer(s) 
-* <span class="foiable">            Assignment of responding officer(s)
-* <span class="unavailable">        Name of detective(s) assigned
-* <span class="foiable">            Gender of detective(s) assigned
-* <span class="foiable">            Age of detective(s) assigned
-* <span class="foiable">            Race of detective(s) assigned
-* <span class="unavailable">        Badge of detective(s) assigned
-* <span class="foiable">            Assignment of detective(s) assigned
+###### Open Data
 * <span class="available">          Report Number (called RD #)
 * <span class="available">          Date of incident
 * <span class="available">          Address of incident (hundred block)
 * <span class="available">          Illinois Uniform Crime Report Code
 * <span class="available">          Primary Type
 * <span class="available">          Description of Event
-* <span class="foiable">            Any additional crime types of lesser seriousness
-* <span class="foiable">            Description of such additional crime types
 * <span class="available">          Location Description 
 * <span class="available">          If an arrest was made
 * <span class="available">          Whether or not the incident was domestic
@@ -55,22 +27,43 @@ Investigating crime can start from two places. First, police officers or from a 
 * <span class="available">          Latitude of location of incident
 * <span class="available">          Longitude of location of incident
 * <span class="available">          Location (combination of latitude and longitude)
+
+###### FOIA Data
+* <span class="foiable">            Exact Home address of complainant
+* <span class="foiable">            Race of complainant
+* <span class="foiable">            Age of complainant
+* <span class="foiable">            Gender of complainant (observed)
+* <span class="foiable">            Whether complainant was intoxicated
+* <span class="foiable">            Relationship between complainant & offender
+* <span class="foiable">            Weapon presence / type of weapon
+* <span class="foiable">            Complainant Injury
+* <span class="foiable">            Whether injured
+* <span class="foiable">            Injury Type
+* <span class="foiable">            Injury Description
+* <span class="foiable">            Number of Complainants involved in incident
+* <span class="foiable">            Number of Offenders involved in incident
+* <span class="foiable">            Whether a witness was present
+* <span class="foiable">            Gender of responding officer(s)
+* <span class="foiable">            Age of responding officer(s)
+* <span class="foiable">            Race of responding officer(s)
+* <span class="foiable">            Assignment of responding officer(s)
+* <span class="foiable">            Gender of detective(s) assigned
+* <span class="foiable">            Age of detective(s) assigned
+* <span class="foiable">            Race of detective(s) assigned
+* <span class="foiable">            Assignment of detective(s) assigned
+* <span class="foiable">            Any additional crime types of lesser seriousness
+* <span class="foiable">            Description of such additional crime types
+    
+###### Unavailable Data
+* <span class="unavailable">        Name of complainant
+* <span class="unavailable">        Name of responding officer(s)
+* <span class="unavailable">        Badge number of responding officer(s) 
+* <span class="unavailable">        Name of detective(s) assigned
+* <span class="unavailable">        Badge of detective(s) assigned
 * <span class="unavailable">        Relationship between the offender & the victim
 
-#### Arrest
-* <span class="foiable">            Name of arrestee
-* <span class="unavailable">        Home address of arrestee
-* <span class="foiable">            Race of arrestee
-* <span class="foiable">            Age of arrestee
-* <span class="foiable">            Gender of arrestee (observed)
-* <span class="foiable">            Ethnicity of arrestee
-* <span class="foiable">            IUCR of crime type
-* <span class="foiable">            Description of ICUR type
-
-#### Charges
-Nothing is definitely known to be collected at this stage.  
-
 #### Contact Cards
+###### FOIA Data
 * <span class="foiable">            Address of Contact
 * <span class="foiable">            Data / Time of Contact
 * <span class="foiable">            Submitting Bear
@@ -78,10 +71,6 @@ Nothing is definitely known to be collected at this stage.
 * <span class="foiable">            Type of Contact: Traffic, Crime Victim, Suspicious Person, Gang / Narc Related 
 * <span class="foiable">            R.O.U.G.E.S
 * <span class="foiable">            Offender, other
-* <span class="unavailable">        Name of person being stopped
-* <span class="unavailable">        Nickname
-* <span class="unavailable">        Address of Residence
-* <span class="unavailable">        Apt/Floor
 * <span class="foiable">            City, State, Zip
 * <span class="foiable">            Date of Birth
 * <span class="foiable">            Sex
@@ -93,14 +82,8 @@ Nothing is definitely known to be collected at this stage.
 * <span class="foiable">            Hairstyle
 * <span class="foiable">            Complexion
 * <span class="foiable">            Scars/Marks/Tattoo
-* <span class="unavailable">        Phone #
 * <span class="foiable">            Clothing Type / Color
-* <span class="unavailable">        Cell phone #
-* <span class="unavailable">        Drivers LIC #
-* <span class="unavailable">        Social Security #
-* <span class="unavailable">        Other I.D. Type or means
 * <span class="foiable">            Name verified by I.D.
-* <span class="unavailable">        Employer / School
 * <span class="foiable">            Address
 * <span class="foiable">            R.D. # if related
 * <span class="foiable">            OCD - I #
@@ -111,8 +94,6 @@ Nothing is definitely known to be collected at this stage.
 * <span class="foiable">            Model
 * <span class="foiable">            Body Style
 * <span class="foiable">            Color
-* <span class="unavailable">        License Plate
-* <span class="unavailable">        V.I.N. #
 * <span class="foiable">            Describe Reason for Contact
 * <span class="foiable">            Possible involved gang
 * <span class="foiable">            Gangs Known Hangouts
@@ -126,6 +107,21 @@ Nothing is definitely known to be collected at this stage.
 * <span class="foiable">            reparing Officer Name & Star #
 * <span class="foiable">            Supervisor Approval Star #    
 
+###### Unavailable Data    
+* <span class="unavailable">        Name of person being stopped
+* <span class="unavailable">        Nickname
+* <span class="unavailable">        Address of Residence
+* <span class="unavailable">        Apt/Floor
+* <span class="unavailable">        Phone #
+* <span class="unavailable">        Cell phone #
+* <span class="unavailable">        Drivers LIC #
+* <span class="unavailable">        Social Security #
+* <span class="unavailable">        Other I.D. Type or means
+* <span class="unavailable">        Employer / School
+* <span class="unavailable">        License Plate
+* <span class="unavailable">        V.I.N. #
+            
+            
 ### How to Access the Data
 [FOIA Resource](https://portal.chicagopolice.org/portal/page/portal/ClearPath/About%20CPD/Freedom%20of%20Information%20Act%20%28FOIA%29)  
 
