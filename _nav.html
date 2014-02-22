@@ -15,7 +15,7 @@
     <div class="collapse navbar-collapse navbar-ex1-collapse">
       <ul class="sections nav navbar-nav">
         {% for item in nav %}
-        <li><a href="{{ item.path }}" class="{% if PATH == item.path %}active{% endif %}"><span class="circle">{{ loop.index }}</span> {{ item.title }}</a></li>
+        <li><a href="{{ item.path }}" class="{% if PATH == item.path %}active{% endif %}">{{ item.title }}</a></li>
         {% endfor %}
       </ul>
       <ul class="social-menu nav navbar-nav navbar-right">
