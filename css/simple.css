@@ -40,6 +40,10 @@ h1 {
 
 /* Overlays */
 
+.featured-image-wrapper {
+  position: relative;
+}
+
 .featured-image-wrapper h1 {
   color: #fff;
   font-size: 80px;
@@ -47,23 +51,14 @@ h1 {
   position: absolute;
   width: 100%;
   left: 0;
-  bottom: 60px;
+  bottom: 15%;
   text-align: center;
   display: none;
 }
 
-.featured-image-wrapper .scroll-injunction {
-  color: #fff;
-  text-shadow: 2px 2px 3px #000000;
-  position: absolute;
-  width: 100%;
-  left: 0;
-  bottom: 10px;
-  text-align: center;
-}
-
-.featured-image-wrapper .scroll-injunction i {
-  margin: 0 5px;
+.featured-image-wrapper#project-landing h1 {
+  width: 60%;
+  top: 10%;
 }
 
 
@@ -104,11 +99,6 @@ ul.sections.nav.navbar-nav {
 .navbar-default .navbar-nav>li>a { 
   color: #ddd; 
 }
-
-/*.navbar-default .navbar-nav>li>a:hover,
-.navbar-default .navbar-nav>li>a.active {
-  background-color: #4f4c4d;
-}*/
 
 .navbar-default .navbar-brand:hover,
 .navbar-default .navbar-nav>li>a:hover, 
