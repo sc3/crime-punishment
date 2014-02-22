@@ -5,7 +5,7 @@ This office prosecutes crimes. Prosecutors work closely with the investigating a
 
 ### Data Inventory
 
-No information is available from the prosecutor's office about the data they routinely collect currently. I have a felony review folder where they collect information during the felony review process (link?) but it is now 4 years old. Also, it is not really clear what if any of this data ever makes it in to a database.  
+No information is available from the prosecutor's office about the data they routinely collect currently. I have a felony review folder where they collect information during the felony review process (link) but it is now 4 years old. Also, it is not really clear what if any of this data ever makes it in to a database.  
 
 
 ### How to Access the Data
