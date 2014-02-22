@@ -155,14 +155,19 @@ img {
   max-width: 100%;
 }
 
-#black-hole {
-  background-color: #000;
-  border-radius: 220px;
-  width: 440px;
-  height: 440px;
-  margin-top: 60px;
+#black-hole-wrapper {
   margin-right: auto;
   margin-left: auto;
+  margin-top: 60px;
+  width: 30%;
+  height: 30%;
+}
+
+#black-hole {
+  background-color: #000;
+  border-radius: 50%;
+  width: 100%;
+  height: 100%;
 }
 
 /* Table */
