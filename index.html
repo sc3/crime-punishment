@@ -2,7 +2,7 @@
 {% set index = 0 %}
 
 {% block content %}
-<div id="call-landing" class="featured-image-wrapper">
+<div id="{{stages[index].title}}-landing" class="featured-image-wrapper">
   <img class="featured-image" src={{ stages[index].featured_image }}>
   <h1>{{ stages[index].headline|markdown }}</h1>
   <div class="scroll-injunction">
