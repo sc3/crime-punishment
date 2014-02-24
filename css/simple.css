@@ -51,16 +51,19 @@ h1 {
   display: none;
 }
 
-.featured-image-wrapper#project-landing h1 {
-  color: #fff;
-  font-size: 80px;
-  text-shadow: 2px 2px 3px #000000;
-  position: absolute;
-  width: 100%;
-  left: 0;
-  bottom: 60px;
-  text-align: center;
-  display: none;
+#index-landing h1 {
+  /* stuff for featured image wrapper
+     and overlays of index page */
+}
+
+#callforservice-landing h1 {
+  color: rgba(20, 20, 20, .92);
+  text-shadow: 2px 2px 3px #4f4c4d;
+}
+
+#prosecute-landing h1 {
+  color: rgba(20, 20, 20, .92);
+  text-shadow: 2px 2px 3px #4f4c4d;
 }
 
 .featured-image-wrapper .scroll-injunction {
@@ -71,6 +74,20 @@ h1 {
   left: 0;
   bottom: 10px;
   text-align: center;
+}
+
+#index-injunction {
+  /* stuff for scroll injuntion of index page */
+}
+
+#callforservice-injunction {
+  color: #000;
+  text-shadow: 2px 2px 3px #fff;
+}
+
+#prosecute-injunction {
+  color: rgba(20, 20, 20, .92);
+  text-shadow: 2px 2px 3px #4f4c4d;
 }
 
 .featured-image-wrapper .scroll-injunction i {
