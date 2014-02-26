@@ -1,6 +1,6 @@
-## Victimization
+## Victimization  
 
-### Summary
+### Summary  
 
 All over Chicago, every day, in every corner of our oblong city, people commit crimes. This project seeks to index the data that document these crimes. We cover the collection of the voice of victims when they call 311, the daily notes of detectives who investigate crime, the material delivered to the court system when charges are filed, the records generated when convicts arrive in prison, and so on.
 
