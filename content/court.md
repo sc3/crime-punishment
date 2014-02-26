@@ -4,10 +4,12 @@ Cook County Circuit Court adjudicates criminal, civil and probate cases. The cas
 
 ### Data Inventory
 ###### Open Data
-Publicly available online there is nothing. Some people, including journalists, who engage in protracted fights with the Circuit Clerk’s Office, can obtain data once Chief Judge Evans has approved your request. Our experience lasted 15 months and required a threat to file a lawsuit before they gave us the data we requested. 
+Publicly available online there is nothing. Some people, including journalists, who engage in protracted fights with the Circuit Clerk's Office, can obtain data once Chief Judge Evans has approved your request. Our experience lasted 15 months and required a threat to file a lawsuit before they gave us the data we requested. 
 
 ###### FOIA Data
-Directly from the courts nothing is available through the FOIA. The Courts are exempted from the FOIA requirements. It is unclear to what degree the Circuit Clerk’s Office, that maintains the Court’s data, is open to FOIA and would have to release the Court data.
+The Courts are exempted from the FOIA requirements. It is unclear to what degree the Circuit Clerk's Office, that maintains the Court's data, is open to FOIA and would have to release the Court data.
+
+###### Unavailable Data
 - Case Number
 - Sequence of charges number (for example, 001, 002, 003 if the defendant has 3 charges) 
 - Offender's Last Name
