@@ -115,9 +115,21 @@ h1 {
   background-color: rgba(20, 20, 20, 0.92);
 }
 
+span.nav1 {
+    font-size: 25px !important;
+}
+
+span.nav2 {
+    font-size: 20px !important;
+}
+
 div.navbar-header {
     font-size: 18px !important;
-    font-family: "Baskerville", sans-serif !important;
+    font-family: "Baskerville", serif !important;
+    width: 125px;
+    padding-left: 18px;
+    /* margin-left: -95px !important; */
+    background-color: rgba(20, 20, 20, 0.92);
 }
 
 ul.sections.nav.navbar-nav {
@@ -198,7 +210,7 @@ img {
   height: 100%;
 }
 
-/* Table */
+/* Tables */
 td {
     width: 100px;
     text-align: center;
@@ -241,11 +253,14 @@ tr:not(:first-of-type) {
     background: #b33;
 }
 
-
 /* Content */
 
 .content { margin-top: 30px; }
 .content img { max-width: 100%; }
+.credit {
+    font-size: 10px;
+    color: gray;
+}
 
 
 /* Responsivity */
