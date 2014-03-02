@@ -39,6 +39,10 @@ h1 {
 
 /* Overlays */
 
+.featured-image-wrapper {
+  position: relative;
+}
+
 .featured-image-wrapper h1 {
   color: #fff;
   font-size: 80px;
@@ -46,14 +50,14 @@ h1 {
   position: absolute;
   width: 100%;
   left: 0;
-  bottom: 60px;
+  bottom: 15%;
   text-align: center;
   display: none;
 }
 
 #index-landing h1 {
-  /* stuff for featured image wrapper
-     and overlays of index page */
+  width: 70%;
+  top: 10%;
 }
 
 #callforservice-landing h1 {
@@ -64,6 +68,22 @@ h1 {
 #prosecute-landing h1 {
   color: rgba(20, 20, 20, .92);
   text-shadow: 2px 2px 3px #4f4c4d;
+}
+
+#index-overlay {
+  color: #fff;
+  font-size: 18px;
+  text-shadow: 2px 2px 3px #000000;
+  width: 60%;
+  padding-right: 5%;
+  padding-left: 5%;
+  top: 50%;
+  position: absolute;
+  bottom: 15%;
+}
+
+#index-overlay h3 {
+  text-align: center;
 }
 
 .featured-image-wrapper .scroll-injunction {
@@ -161,6 +181,12 @@ ul.sections.nav.navbar-nav {
 .navbar a:hover .circle, 
 .navbar a.active .circle {
   background-color: #b33;
+}
+
+/* About */
+
+#about {
+  float: left;
 }
 
 
