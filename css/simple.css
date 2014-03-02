@@ -5,7 +5,6 @@ body {
 }
 
 body .container {
-  max-width: 1088px;
   margin-right: auto;
   margin-left: auto;
 }
@@ -26,11 +25,11 @@ h1 {
 }
 
 .unavailable {
-  color: #b33;
+  color: black;
 }
 
 .foiable {
-  color: gray;
+  color: black;
 }
 
 .available {
@@ -56,9 +55,47 @@ h1 {
   display: none;
 }
 
-.featured-image-wrapper#project-landing h1 {
+#index-landing h1 {
   width: 60%;
   top: 10%;
+}
+
+#callforservice-landing h1 {
+  color: rgba(20, 20, 20, .92);
+  text-shadow: 2px 2px 3px #4f4c4d;
+}
+
+#prosecute-landing h1 {
+  color: rgba(20, 20, 20, .92);
+  text-shadow: 2px 2px 3px #4f4c4d;
+}
+
+.featured-image-wrapper .scroll-injunction {
+  color: #fff;
+  text-shadow: 2px 2px 3px #000000;
+  position: absolute;
+  width: 100%;
+  left: 0;
+  bottom: 10px;
+  text-align: center;
+}
+
+#index-injunction {
+  /* stuff for scroll injuntion of index page */
+}
+
+#callforservice-injunction {
+  color: #000;
+  text-shadow: 2px 2px 3px #fff;
+}
+
+#prosecute-injunction {
+  color: rgba(20, 20, 20, .92);
+  text-shadow: 2px 2px 3px #4f4c4d;
+}
+
+.featured-image-wrapper .scroll-injunction i {
+  margin: 0 5px;
 }
 
 
@@ -98,6 +135,11 @@ ul.sections.nav.navbar-nav {
 .navbar-default .navbar-brand,
 .navbar-default .navbar-nav>li>a { 
   color: #ddd; 
+}
+
+.navbar-default .navbar-nav>li>a:hover,
+.navbar-default .navbar-nav>li>a.active {
+  background-color: #4f4c4d;
 }
 
 .navbar-default .navbar-brand:hover,
@@ -150,7 +192,7 @@ img {
   margin-left: auto;
   margin-top: 60px;
   width: 30%;
-  height: 30%;
+  height: 60%;
 }
 
 #black-hole {

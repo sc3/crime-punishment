@@ -12,7 +12,7 @@
     <div id="black-hole"></div>
   </div>
   <h1>{{ stages[prosecute].headline|markdown }}</h1>
-  <div class="scroll-injunction">
+  <div id="prosecute-injunction" class="scroll-injunction">
     <i class="fa fa-chevron-down"></i>
     Scroll To Read
     <i class="fa fa-chevron-down"></i>
@@ -23,102 +23,118 @@
     {{ read_file("content/prosecute.md")|markdown }}
   </div>
   <div class="col-md-4">
-    <table>
-         <tr>
-            <td>
-            </td>
-            <td>
-                <p>Open</p>
-            </td>
-            <td>
-                <p>FOIA</p>
-            </td>
-            <td>
-                <p>Unavailable</p>
-            </td>    
-        </tr>
-        <tr>
-            <td>
-                <p>Call For Service</p>
-            </td>
-            <td>
-                <div class="circle_some" id="gray">
-                </div>
-            </td>
-            <td>
-                <div class="circle_lots" id="gray">
-                </div>
-            </td>
-            <td>
-                <div class="circle_little" id="gray">
-                </div>
-            </td>
-        </tr>
+      <table>
+             <tr>
+                <td>
+                </td>
+                <td>
+                    <p>Open</p>
+                </td>
+                <td>
+                    <p>FOIA</p>
+                </td>
+                <td>
+                    <p>Unavailable</p>
+                </td>    
+            </tr>
             <tr>
-            <td>
-                <p>Incidents</p>
-            </td>
-            <td>
-                <div class="circle_lots" id="gray">
-                </div>
-            </td>
-            <td>
-                <div class="circle_some" id="gray">
-                </div>
-            </td>
-            <td>
-                <div class="circle_little" id="gray">
-                </div>
-            </td>
-        </tr>
-            <tr bgcolor="F0F0F0">
-            <td>
-                <p>Prosecute</p>
-            </td>
-            <td>
-            </td>
-            <td>
-                <div class="circle_little" id="red">
-                </div>
-            </td>
-            <td>
-                <div class="circle_lots" id="red">
-                </div>
-            </td>
-        </tr>
-            <tr>
-            <td>
-                <p>Jail</p>
-            </td>
-            <td>
-                <div class="circle_little" id="gray">
-                </div>
-            </td>
-            <td>
-                <div class="circle_lots" id="gray">
-                </div>
-            </td>
-            <td>
-                <div class="circle_little" id="gray">
-                </div>
-            </td>
-        </tr>
-            <tr>
-            <td>
-                <p>Court</p>
-            </td>
-            <td>
-                <div class="circle_little" id="gray">
-                </div>
-            </td>
-            <td>
-            </td>
-            <td>
-                <div class="circle_lots" id="gray">
-                </div>
-            </td>
-        </tr>
-    </table>
+                <td>
+                    <p>Call For Service</p>
+                </td>
+                <td>
+                    <div class="circle_some" id="red">
+                    </div>
+                </td>
+                <td>
+                    <div class="circle_lots" id="red">
+                    </div>
+                </td>
+                <td>
+                    <div class="circle_little" id="red">
+                    </div>
+                </td>
+            </tr>
+                <tr>
+                <td>
+                    <p>Incidents/Arrest</p>
+                </td>
+                <td>
+                    <div class="circle_lots" id="red">
+                    </div>
+                </td>
+                <td>
+                    <div class="circle_some" id="red">
+                    </div>
+                </td>
+                <td>
+                    <div class="circle_little" id="red">
+                    </div>
+                </td>
+            </tr>
+                <tr bgcolor="F0F0F0">
+                <td>
+                    <p>Prosecute</p>
+                </td>
+                <td>
+                </td>
+                <td>
+                    <div class="circle_little" id="red">
+                    </div>
+                </td>
+                <td>
+                    <div class="circle_lots" id="red">
+                    </div>
+                </td>
+            </tr>
+                <tr>
+                <td>
+                    <p>Jail</p>
+                </td>
+                <td>
+                    <div class="circle_little" id="red">
+                    </div>
+                </td>
+                <td>
+                    <div class="circle_lots" id="red">
+                    </div>
+                </td>
+                <td>
+                    <div class="circle_little" id="red">
+                    </div>
+                </td>
+            </tr>
+                <tr>
+                <td>
+                    <p>Court</p>
+                </td>
+                <td>
+                    <div class="circle_little" id="red">
+                    </div>
+                </td>
+                <td>
+                </td>
+                <td>
+                    <div class="circle_lots" id="red">
+                    </div>
+                </td>
+            </tr>
+            </tr>
+                  <tr>
+                  <td>
+                      <p>Prison</p>
+                  </td>
+                  <td>
+                      <div class="circle_little" id="red">
+                      </div>
+                  </td>
+                  <td>
+                  </td>
+                  <td>
+                      <div class="circle_lots" id="red">
+                      </div>
+                  </td>
+              </tr>
+        </table>
 
     <br><hr><br>
 

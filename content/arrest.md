@@ -2,4 +2,23 @@
 
 ### Summary
 
-This is a record of a person being taken into custody and charged with a crime. Typically one of two things happen after an arrest is made: if it is a misdemeanor, the arrest file is prepared for the State's Attorney so that the case can be prosecuted in the Cook County Criminal Court. If it is a felony, the arrest file is prepared for the State's Attorney so that they can review it and decide whether to pursue it as a felony in the Cook County Criminal Court. If no charges are filed by the State's Attorney, there is no further action and no further data. An exception is in the case of a refusal by the State's Attorney to press felony charges. Typically in this instance, the police are then given the opportunity to pursue the case as a misdemeanor.
+A person can get to jail two different ways. First, the state's attorney's office reviews the evidence for a felony case and agrees to file changes. Second, police officers file misdemeanor charges to court - even if the case ends up being toss out of court by the judge. Inmates who can't afford bond or are not granted bond have to wait for their court hearing in jail. Other inmates include anyone who has ben sentenced to less than a year in jail.
+
+### Data Inventory
+
+#### Arrest
+###### FOIA Data
+* Name of arrestee
+* Home address of arrestee
+* Race of arrestee
+* Age of arrestee
+* Gender of arrestee (observed)
+* Ethnicity of arrestee
+* IUCR of crime type
+* Description of ICUR type
+
+###### Unavailable Data
+* Home address of arrestee
+
+#### Charges
+Nothing is definitely known to be collected at this stage.
