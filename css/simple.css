@@ -216,7 +216,7 @@ td {
     text-align: center;
 }
 tr:not(:first-of-type) {
-    height: 50px;
+    height: 40px;
 }
 .circle_lots {
     padding: 16px;
