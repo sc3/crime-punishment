@@ -15,20 +15,33 @@ There are many municipalities that publish live or near-live listing of dispatch
 * <span class="available">              Final coded clearance by the officer (this should tell OEMC if a report was written and for what crime type)
 
 ###### FOIA Data
-* <span class="foiable">                Date of call
-* <span class="foiable">                Time of call
-* <span class="foiable">                Event Type of incident (coded by OEMC)
-* <span class="foiable">                Police district of call
-* <span class="foiable">                Beat of call
+* Type
+* Pri
+* Event#
+* Date
+* Cross Street
+* Location Remarks
+* Best of Occ
+* Anonymous?
+* Src
+* FAOW
+* Actions
+* Remarks
+* Disposition
+* District
+* Srv Beat
+* DOC?HOT
 
 ###### Unavailable Data
-* <span class="unavailable">            Operator name
-* <span class="unavailable">            Operator age
-* <span class="unavailable">            Operator gender
-* <span class="unavailable">            Operator race
-* <span class="unavailable">            Phone number of caller
-* <span class="unavailable">            Address / location for incident being reported
-* <span class="unavailable">            Address / location of caller
+* Company Name
+* Phone
+* Company Address
+* Address of Occurrence
+* S911 Display Area
+* Apartment
+* Loc of Service
+* Floor
+* LIC
 
 ### How to Access Calls for Service Data in Chicago 
 Currently, the only way to obtain Calls for Service data in Chicago is to file a [www.cityofchicago.org/city/en/depts/oem/dataset/foialog.html](http://www.cityofchicago.org/city/en/depts/oem/dataset/foialog.html). Please try to be reasonably specific for the data you are looking for so that they can more easily process your request.   
