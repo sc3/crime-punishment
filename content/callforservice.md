@@ -10,6 +10,9 @@ There are many municipalities that publish live or near-live listing of dispatch
 
 
 ### Data Inventory
+
+This is a list of the information that's collected by the OEMC for any caller. The inventory is divided into three categories: **(1)** *data available through a Freedom of Information (FOI) request*, **(2)** *data readily available* and **(3)** *data that is collected but not available*. <br><br>
+
 ###### Open Data
 * <span class="available">              If a report is written
 * <span class="available">              RD #
@@ -36,4 +39,5 @@ There are many municipalities that publish live or near-live listing of dispatch
 
 
 ### How to Access Calls for Service Data in Chicago 
-Currently, the only way to obtain Calls for Service data in Chicago is to file a [www.cityofchicago.org/city/en/depts/oem/dataset/foialog.html](http://www.cityofchicago.org/city/en/depts/oem/dataset/foialog.html). Please try to be reasonably specific for the data you are looking for so that they can more easily process your request.   
+
+To access data from the Chicago Police Department you need to [file a request for data under Illinois' Freedom of Information Act (FOIA)](http://www.cityofchicago.org/city/en/depts/oem/dataset/foialog.html). You will need to send an email including: **(1)** *your name and contact information*, along with **(2)** *a description of the records you are requesting*. Please try to be reasonably specific for the data you are looking for so that they can more easily process your request.

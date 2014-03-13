@@ -12,6 +12,8 @@ The data inventory is a list of the information that's collected by the Chicago 
 
 ### Data Inventory
 
+This is a list of the information that's collected by the Chicago Police Department for anyone who's arrested. The inventory is divided into three categories: **(1)** *data available through a Freedom of Information (FOI) request*, **(2)** *data readily available* and **(3)** *data that is collected but not available*. <br><br>
+
 #### Crime Incident
 ###### Open Data
 * <span class="available">          Report Number (called RD #)
@@ -129,17 +131,9 @@ The data inventory is a list of the information that's collected by the Chicago 
 * <span class="unavailable">        V.I.N. #
             
             
-### How to Access the Data
-[FOIA Resource](https://portal.chicagopolice.org/portal/page/portal/ClearPath/About%20CPD/Freedom%20of%20Information%20Act%20%28FOIA%29)  
+### How to Access Crime Incident Data in Chicago
 
+Some Crime Incident data is available through the [City of Chicago Data Portal](https://data.cityofchicago.org/Public-Safety/Crimes-2001-to-present/ijzp-q8t2).
 
-#### Filing Methods
-* Email: foia@chicagopolice.org
-* Fax: (312) 745-6948
-* Mail: Chicago Police Department
-    > Attn: Freedom of Information Officer
-    > Records Inquiry Section, Unit 163
-    > 3510 S. Michigan Ave.
-    > Chicago, IL 60653  
-    
-To access data from Chicago Police Department you need to file a request for data under Illinois' Freedom of Information Act. You can file your request through any of the methods listed below. Please try to be reasonably specific for the data you are looking for so that they can more easily process your request.                                                                                        
+To access data from the Chicago Police Department you need to [file a request for data under Illinois' Freedom of Information Act (FOIA)](http://www.cityofchicago.org/city/en/depts/cpd/supp_info/cpd_foia.html). You will need to send an email including: **(1)** *your name and contact information*, along with **(2)** *a description of the records you are requesting*. Please try to be reasonably specific for the data you are looking for so that they can more easily process your request.
+                            
