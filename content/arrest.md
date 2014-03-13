@@ -2,11 +2,20 @@
 
 ### Summary
 
-A person can get to jail two different ways. First, the state's attorney's office reviews the evidence for a felony case and agrees to file changes. Second, police officers file misdemeanor charges to court - even if the case ends up being toss out of court by the judge. Inmates who can't afford bond or are not granted bond have to wait for their court hearing in jail. Other inmates include anyone who has ben sentenced to less than a year in jail.
+A person can get to jail two different ways. First, police officers file misdemeanor charges to court - even if the case ends up being toss out of court by the judge. Inmates who can't afford bond or are not granted bond have to wait for their court hearing in jail. Second,the state's attorney's office reviews the evidence for a felony case and agrees to file changes.
+
+Inmates who can't afford bond or are not granted bond have to wait for their court hearing in jail. Other inmates include anyone who has ben sentenced to less than a year in jail.
+
+The data inventory is a list of the information that's collected by the Chicago Police Department for anyone who's arrested. The  inventory is divided into three categories; data that's available through the Freedom of Information request, data readily available and data that is collected but not available. 
+
+
 
 ### Data Inventory
 
+The data inventory is a list of the information that's collected by the Chicago Police Department for anyone who's arrested. The inventory is divided into three categories: **(1)** *data available through a Freedom of Information (FOI) request*, **(2)** *data readily available* and **(3)** *data that is collected but not available*. <br><br>
+
 #### Arrest
+
 ###### FOIA Data
 * Name of arrestee
 * Home address of arrestee
@@ -22,3 +31,9 @@ A person can get to jail two different ways. First, the state's attorney's offic
 
 #### Charges
 Nothing is definitely known to be collected at this stage.
+
+
+### How to Access Arrest Data in Chicago
+
+To access data from the Chicago Police Department you need to [file a request for data under Illinois' Freedom of Information Act (FOIA)](http://www.cityofchicago.org/city/en/depts/cpd/supp_info/cpd_foia.html). You will need to send an email including: **(1)** *your name and contact information*, along with **(2)** *a description of the records you are requesting*. Please try to be reasonably specific for the data you are looking for so that they can more easily process your request.
+                                                      
