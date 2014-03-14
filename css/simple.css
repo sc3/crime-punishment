@@ -245,8 +245,9 @@ img {
 
 /* Tables */
 
-.chart-title {
-  text-align: center;
+#table-title {
+    text-align: center;
+    text-decoration: underline;
 }
 
 td {

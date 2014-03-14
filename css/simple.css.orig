@@ -246,13 +246,13 @@ img {
 /* Tables */
 
 <<<<<<< HEAD
+.chart-title {
+  text-align: center;
+=======
 #table-title {
     text-align: center;
     text-decoration: underline;
-=======
-.chart-title {
-  text-align: center;
->>>>>>> origin/homepage-redesign
+>>>>>>> cee4310d6bac2020716a3c6b047093e88c2c9dd1
 }
 
 td {
@@ -304,6 +304,18 @@ tr:not(:first-of-type) {
 
 .content { 
   margin-top: 30px; 
+<<<<<<< HEAD
+=======
+}
+
+.content img { 
+  max-width: 100%; 
+}
+
+.credit {
+  font-size: 10px;
+  color: gray;
+>>>>>>> cee4310d6bac2020716a3c6b047093e88c2c9dd1
 }
 
 .content img { 
