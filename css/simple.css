@@ -35,6 +35,9 @@ h1 {
   color: black;
 }
 
+.copy {
+  font-size: 1.3em;
+}
 
 /* Overlays */
 
@@ -97,6 +100,11 @@ h1 {
 #callforservice-injunction {
   color: #000;
   text-shadow: 2px 2px 3px #fff;
+}
+
+#prosecute-injunction {
+  color: rgba(20, 20, 20, .92);
+  text-shadow: 2px 2px 3px #4f4c4d;
 }
 
 .featured-image-wrapper .scroll-injunction i {
@@ -188,7 +196,8 @@ ul.sections.nav.navbar-nav {
 /* About */
 
 #about {
-  float: left;
+  right: 16%;
+  left: 16%;
 }
 
 
@@ -290,13 +299,20 @@ tr:not(:first-of-type) {
     background: #b33;
 }
 
+
 /* Content */
 
-.content { margin-top: 30px; }
-.content img { max-width: 100%; }
+.content { 
+  margin-top: 30px; 
+}
+
+.content img { 
+  max-width: 100%; 
+}
+
 .credit {
-    font-size: 10px;
-    color: gray;
+  font-size: 10px;
+  color: gray;
 }
 
 
@@ -347,7 +363,6 @@ tr:not(:first-of-type) {
   h1 {
     font-size: 30px;
   }
-  
   .bubble {
     max-width: 50%;
     max-height: 100%;
