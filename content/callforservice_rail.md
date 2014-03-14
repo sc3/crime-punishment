@@ -1,4 +1,4 @@
-### Data Availability
+<h4 id="table-title">Data Availability<h4>
 
 <table>
      <tr>

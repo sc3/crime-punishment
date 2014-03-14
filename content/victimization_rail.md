@@ -1,4 +1,4 @@
-### Data Availability
+### Rates of Report for Victimization
 
 <hr>
 <table class="victim-table">
@@ -87,8 +87,4 @@
         </td>
     </tr>
 </table>
-<br>
-<div class="credit">
-    <p>Criminal Victimization, 2012<br>US Department of Justice<br>Office of Justice Programs<br>Bureau of Justice Statistics<br>October 2013, NCJ 243389<br></p>
-    <p>Chicago Police Department<br>Quarterly Domestic Violence Statistical Summary<br>Year to Date - December 2012</p>
-</div>
+<br><hr><br>
