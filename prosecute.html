@@ -8,9 +8,7 @@
 
 {% block content %}
 <div id="prosecute-landing" class="featured-image-wrapper">
-  <div id="black-hole-wrapper">
-    <div id="black-hole"></div>
-  </div>
+  <img class="featured-image" src={{ stages[prosecute].featured_image }}>
   <h1>{{ stages[prosecute].headline|markdown }}</h1>
   <div id="prosecute-injunction" class="scroll-injunction">
     <i class="fa fa-chevron-down"></i>
@@ -18,7 +16,7 @@
     <i class="fa fa-chevron-down"></i>
   </div>
   <div id="index-injunction" class="photo-caption">
-      Photo caption goes here
+      {{ stages[prosecute].image_caption|markdown }}
   </div>
 </div>
 <div class="content container">
