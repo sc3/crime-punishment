@@ -16,7 +16,7 @@
     <i class="fa fa-chevron-down"></i>
   </div>
   <div id="index-injunction" class="photo-caption">
-      Photo caption goes here
+      {{ stages[callforservice].image_caption|markdown }}
   </div>
 </div>
 <div class="content container">
@@ -79,8 +79,6 @@
                 <td>
                 </td>
                 <td>
-                    <div class="circle_little" id="red">
-                    </div>
                 </td>
                 <td>
                     <div class="circle_lots" id="red">
