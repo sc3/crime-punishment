@@ -37,9 +37,13 @@
   </div>
   <div class="row">
     <br><hr><br>
+<<<<<<< HEAD
+    {{ read_file("content/index_about_extended.md")|markdown }}
+=======
     <div class="copy col-md-8" id="about">
       {{ read_file("content/index_about_extended.md")|markdown }}
     </div>
+>>>>>>> origin/homepage-redesign
   </div>
 
   

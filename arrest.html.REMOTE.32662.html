@@ -16,13 +16,14 @@
     <i class="fa fa-chevron-down"></i>
   </div>
   <div id="index-injunction" class="photo-caption">
-      {{ stages[arrest].image_caption|markdown }}
+      Photo caption goes here
   </div>
 </div>
 <div class="content container">
   <div class="col-md-8">
     {{ read_file("content/arrest.md") | markdown }}
   </div>
+  <div class="col-md-4">
     {{ read_file("content/arrest_rail.md")|markdown }}
   </div>
 </div>

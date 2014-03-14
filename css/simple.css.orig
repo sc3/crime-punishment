@@ -245,8 +245,14 @@ img {
 
 /* Tables */
 
+<<<<<<< HEAD
+#table-title {
+    text-align: center;
+    text-decoration: underline;
+=======
 .chart-title {
   text-align: center;
+>>>>>>> origin/homepage-redesign
 }
 
 td {
