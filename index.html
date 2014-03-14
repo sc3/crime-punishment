@@ -13,20 +13,35 @@
       Scroll To Read
       <i class="fa fa-chevron-down"></i>
   </div>
-  <div id="index-injunction" class="photo-caption">
+  <div class="photo-caption">
       Photo caption goes here
   </div>
 </div>
 <div class="content container">
-  <div class="col-md-8">
-    {{ read_file("content/index.md")|markdown }}
+  <div class="row">
+    <div class="copy col-md-7">
+      {{ read_file("content/index.md")|markdown }}
+    </div>
+    <div class="col-md-5">
+      {% include 'available_chart.html' %}
+    </div>
   </div>
-  <div class="col-md-4">
-    {{ read_file("content/index_rail.md")|markdown }}  
+  <br><br><br>
+  <div class="row">
+    <div class="col-md-5">
+      {{ "![](/img/flowchart.jpg)"|markdown }}
+    </div>
+    <div class="copy col-md-7">
+      {{ read_file("content/index_rail.md")|markdown }} 
+    </div>
   </div>
-  <div id="about">
+  <div class="row">
     <br><hr><br>
-    {{ read_file("content/index_about_extended.md") | markdown }}
+    <div class="copy col-md-8" id="about">
+      {{ read_file("content/index_about_extended.md")|markdown }}
+    </div>
   </div>
+
+  
 </div>
 {% endblock content %}

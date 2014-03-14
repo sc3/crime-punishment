@@ -35,6 +35,9 @@ h1 {
   color: black;
 }
 
+.copy {
+  font-size: 1.3em;
+}
 
 /* Overlays */
 
@@ -194,10 +197,12 @@ ul.sections.nav.navbar-nav {
   background-color: #b33;
 }
 
+
 /* About */
 
 #about {
-  float: left;
+  right: 16%;
+  left: 16%;
 }
 
 
@@ -247,14 +252,22 @@ img {
   height: 100%;
 }
 
+
 /* Tables */
+
+.chart-title {
+  text-align: center;
+}
+
 td {
     width: 100px;
     text-align: center;
 }
+
 tr:not(:first-of-type) {
     height: 40px;
 }
+
 .circle_lots {
     padding: 16px;
     width: 1px;
@@ -290,15 +303,21 @@ tr:not(:first-of-type) {
     background: #b33;
 }
 
+
 /* Content */
 
-.content { margin-top: 30px; }
-.content img { max-width: 100%; }
-.credit {
-    font-size: 10px;
-    color: gray;
+.content { 
+  margin-top: 30px; 
 }
 
+.content img { 
+  max-width: 100%; 
+}
+
+.credit {
+  font-size: 10px;
+  color: gray;
+}
 
 /* Responsivity */
 
