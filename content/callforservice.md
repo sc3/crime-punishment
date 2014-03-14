@@ -1,5 +1,3 @@
-## Calls for Service
-
 ### Summary
 
 In Chicago, all Calls for Service data is controlled by the [http://www.cityofchicago.org/city/en/depts/oem.html](Office of Emergency Management & Communications) (OEMC). [http://www.cityofchicago.org/content/dam/city/depts/oemc/general/img/orgchart.htm](Dispatch operations)-- the reception of 911 calls for service and the dispatch of police to respond to calls-- is managed by OEMC.
@@ -32,8 +30,7 @@ There are many municipalities that publish live or near-live listing of dispatch
 * <span class="foiable">                Remarks (any other additional details relevant to event)
 * <span class="foiable">                Disposition (if no dispatch is required, the final disposition of event)
 * <span class="foiable">                District (district of occurrence)
-* <span class="foiable">                Service Beat (Police bear where the locaiton of service is located)
-
+* <span class="foiable">                Service Beat (Police bear where the locaiton of service is located) 
 
 ### How to Access Calls for Service Data in Chicago 
-Currently, the only way to obtain Calls for Service data in Chicago is to file a [www.cityofchicago.org/city/en/depts/oem/dataset/foialog.html](http://www.cityofchicago.org/city/en/depts/oem/dataset/foialog.html). Please try to be reasonably specific for the data you are looking for so that they can more easily process your request.   
+Currently, the only way to obtain Calls for Service data in Chicago is to file a FOIA: [www.cityofchicago.org/city/en/depts/oem/dataset/foialog.html](http://www.cityofchicago.org/city/en/depts/oem/dataset/foialog.html). Please try to be reasonably specific for the data you are looking for so that they can more easily process your request.  

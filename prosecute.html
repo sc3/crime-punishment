@@ -10,7 +10,7 @@
 <div id="prosecute-landing" class="featured-image-wrapper">
   <img class="featured-image" src={{ stages[prosecute].featured_image }}>
   <h1>{{ stages[prosecute].headline|markdown }}</h1>
-  <div id="prosecute-injunction" class="scroll-injunction">
+  <div class="scroll-injunction">
     <i class="fa fa-chevron-down"></i>
     Scroll To Read
     <i class="fa fa-chevron-down"></i>
@@ -24,6 +24,7 @@
     {{ read_file("content/prosecute.md")|markdown }}
   </div>
   <div class="col-md-4">
+      <h4 id="table-title">Data Availability<h4>
       <table>
              <tr>
                 <td>
@@ -134,11 +135,8 @@
                   </td>
               </tr>
         </table>
-
-    <br><hr><br>
-
+    <hr>
     {{ read_file("content/prosecute_rail.md")|markdown }}
-
   </div>
 </div>
 {% endblock content %}

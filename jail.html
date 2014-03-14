@@ -9,14 +9,14 @@
 {% block content %}
 <div id="jail-landing" class="featured-image-wrapper">
   <img class="featured-image" src={{ stages[jail].featured_image }}>
-  <h1>{{ stages[jail].headline|markdown }}</h1>
+  <h1>{{ stages[jail].headline | markdown }}</h1>
   <div class="scroll-injunction">
     <i class="fa fa-chevron-down"></i>
     Scroll To Read
     <i class="fa fa-chevron-down"></i>
   </div>
   <div id="index-injunction" class="photo-caption">
-      {{ stages[jail].image_caption|markdown }}
+      {{ stages[jail].image_caption | markdown }}
   </div>
 </div>
 <div class="content container">
@@ -24,6 +24,7 @@
     {{ read_file("content/jail.md") | markdown }}
   </div>
   <div class="col-md-4">
+      <h4 id="table-title">Data Availability<h4>
       <table>
              <tr>
                 <td>
@@ -134,11 +135,8 @@
                   </td>
               </tr>
         </table>
-    
-    <br><hr><br>
-
+    <hr>
     {{ read_file("content/jail_rail.md") | markdown }}
-
   </div>
 </div>
 {% endblock content %}
