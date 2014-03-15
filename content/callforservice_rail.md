@@ -1,4 +1,4 @@
-<h4 id="table-title">Data Availability<h4>
+<h4 id="table-title">Data Availability</h4>
 
 <table>
      <tr>
