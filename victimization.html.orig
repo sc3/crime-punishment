@@ -24,6 +24,7 @@
     {{ read_file("content/victimization.md") | markdown }}
   </div>
   <div class="col-md-4">
+<<<<<<< HEAD
       <table class="victim-table">
            <tr>
               <td>
@@ -117,6 +118,8 @@
       </div>
 <<<<<<< HEAD
 =======
+=======
+>>>>>>> 03e4e5353fbd766a3be9e99ea999e200b05ad51b
     {{ read_file("content/victimization_rail.md")|markdown }}
 >>>>>>> sarahelizabeth-master
   </div>

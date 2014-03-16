@@ -1,3 +1,8 @@
+<<<<<<< HEAD
+=======
+## Call for Service
+
+>>>>>>> 03e4e5353fbd766a3be9e99ea999e200b05ad51b
 ### Summary
 
 In Chicago, all Calls for Service data is controlled by the [Office of Emergency Management & Communications (OEMC)](http://www.cityofchicago.org/city/en/depts/oem.html). [Dispatch operations](http://www.cityofchicago.org/content/dam/city/depts/oemc/general/img/orgchart.htm) -- the reception of 911 calls for service and the dispatch of police to respond to calls -- is managed by OEMC.

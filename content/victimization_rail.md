@@ -1,115 +1,90 @@
-### Data Availability
+### Rates of Report for Victimization
 
-<table>
+<hr>
+<table class="victim-table">
      <tr>
         <td>
         </td>
         <td>
-            <p>Open</p>
+            <p>% Reported</p>
         </td>
         <td>
-            <p>FOIA</p>
+            <p>Police Reports</p>
         </td>
         <td>
-            <p>Unavailable</p>
+            <p>Actually Occurred</p>
         </td>    
     </tr>
     <tr>
         <td>
-            <p>Call For Service</p>
+            <p>Rape/Sexual Assault</p>
         </td>
         <td>
-            <div class="circle_some red">
-            </div>
+            <p>28%</p>
         </td>
         <td>
-            <div class="circle_lots red">
-            </div>
+    </tr>
+    <tr>
+        <td>
+            <p>Robbery</p>
         </td>
         <td>
-            <div class="circle_little red">
-            </div>
+            <p>56%</p>
         </td>
     </tr>
-        <tr>
+    <tr>
         <td>
-            <p>Incidents/Arrest</p>
+            <p>Domestic Violence</p>
         </td>
         <td>
-            <div class="circle_lots red">
-            </div>
+            <p>55%</p>
         </td>
         <td>
-            <div class="circle_some red">
-            </div>
+            <p>51,174</p>
         </td>
         <td>
-            <div class="circle_little red">
-            </div>
+            <p>74,202</p>
         </td>
     </tr>
-        <tr>
+    <tr>
         <td>
-            <p>Prosecute</p>
+            <p>Agg. Assaults</p>
         </td>
         <td>
-        </td>
-        <td>
-            <div class="circle_little red">
-            </div>
-        </td>
-        <td>
-            <div class="circle_lots red">
-            </div>
+            <p>62%</p>
         </td>
     </tr>
-        <tr>
+    <tr>
         <td>
-            <p>Jail</p>
+            <p>Simple Assault</p>
         </td>
         <td>
-            <div class="circle_little red">
-            </div>
-        </td>
-        <td>
-            <div class="circle_lots red">
-            </div>
-        </td>
-        <td>
-            <div class="circle_little red">
-            </div>
+            <p>40%</p>
         </td>
     </tr>
-        <tr>
+    <tr>
         <td>
-            <p>Court</p>
+            <p>Burglary</p>
         </td>
         <td>
-            <div class="circle_little red">
-            </div>
-        </td>
-        <td>
-        </td>
-        <td>
-            <div class="circle_lots red">
-            </div>
+            <p>55%</p>
         </td>
     </tr>
+    <tr>
+        <td>
+            <p>Motor Vehicle Theft</p>
+        </td>
+        <td>
+            <p>79%</p>
+        </td>
     </tr>
-          <tr>
-          <td>
-              <p>Prison</p>
-          </td>
-          <td>
-              <div class="circle_little red">
-              </div>
-          </td>
-          <td>
-          </td>
-          <td>
-              <div class="circle_lots red">
-              </div>
-          </td>
-      </tr>
+    <tr>
+        <td>
+            <p>Theft</p>
+        </td>
+        <td>
+            <p>26%</p>
+        </td>
+    </tr>
 </table>
 <br><hr><br>
