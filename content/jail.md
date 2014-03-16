@@ -138,19 +138,3 @@ The Cook County Jail houses an average of 8,900 inmates each year. The vast majo
 *  When an inmate record was updated by
 *  Inmate Legacy ID
 *  Internal Individual Record number used
-
-### How to Access the Data
-[Cook County Sheriff's Office](http://www.statesattorney.org/about_the_office.html)  
-[26th and California Data Project](http://26thandcalifornia.recoveredfactory.net)
-
-
-#### Filing Methods
-* Email: ccso.foiaofficer@cookcountyil.gov
-* Fax: Required by law to provide fax number, none listed
-* Mail: Cook County Sheriff's Office
-    > Attn: Freedom of Information Officer
-    > Richard J. Daley Center
-    > 50 West Washington, Room 704
-    > Chicago, Illinois 60602
-    
-To access data from the Cook County Sheriff's Office you need to file a request for data under Illinois' Freedom of Information Act.  You can file your request through any of the methods listed below.  Please try to be reasonably specific for the data you are looking for so that they can more easily process your request.

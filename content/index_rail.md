@@ -1,10 +1,41 @@
+### Process 
 
-## Process 
+#### 1. Victimization
+Open: idk  
+FOIA: idk  
+Unavailable: idk  
 
-Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. 
+#### 2. Call for Service
+Open: A small amount of vague data, such as whether a report is written, is available readily.  
+FOIA: Most arrest data is available via a FOI request.   
+Unavailable: Few fields are totally unavailable, only personal information such as Home Address.  
 
-Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+#### 3. Incidents
+Open: About half of the crime incident data is available to the public.  
+FOIA: Most of the contact card data and half of the crime incident data can be obtained through a FOI request.  
+Unavailable: Personal information such as names and badge numbers are omitted from the data in all cases.  
 
-Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt.
+#### 4. Arrest
+Open: Little to no arrest data is available to the public.  
+FOIA: Most of the arrest data is available through FOIA, such as name and ethnicity of the arrestee.  
+Unavailable: The only unavailable item is the home address of the arrestee.  
 
-At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident, similique sunt in culpa qui officia deserunt mollitia animi, id est laborum et dolorum fuga. Et harum quidem rerum facilis est et expedita distinctio.
+#### 5. Prosecute
+Open: No data is publicly available.  
+FOIA: Very little data is released in repsonse to FOI requests.  
+Unavailable: The State's Attorney's Office keeps a large amount of their data totally unavailable because they are impervious to FOI requests.  
+
+#### 6. Jail
+Open: A lot of the data on Cook County inmates is available readily via the Sheriff's County inmate locator.  
+FOIA: The Sheriff's Office keeps detailed records of inmates, and much of it is requestable through FOIA.  
+Unavailable: Very little data is unavailable, this includes personal identifying information such as home address.  
+
+#### 7. Court
+Open: No data is available to the public.  
+FOIA: The Courts are exempted from the FOIA requirements.  
+Unavailable: Nearly all court data about specific cases is unavailable.  
+
+#### 8. Prison
+Open: Most inmate data is available through the IDOC website.  
+FOIA: idk  
+Unavailable: There is a lot of unavailable data, such as identifying person information and case info.  

@@ -34,6 +34,3 @@ This is a list of the information that's collected by the OEMC for any caller. T
 * <span class="foiable">                Disposition (if no dispatch is required, the final disposition of event)
 * <span class="foiable">                District (district of occurrence)
 * <span class="foiable">                Service Beat (Police bear where the locaiton of service is located) 
-
-### How to Access Calls for Service Data in Chicago 
-Currently, the only way to obtain Calls for Service data in Chicago is to file a [www.cityofchicago.org/city/en/depts/oem/dataset/foialog.html](http://www.cityofchicago.org/city/en/depts/oem/dataset/foialog.html). Please try to be reasonably specific for the data you are looking for so that they can more easily process your request.   

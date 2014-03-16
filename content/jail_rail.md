@@ -1,117 +1,18 @@
-### Data Availability
+### How to Access the Data
+[Cook County Sheriff's Office](http://www.statesattorney.org/about_the_office.html)  
+[26th and California Data Project](http://26thandcalifornia.recoveredfactory.net)
 
-<table>
-     <tr>
-        <td>
-        </td>
-        <td>
-            <p>Open</p>
-        </td>
-        <td>
-            <p>FOIA</p>
-        </td>
-        <td>
-            <p>Unavailable</p>
-        </td>    
-    </tr>
-    <tr>
-        <td>
-            <p>Call For Service</p>
-        </td>
-        <td>
-            <div class="circle_some red">
-            </div>
-        </td>
-        <td>
-            <div class="circle_lots red">
-            </div>
-        </td>
-        <td>
-            <div class="circle_little red">
-            </div>
-        </td>
-    </tr>
-        <tr>
-        <td>
-            <p>Incidents/Arrest</p>
-        </td>
-        <td>
-            <div class="circle_lots red">
-            </div>
-        </td>
-        <td>
-            <div class="circle_some red">
-            </div>
-        </td>
-        <td>
-            <div class="circle_little red">
-            </div>
-        </td>
-    </tr>
-        <tr>
-        <td>
-            <p>Prosecute</p>
-        </td>
-        <td>
-        </td>
-        <td>
-            <div class="circle_little red">
-            </div>
-        </td>
-        <td>
-            <div class="circle_lots red">
-            </div>
-        </td>
-    </tr>
-        <tr bgcolor="F0F0F0">
-        <td>
-            <p>Jail</p>
-        </td>
-        <td>
-            <div class="circle_little red">
-            </div>
-        </td>
-        <td>
-            <div class="circle_lots red">
-            </div>
-        </td>
-        <td>
-            <div class="circle_little red">
-            </div>
-        </td>
-    </tr>
-        <tr>
-        <td>
-            <p>Court</p>
-        </td>
-        <td>
-            <div class="circle_little red">
-            </div>
-        </td>
-        <td>
-        </td>
-        <td>
-            <div class="circle_lots red">
-            </div>
-        </td>
-    </tr>
-    </tr>
-          <tr>
-          <td>
-              <p>Prison</p>
-          </td>
-          <td>
-              <div class="circle_little red">
-              </div>
-          </td>
-          <td>
-          </td>
-          <td>
-              <div class="circle_lots red">
-              </div>
-          </td>
-      </tr>
-</table>
+
+#### Filing Methods
+* Email: ccso.foiaofficer@cookcountyil.gov
+* Fax: Required by law to provide fax number, none listed
+* Mail: Cook County Sheriff's Office
+    > Attn: Freedom of Information Officer
+    > Richard J. Daley Center
+    > 50 West Washington, Room 704
+    > Chicago, Illinois 60602
+    
+To access data from the Cook County Sheriff's Office you need to file a request for data under Illinois' Freedom of Information Act.  You can file your request through any of the methods listed below.  Please try to be reasonably specific for the data you are looking for so that they can more easily process your request.
 
 <br><hr><br>
 
