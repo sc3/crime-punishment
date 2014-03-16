@@ -282,11 +282,11 @@ tr:not(:first-of-type) {
     width: 1%;
 }
 
-#gray {
+.gray {
     background: #989898;
 }
 
-#red {
+.red {
     background: #b33;
 }
 

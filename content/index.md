@@ -4,6 +4,10 @@ The chart below aims to paint a broad picture of how much data is available with
 
 The three categories (open, FOIA, and unavailable) specify three distinct means of obtaining relevant data. The size of the circles represents the amount of data in each category; an empty cell means that no information can be obtained by that means.
 
+Every record or data that's collected by the government, with few exceptions, should be available to the public under Illinois' Freedom of Information Act. Any category labeled "FOIA" refers to the data that was made available under this law.  
+
+<br>
+
 <div>
     <table>
        <tr>
@@ -24,15 +28,15 @@ The three categories (open, FOIA, and unavailable) specify three distinct means 
               <p>Call For Service</p>
           </td>
           <td>
-              <div class="circle_some" id="red">
+              <div class="circle_some red">
               </div>
           </td>
           <td>
-              <div class="circle_lots" id="red">
+              <div class="circle_lots red">
               </div>
           </td>
           <td>
-              <div class="circle_little" id="red">
+              <div class="circle_little red">
               </div>
           </td>
       </tr>
@@ -41,15 +45,15 @@ The three categories (open, FOIA, and unavailable) specify three distinct means 
               <p>Incidents/Arrest</p>
           </td>
           <td>
-              <div class="circle_lots" id="red">
+              <div class="circle_lots red">
               </div>
           </td>
           <td>
-              <div class="circle_some" id="red">
+              <div class="circle_some red">
               </div>
           </td>
           <td>
-              <div class="circle_little" id="red">
+              <div class="circle_little red">
               </div>
           </td>
       </tr>
@@ -60,11 +64,11 @@ The three categories (open, FOIA, and unavailable) specify three distinct means 
           <td>
           </td>
           <td>
-              <div class="circle_little" id="red">
+              <div class="circle_little red">
               </div>
           </td>
           <td>
-              <div class="circle_lots" id="red">
+              <div class="circle_lots red">
               </div>
           </td>
       </tr>
@@ -73,15 +77,15 @@ The three categories (open, FOIA, and unavailable) specify three distinct means 
               <p>Jail</p>
           </td>
           <td>
-              <div class="circle_little" id="red">
+              <div class="circle_little red">
               </div>
           </td>
           <td>
-              <div class="circle_lots" id="red">
+              <div class="circle_lots red">
               </div>
           </td>
           <td>
-              <div class="circle_little" id="red">
+              <div class="circle_little red">
               </div>
           </td>
       </tr>
@@ -90,13 +94,13 @@ The three categories (open, FOIA, and unavailable) specify three distinct means 
               <p>Court</p>
           </td>
           <td>
-              <div class="circle_little" id="red">
+              <div class="circle_little red">
               </div>
           </td>
           <td>
           </td>
           <td>
-              <div class="circle_lots" id="red">
+              <div class="circle_lots red">
               </div>
           </td>
       </tr>
@@ -106,13 +110,13 @@ The three categories (open, FOIA, and unavailable) specify three distinct means 
                 <p>Prison</p>
             </td>
             <td>
-                <div class="circle_little" id="red">
+                <div class="circle_little red">
                 </div>
             </td>
             <td>
             </td>
             <td>
-                <div class="circle_lots" id="red">
+                <div class="circle_lots red">
                 </div>
             </td>
         </tr>
