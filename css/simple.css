@@ -102,11 +102,6 @@ h1 {
   text-shadow: 2px 2px 3px #fff;
 }
 
-#prosecute-injunction {
-  color: rgba(20, 20, 20, .92);
-  text-shadow: 2px 2px 3px #4f4c4d;
-}
-
 .featured-image-wrapper .scroll-injunction i {
   margin: 0 5px;
 }
@@ -363,6 +358,7 @@ tr:not(:first-of-type) {
   h1 {
     font-size: 30px;
   }
+  
   .bubble {
     max-width: 50%;
     max-height: 100%;
