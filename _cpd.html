@@ -15,6 +15,9 @@
 {{ super() }}
 <script src="js/imgLiquid-min.js"></script>
 <script src="js/holder.js"></script>
+
+<script src="js/jquery-expander/jquery.expander.js"></script>
+
 <script type="text/javascript">
 
 function responsivize() {
@@ -32,9 +35,11 @@ $(document).ready(function() {
   $(window).on('resize', responsivize);
 
   setTimeout(function() {
-    $('.featured-image-wrapper h1').fadeIn(1000); 
+    $('div.featured-image-wrapper h1').fadeIn(1000); 
   }, 300);
-
+  
+  $('div.expandable').expander();
 });
+
 </script>
 {% endblock scripts %}

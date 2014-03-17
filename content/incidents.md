@@ -16,6 +16,7 @@ This is a list of the information that's collected by the Chicago Police Departm
 
 #### Crime Incident
 ###### Open Data
+<div class="expandable">
 * <span class="available">          Report Number (called RD #)
 * <span class="available">          Date of incident
 * <span class="available">          Address of incident (hundred block)
@@ -36,8 +37,10 @@ This is a list of the information that's collected by the Chicago Police Departm
 * <span class="available">          Latitude of location of incident
 * <span class="available">          Longitude of location of incident
 * <span class="available">          Location (combination of latitude and longitude)
+</div>
 
 ###### FOIA Data
+<div class="expandable">
 * <span class="foiable">            Exact Home address of complainant
 * <span class="foiable">            Race of complainant
 * <span class="foiable">            Age of complainant
@@ -62,17 +65,21 @@ This is a list of the information that's collected by the Chicago Police Departm
 * <span class="foiable">            Assignment of detective(s) assigned
 * <span class="foiable">            Any additional crime types of lesser seriousness
 * <span class="foiable">            Description of such additional crime types
-    
+</div>
+
 ###### Unavailable Data
+<div class="expandable">
 * <span class="unavailable">        Name of complainant
 * <span class="unavailable">        Name of responding officer(s)
 * <span class="unavailable">        Badge number of responding officer(s) 
 * <span class="unavailable">        Name of detective(s) assigned
 * <span class="unavailable">        Badge of detective(s) assigned
 * <span class="unavailable">        Relationship between the offender & the victim
+</div>
 
 #### Contact Cards
 ###### FOIA Data
+<div class="expandable">
 * <span class="foiable">            Address of Contact
 * <span class="foiable">            Data / Time of Contact
 * <span class="foiable">            Submitting Bear
@@ -114,9 +121,11 @@ This is a list of the information that's collected by the Chicago Police Departm
 * <span class="foiable">            Other Described Above
 * <span class="foiable">            Preparing Officer Name & Star #
 * <span class="foiable">            reparing Officer Name & Star #
-* <span class="foiable">            Supervisor Approval Star #    
+* <span class="foiable">            Supervisor Approval Star #  
+</div>
 
-###### Unavailable Data    
+###### Unavailable Data
+<div class="expandable">
 * <span class="unavailable">        Name of person being stopped
 * <span class="unavailable">        Nickname
 * <span class="unavailable">        Address of Residence
@@ -129,3 +138,4 @@ This is a list of the information that's collected by the Chicago Police Departm
 * <span class="unavailable">        Employer / School
 * <span class="unavailable">        License Plate
 * <span class="unavailable">        V.I.N. #
+</div>

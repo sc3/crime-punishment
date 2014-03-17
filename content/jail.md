@@ -6,6 +6,7 @@ The Cook County Jail houses an average of 8,900 inmates each year. The vast majo
 ### Data Inventory  
 
 ##### Inmate Booking Table
+<div class="expandable">
 *  Number used internally for our IMACS SQL Server
 *  Internal Number used to identify inmates regardless of number of bookings
 *  Number used to book inmates per arrest
@@ -138,3 +139,4 @@ The Cook County Jail houses an average of 8,900 inmates each year. The vast majo
 *  When an inmate record was updated by
 *  Inmate Legacy ID
 *  Internal Individual Record number used
+</div>
