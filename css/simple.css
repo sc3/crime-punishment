@@ -321,14 +321,14 @@ tr:not(:first-of-type) {
   }
 }
 
-@media (min-width: 768px) {
+@media (min-width: 767px) {
   .navbar-nav>li>a, .navbar-brand {
     padding-top: 8px;
     padding-bottom: 8px;
   }
 }
 
-@media (max-width: 769px) {
+@media (max-width: 768px) {
   .navbar {
     height: 50px;
   }
