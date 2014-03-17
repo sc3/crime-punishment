@@ -16,20 +16,27 @@ a:hover {
 }
 
 h1, h2, h3, h4, h5, h6 {
-  font-family: "Sorts Mill Goudy", serif;
+  font-family: "Lusitana";
 }
 
 h1 {
   font-size: 4em;
 }
 
-.copy {
-  font-family: 'Helvetica Neue', 'Helvetica' sans-serif !important;
-  font-size: 1.2em;
+.unavailable {
+  color: black;
 }
 
-#intro-paragraph {
-  text-align: center;
+.foiable {
+  color: black;
+}
+
+.available {
+  color: black;
+}
+
+.copy {
+  font-size: 1.3em;
 }
 
 /* Overlays */
@@ -238,9 +245,14 @@ img {
 
 /* Tables */
 
+<<<<<<< HEAD
+.chart-title {
+  text-align: center;
+=======
 #table-title {
     text-align: center;
     text-decoration: underline;
+>>>>>>> cee4310d6bac2020716a3c6b047093e88c2c9dd1
 }
 
 td {
@@ -292,6 +304,18 @@ tr:not(:first-of-type) {
 
 .content { 
   margin-top: 30px; 
+<<<<<<< HEAD
+=======
+}
+
+.content img { 
+  max-width: 100%; 
+}
+
+.credit {
+  font-size: 10px;
+  color: gray;
+>>>>>>> cee4310d6bac2020716a3c6b047093e88c2c9dd1
 }
 
 .content img { 
@@ -321,7 +345,7 @@ tr:not(:first-of-type) {
   }
 }
 
-@media (min-width: 767px) {
+@media (min-width: 768px) {
   .navbar-nav>li>a, .navbar-brand {
     padding-top: 8px;
     padding-bottom: 8px;
@@ -329,18 +353,9 @@ tr:not(:first-of-type) {
 }
 
 @media (max-width: 768px) {
-  .navbar {
-    height: 50px;
-  }
-  
-  .navbar-collapse {
-    padding-right: 100px !important;
-    padding-left: 60px !important;
-  }
-    
-  .featured-image-wrapper {
-    background-position-x: 75% !important;
-  }
+	.navbar {
+		height: 50px;
+	}
     
   .navbar .social-menu {
     margin: 30px 20px 30px 20px;
@@ -353,7 +368,7 @@ tr:not(:first-of-type) {
   }
   
   .featured-image-wrapper h1 {
-    font-size: 60px;
+      font-size: 60px;
   }
   
   h1 {
@@ -364,30 +379,22 @@ tr:not(:first-of-type) {
     max-width: 50%;
     max-height: 100%;
   }
-  
-  .copy {
-      font-size: 1.1em;
-  }
 }
 
 @media (max-width: 482px) {
     .photo-caption {
-      display: none;
-    }
-    
-    #index-landing h1 {
-      width: 92%;
+        display: none;
     }
     
     #index-overlay {
       color: #fff;
       text-shadow: 1px 1px 2px #000000;
-      font-size: 11px;
-      width: 100%;
+      font-size: 12px;
+      width: 80%;
     }
     
     .featured-image-wrapper h1 {
-      font-size: 45px;
+        font-size: 48px;
     }
 }
 

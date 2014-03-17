@@ -1,3 +1,8 @@
+### How to Access Calls for Service Data in Chicago 
+Currently, the only way to obtain Calls for Service data in Chicago is to file a [www.cityofchicago.org/city/en/depts/oem/dataset/foialog.html](http://www.cityofchicago.org/city/en/depts/oem/dataset/foialog.html). Please try to be reasonably specific for the data you are looking for so that they can more easily process your request. 
+
+<br><hr><br>
+
 ### National Models for Releasing Justice Data
 
 ##### Dallas Police Department (Texas)
