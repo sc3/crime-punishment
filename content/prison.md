@@ -10,26 +10,26 @@ The Illinois Department of Corrections allows you to search by last name, birth 
 
 ###### Open Data  
 
-* Physical Profile
-* Date of Birth
-* Weight
-* Hair
-* Sex
-* Height
-* Race
-* Eyes
-* Mars, Scars, & Tattoos
-* Admission / Release / Discharge Info
-* Admission Date
-* Projected Release Date
-* Last Paroled Date
-* Projected Discharge Date
-* Sentencing Information (this is listed for every conviction the individual has)
-* Mittimus (Case Number)
-* Class
-* Count
-* Offense
-* Custody Date
-* Sentence
-* County 
-* Sentence Discharged
+- Physical Profile
+- Date of Birth
+- Weight
+- Hair
+- Sex
+- Height
+- Race
+- Eyes
+- Mars, Scars, & Tattoos
+- Admission / Release / Discharge Info
+- Admission Date
+- Projected Release Date
+- Last Paroled Date
+- Projected Discharge Date
+- Sentencing Information (this is listed for every conviction the individual has)
+- Mittimus (Case Number)
+- Class
+- Count
+- Offense
+- Custody Date
+- Sentence
+- County 
+- Sentence Discharged

@@ -17,64 +17,64 @@ This is a list of the information that's collected by the Chicago Police Departm
 #### Crime Incident
 ###### Open Data
 <div class="expandable">
-* Report Number (called RD #)
-* Date of incident
-* Address of incident (hundred block)
-* Illinois Uniform Crime Report Code
-* Primary Type
-* Description of Event
-* Location Description 
-* If an arrest was made
-* Whether or not the incident was domestic
-* Beat of occurrence
-* District of occurrence
-* Ward of occurrence
-* Community area of occurrence
-* FBI Code
-* X coordinates of location of incident
-* Y coordinates of location of incident
-* Year
-* Latitude of location of incident
-* Longitude of location of incident
-* Location (combination of latitude and longitude)
+- Report Number (called RD #)
+- Date of incident
+- Address of incident (hundred block)
+- Illinois Uniform Crime Report Code
+- Primary Type
+- Description of Event
+- Location Description 
+- If an arrest was made
+- Whether or not the incident was domestic
+- Beat of occurrence
+- District of occurrence
+- Ward of occurrence
+- Community area of occurrence
+- FBI Code
+- X coordinates of location of incident
+- Y coordinates of location of incident
+- Year
+- Latitude of location of incident
+- Longitude of location of incident
+- Location (combination of latitude and longitude)
 </div>
 
 ###### FOIA Data
 <div class="expandable">
-* Exact Home address of complainant
-* Race of complainant
-* Age of complainant
-* Gender of complainant (observed)
-* Whether complainant was intoxicated
-* Relationship between complainant & offender
-* Weapon presence / type of weapon
-* Complainant Injury
-* Whether injured
-* Injury Type
-* Injury Description
-* Number of Complainants involved in incident
-* Number of Offenders involved in incident
-* Whether a witness was present
-* Gender of responding officer(s)
-* Age of responding officer(s)
-* Race of responding officer(s)
-* Assignment of responding officer(s)
-* Gender of detective(s) assigned
-* Age of detective(s) assigned
-* Race of detective(s) assigned
-* Assignment of detective(s) assigned
-* Any additional crime types of lesser seriousness
-* Description of such additional crime types
+- Exact Home address of complainant
+- Race of complainant
+- Age of complainant
+- Gender of complainant (observed)
+- Whether complainant was intoxicated
+- Relationship between complainant & offender
+- Weapon presence / type of weapon
+- Complainant Injury
+- Whether injured
+- Injury Type
+- Injury Description
+- Number of Complainants involved in incident
+- Number of Offenders involved in incident
+- Whether a witness was present
+- Gender of responding officer(s)
+- Age of responding officer(s)
+- Race of responding officer(s)
+- Assignment of responding officer(s)
+- Gender of detective(s) assigned
+- Age of detective(s) assigned
+- Race of detective(s) assigned
+- Assignment of detective(s) assigned
+- Any additional crime types of lesser seriousness
+- Description of such additional crime types
 </div>
 
 ###### Unavailable Data
 <div class="expandable">
-* Name of complainant
-* Name of responding officer(s)
-* Badge number of responding officer(s) 
-* Name of detective(s) assigned
-* Badge of detective(s) assigned
-* Relationship between the offender & the victim
+- Name of complainant
+- Name of responding officer(s)
+- Badge number of responding officer(s) 
+- Name of detective(s) assigned
+- Badge of detective(s) assigned
+- Relationship between the offender & the victim
 </div>
 
 #### Contact Cards
