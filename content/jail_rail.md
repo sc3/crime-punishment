@@ -1,6 +1,6 @@
 ### How to Access the Data
 
-Some jail data is available through the [26th and California Data Project](http://26thandcalifornia.recoveredfactory.net), which in turn gets its information from the single inmate search funtion of the [Cook County Inmate Locator](http://www2.cookcountysheriff.org/search2/).
+Some jail data is available through the [26th and California Data](http://26thandcalifornia.recoveredfactory.net) and [Cook County Jail API](https://github.com/sc3/cookcountyjail/wiki/API-guide) projects, which in turn get their information from the single inmate search funtion of the [Cook County Inmate Locator](http://www2.cookcountysheriff.org/search2/).
 
 To access greater or more specific data from the Cook County Jail, you need to [file a request for data under Illinois' Freedom of Information Act (FOIA)](http://www.statesattorney.org/about_the_office.html). You will need to send an email including: **(1)** *your name and contact information*, along with **(2)** *a description of the records you are requesting*. Please try to be reasonably specific for the data you are looking for so that they can more easily process your request.
 
