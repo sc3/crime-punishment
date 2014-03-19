@@ -1,6 +1,8 @@
 ### How to Access the Data
 
-Court records are deemed to be open for public inspection and can be viewed during normal working hours by going to the appropriate Circuit Court to view them. However, in Illinois, and at the federal level, the courts are exempted from having to abide by the Freedom of Information Act. The [Cook County Clerk of the Circuit Court](http://www.cookcountyclerkofcourt.org/) maintains both the court paper records and the electronic data the courts generate. To attempt to get access to electronic court data you have to [file a request for such data with the Chief Judge's office](http://www.cookcountygov.com/portal/server.pt/community/chief_judge,_office_of_the/261). If your request is approved it is then sent to the Circuit Court Clerk's office and they will provide you the data.  
+Court records are deemed to be open for public inspection and can be viewed during normal working hours by going to the appropriate Circuit Court to view them. However, in Illinois, and at the federal level, the courts are exempted from having to abide by the Freedom of Information Act. The [Cook County Clerk of the Circuit Court](http://www.cookcountyclerkofcourt.org/) maintains both the court paper records and the electronic data the courts generate. 
+
+To attempt to get access to electronic court data you have to [file a request for such data with the Chief Judge's office](http://www.cookcountygov.com/portal/server.pt/community/chief_judge,_office_of_the/261). If your request is approved it is then sent to the Circuit Court Clerk's office and they will provide you the data.  
 
 <br><hr><br>
 
