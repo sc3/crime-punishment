@@ -38,7 +38,9 @@ $(document).ready(function() {
     $('div.featured-image-wrapper h1').fadeIn(1000); 
   }, 300);
   
-  $('div.expandable').expander();
+  $('div.expandable').expander({
+    slicePoint: 200
+  });
 });
 
 </script>
