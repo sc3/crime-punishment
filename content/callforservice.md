@@ -9,28 +9,8 @@ There are many municipalities that publish live or near-live listing of dispatch
 
 ### Data Inventory
 
-This is a list of the information that's collected by the OEMC for any caller. The inventory is divided into three categories: **(1)** *data available through a Freedom of Information (FOI) request*, **(2)** *data readily available* and **(3)** *data that is collected but not available*. <br><br>
+This is a list of the information that's collected by the OEMC for any caller. The inventory is divided into three categories: **(1)** *data available through a Freedom of Information (FOI) request*, **(2)** *data readily available* and **(3)** *data that is collected but not available*. 
 
-###### Open Data
-* <span class="available">              If a report is written
-* <span class="available">              RD #
-* <span class="available">              Final coded clearance by the officer (this should tell OEMC if a report was written and for what crime type)
+<br><br>
 
-###### FOIA Data
-* <span class="foiable">                Event Type
-* <span class="foiable">                Priority (Response priority for police to respond)
-* <span class="foiable">                Event # (automatically generated)
-* <span class="foiable">                Date
-* <span class="foiable">                Cross Street
-* <span class="foiable">                Location Remarks (more specific remarks like front of building, or in alley)
-* <span class="foiable">                Best of Occurrence
-* <span class="foiable">                Anonymous? (caller want to remain anonymous)
-* <span class="foiable">                Source (the source of call for service)
-* <span class="foiable">                License State Field
-* <span class="foiable">                License Type Field
-* <span class="foiable">                FAOW (are fire services responding)
-* <span class="foiable">                Actions (Specific actions beyond basic event entry)
-* <span class="foiable">                Remarks (any other additional details relevant to event)
-* <span class="foiable">                Disposition (if no dispatch is required, the final disposition of event)
-* <span class="foiable">                District (district of occurrence)
-* <span class="foiable">                Service Beat (Police bear where the locaiton of service is located) 
+{{ inventory('Call for Service') }}

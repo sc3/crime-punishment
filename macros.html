@@ -1,0 +1,62 @@
+
+
+<!-- {# Switching table for generating data inventory sections.
+     Call "{{ inventory('mystage') }}" in a markdown file, 
+     where 'mystage is the stage name defined here. 
+
+     Define here, for each stage, the spreadsheet to pull from,
+     the section title to appear with the fields, the type of 
+     field to include in that section, and whether or not you
+     want an expandable. '  
+
+     This whole macro should be drastically changed to be more 
+     DRY. #} !-->
+
+{% macro inventory(stage) -%}
+
+{% if stage == 'Call for Service' %}
+{{ expandable(callforservice_fields, 'Open Data', 'available', 'false') }}
+{{ expandable(callforservice_fields, 'FOIA Data', 'foiable', 'true') }}
+{% endif %}
+
+{% if stage == 'Incidents' %}
+{{ expandable(incidents_fields, 'Open Data', 'available', 'true') }}
+{{ expandable(incidents_fields, 'FOIA Data', 'foiable', 'true') }}
+{{ expandable(incidents_fields, 'Unavailable Data', 'unavailable', 'false') }}
+{% endif %}
+
+{% if stage == 'Jail' %}
+{{ expandable(jail_fields, 'FOIA Data', 'foiable', 'true') }}
+{% endif %}
+
+{% if stage == 'Court' %}
+{{ expandable(court_fields, 'Unavailable Data', 'unavailable', 'true') }}
+{% endif %}
+
+{% if stage == 'Prison' %}
+{{ expandable(prison_fields, 'Open Data', 'available', 'true') }}
+{% endif %}
+
+{%- endmacro %}
+
+
+<!-- Lower level mechanism for creating expandable sections. -->
+
+{% macro expandable(spreadsheet, section_name, availability, expand) -%}
+<div class="data-inventory">
+<h4>{{ section_name }}</h4>
+{% if expand == 'true' %}
+<div class="expandable">
+{% endif %}
+<ul>
+{% for field in spreadsheet %}
+{% if field.availability == availability %}
+<li>{{ field.name }}</li>
+{% endif %}
+{% endfor %}
+</ul>
+{% if expand == 'true' %}
+</div>
+{% endif %}
+</div>
+{%- endmacro %}
