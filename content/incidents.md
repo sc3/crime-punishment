@@ -17,125 +17,125 @@ This is a list of the information that's collected by the Chicago Police Departm
 #### Crime Incident
 ###### Open Data
 <div class="expandable">
-* <span class="available">          Report Number (called RD #)
-* <span class="available">          Date of incident
-* <span class="available">          Address of incident (hundred block)
-* <span class="available">          Illinois Uniform Crime Report Code
-* <span class="available">          Primary Type
-* <span class="available">          Description of Event
-* <span class="available">          Location Description 
-* <span class="available">          If an arrest was made
-* <span class="available">          Whether or not the incident was domestic
-* <span class="available">          Beat of occurrence
-* <span class="available">          District of occurrence
-* <span class="available">          Ward of occurrence
-* <span class="available">          Community area of occurrence
-* <span class="available">          FBI Code
-* <span class="available">          X coordinates of location of incident
-* <span class="available">          Y coordinates of location of incident
-* <span class="available">          Year
-* <span class="available">          Latitude of location of incident
-* <span class="available">          Longitude of location of incident
-* <span class="available">          Location (combination of latitude and longitude)
+* Report Number (called RD #)
+* Date of incident
+* Address of incident (hundred block)
+* Illinois Uniform Crime Report Code
+* Primary Type
+* Description of Event
+* Location Description 
+* If an arrest was made
+* Whether or not the incident was domestic
+* Beat of occurrence
+* District of occurrence
+* Ward of occurrence
+* Community area of occurrence
+* FBI Code
+* X coordinates of location of incident
+* Y coordinates of location of incident
+* Year
+* Latitude of location of incident
+* Longitude of location of incident
+* Location (combination of latitude and longitude)
 </div>
 
 ###### FOIA Data
 <div class="expandable">
-* <span class="foiable">            Exact Home address of complainant
-* <span class="foiable">            Race of complainant
-* <span class="foiable">            Age of complainant
-* <span class="foiable">            Gender of complainant (observed)
-* <span class="foiable">            Whether complainant was intoxicated
-* <span class="foiable">            Relationship between complainant & offender
-* <span class="foiable">            Weapon presence / type of weapon
-* <span class="foiable">            Complainant Injury
-* <span class="foiable">            Whether injured
-* <span class="foiable">            Injury Type
-* <span class="foiable">            Injury Description
-* <span class="foiable">            Number of Complainants involved in incident
-* <span class="foiable">            Number of Offenders involved in incident
-* <span class="foiable">            Whether a witness was present
-* <span class="foiable">            Gender of responding officer(s)
-* <span class="foiable">            Age of responding officer(s)
-* <span class="foiable">            Race of responding officer(s)
-* <span class="foiable">            Assignment of responding officer(s)
-* <span class="foiable">            Gender of detective(s) assigned
-* <span class="foiable">            Age of detective(s) assigned
-* <span class="foiable">            Race of detective(s) assigned
-* <span class="foiable">            Assignment of detective(s) assigned
-* <span class="foiable">            Any additional crime types of lesser seriousness
-* <span class="foiable">            Description of such additional crime types
+* Exact Home address of complainant
+* Race of complainant
+* Age of complainant
+* Gender of complainant (observed)
+* Whether complainant was intoxicated
+* Relationship between complainant & offender
+* Weapon presence / type of weapon
+* Complainant Injury
+* Whether injured
+* Injury Type
+* Injury Description
+* Number of Complainants involved in incident
+* Number of Offenders involved in incident
+* Whether a witness was present
+* Gender of responding officer(s)
+* Age of responding officer(s)
+* Race of responding officer(s)
+* Assignment of responding officer(s)
+* Gender of detective(s) assigned
+* Age of detective(s) assigned
+* Race of detective(s) assigned
+* Assignment of detective(s) assigned
+* Any additional crime types of lesser seriousness
+* Description of such additional crime types
 </div>
 
 ###### Unavailable Data
 <div class="expandable">
-* <span class="unavailable">        Name of complainant
-* <span class="unavailable">        Name of responding officer(s)
-* <span class="unavailable">        Badge number of responding officer(s) 
-* <span class="unavailable">        Name of detective(s) assigned
-* <span class="unavailable">        Badge of detective(s) assigned
-* <span class="unavailable">        Relationship between the offender & the victim
+* Name of complainant
+* Name of responding officer(s)
+* Badge number of responding officer(s) 
+* Name of detective(s) assigned
+* Badge of detective(s) assigned
+* Relationship between the offender & the victim
 </div>
 
 #### Contact Cards
 ###### FOIA Data
 <div class="expandable">
-* <span class="foiable">            Address of Contact
-* <span class="foiable">            Data / Time of Contact
-* <span class="foiable">            Submitting Bear
-* <span class="foiable">            Related Card #s: (to identify associates)
-* <span class="foiable">            Type of Contact: Traffic, Crime Victim, Suspicious Person, Gang / Narc Related 
-* <span class="foiable">            R.O.U.G.E.S
-* <span class="foiable">            Offender, other
-* <span class="foiable">            City, State, Zip
-* <span class="foiable">            Date of Birth
-* <span class="foiable">            Sex
-* <span class="foiable">            Race
-* <span class="foiable">            Height
-* <span class="foiable">            Weight
-* <span class="foiable">            Eyes
-* <span class="foiable">            Hair
-* <span class="foiable">            Hairstyle
-* <span class="foiable">            Complexion
-* <span class="foiable">            Scars/Marks/Tattoo
-* <span class="foiable">            Clothing Type / Color
-* <span class="foiable">            Name verified by I.D.
-* <span class="foiable">            Address
-* <span class="foiable">            R.D. # if related
-* <span class="foiable">            OCD - I #
-* <span class="foiable">            Hot Spot #
-* <span class="foiable">            Event #
-* <span class="foiable">            Vehicle Year
-* <span class="foiable">            Make
-* <span class="foiable">            Model
-* <span class="foiable">            Body Style
-* <span class="foiable">            Color
-* <span class="foiable">            Describe Reason for Contact
-* <span class="foiable">            Possible involved gang
-* <span class="foiable">            Gangs Known Hangouts
-* <span class="foiable">            Types of Gang Related Criminal Activities
-* <span class="foiable">            Gang Lookout
-* <span class="foiable">            Gang security
-* <span class="foiable">            Intimidation
-* <span class="foiable">            Suspected Narcotic Activity
-* <span class="foiable">            Other Described Above
-* <span class="foiable">            Preparing Officer Name & Star #
-* <span class="foiable">            reparing Officer Name & Star #
-* <span class="foiable">            Supervisor Approval Star #  
+* Address of Contact
+* Data / Time of Contact
+* Submitting Bear
+* Related Card #s: (to identify associates)
+* Type of Contact: Traffic, Crime Victim, Suspicious Person, Gang / Narc Related 
+* R.O.U.G.E.S
+* Offender, other
+* City, State, Zip
+* Date of Birth
+* Sex
+* Race
+* Height
+* Weight
+* Eyes
+* Hair
+* Hairstyle
+* Complexion
+* Scars/Marks/Tattoo
+* Clothing Type / Color
+* Name verified by I.D.
+* Address
+* R.D. # if related
+* OCD - I #
+* Hot Spot #
+* Event #
+* Vehicle Year
+* Make
+* Model
+* Body Style
+* Color
+* Describe Reason for Contact
+* Possible involved gang
+* Gangs Known Hangouts
+* Types of Gang Related Criminal Activities
+* Gang Lookout
+* Gang security
+* Intimidation
+* Suspected Narcotic Activity
+* Other Described Above
+* Preparing Officer Name & Star #
+* reparing Officer Name & Star #
+* Supervisor Approval Star #  
 </div>
 
 ###### Unavailable Data
 <div class="expandable">
-* <span class="unavailable">        Name of person being stopped
-* <span class="unavailable">        Nickname
-* <span class="unavailable">        Address of Residence
-* <span class="unavailable">        Apt/Floor
-* <span class="unavailable">        Phone #
-* <span class="unavailable">        Cell phone #
-* <span class="unavailable">        Drivers LIC #
-* <span class="unavailable">        Social Security #
-* <span class="unavailable">        Other I.D. Type or means
-* <span class="unavailable">        Employer / School
-* <span class="unavailable">        License Plate
-* <span class="unavailable">        V.I.N. #
+* Name of person being stopped
+* Nickname
+* Address of Residence
+* Apt/Floor
+* Phone #
+* Cell phone #
+* Drivers LIC #
+* Social Security #
+* Other I.D. Type or means
+* Employer / School
+* License Plate
+* V.I.N. #
 </div>
