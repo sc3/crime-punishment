@@ -21,7 +21,7 @@
 </div>
 <div class="content container">
   <div class="col-md-8">
-    {{ read_file("content/arrest.md") | markdown }}
+    {{ render_file("content/arrest.md") | markdown }}
   </div>
   <div class="col-md-4">
     {{ read_file("content/arrest_rail.md")|markdown }}

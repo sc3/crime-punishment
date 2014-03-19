@@ -25,6 +25,11 @@
 {{ expandable(incidents_fields, 'Unavailable Data', 'unavailable', 'false') }}
 {% endif %}
 
+{% if stage == 'Arrest' %}
+{{ expandable(arrest_fields, 'FOIA Data', 'foiable', 'false') }}
+{{ expandable(arrest_fields, 'Unavailable Data', 'unavailable', 'false') }}
+{% endif %}
+
 {% if stage == 'Jail' %}
 {{ expandable(jail_fields, 'FOIA Data', 'foiable', 'true') }}
 {% endif %}

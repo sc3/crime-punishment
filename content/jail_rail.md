@@ -1,19 +1,8 @@
 ### How to Access the Data
-[Cook County Sheriff's Office](http://www.statesattorney.org/about_the_office.html)  
-[26th and California Data Project](http://26thandcalifornia.recoveredfactory.net)
 
+Some jail data is available through the [26th and California Data Project](http://26thandcalifornia.recoveredfactory.net), which in turn gets its information from the single inmate search funtion of the [Cook County Inmate Locator](http://www2.cookcountysheriff.org/search2/).
 
-#### Filing Methods
-* Email: ccso.foiaofficer@cookcountyil.gov
-* Fax: Required by law to provide fax number, none listed
-* Mail: Cook County Sheriff's Office  
-
-    > Attn: Freedom of Information Officer  
-    > Richard J. Daley Center  
-    > 50 West Washington, Room 704  
-    > Chicago, Illinois 60602  
-    
-To access data from the Cook County Sheriff's Office you need to file a request for data under Illinois' Freedom of Information Act.  You can file your request through any of the methods listed below.  Please try to be reasonably specific for the data you are looking for so that they can more easily process your request.
+To access greater or more specific data from the Cook County Jail, you need to [file a request for data under Illinois' Freedom of Information Act (FOIA)](http://www.statesattorney.org/about_the_office.html). You will need to send an email including: **(1)** *your name and contact information*, along with **(2)** *a description of the records you are requesting*. Please try to be reasonably specific for the data you are looking for so that they can more easily process your request.
 
 <br><hr><br>
 
