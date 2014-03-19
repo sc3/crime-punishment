@@ -9,28 +9,8 @@ There are many municipalities that publish live or near-live listing of dispatch
 
 ### Data Inventory
 
-This is a list of the information that's collected by the OEMC for any caller. The inventory is divided into three categories: **(1)** *data available through a Freedom of Information (FOI) request*, **(2)** *data readily available* and **(3)** *data that is collected but not available*. <br><br>
+This is a list of the information that's collected by the OEMC for any caller. The inventory is divided into three categories: **(1)** *data available through a Freedom of Information (FOI) request*, **(2)** *data readily available* and **(3)** *data that is collected but not available*. 
 
-###### Open Data
-- If a report is written
-- RD #
-- Final coded clearance by the officer (this should tell OEMC if a report was written and for what crime type)
+<br><br>
 
-###### FOIA Data
-- Event Type
-- Priority (Response priority for police to respond)
-- Event # (automatically generated)
-- Date
-- Cross Street
-- Location Remarks (more specific remarks like front of building, or in alley)
-- Best of Occurrence
-- Anonymous? (caller want to remain anonymous)
-- Source (the source of call for service)
-- License State Field
-- License Type Field
-- FAOW (are fire services responding)
-- Actions (Specific actions beyond basic event entry)
-- Remarks (any other additional details relevant to event)
-- Disposition (if no dispatch is required, the final disposition of event)
-- District (district of occurrence)
-- Service Beat (Police bear where the locaiton of service is located) 
+{{ inventory('Call for Service') }}
