@@ -1,12 +1,3 @@
 ### How to Access the Data
-[IDOC FOIA Resource](https://www2.illinois.gov/idoc/Pages/FreedomofInformationAct.aspx)
 
-Lisa Weitekamp  
-Freedom of Information Officer  
-Illinois Department of Corrections  
-1301 Concordia Court  
-P.O. Box 19277  
-Springfield, IL 62794-9277  
-
-Fax: 217.522.4374  
-Email: lisa.weitekamp@doc.illinois.gov  
+To access data from the Illinois Department of Corrections, you need to [file a request for data under Illinois' Freedom of Information Act (FOIA)](https://www2.illinois.gov/idoc/Pages/FreedomofInformationAct.aspx). You will need to send an email including: **(1)** *your name and contact information*, along with **(2)** *a description of the records you are requesting*. Please try to be reasonably specific for the data you are looking for so that they can more easily process your request.
