@@ -32,6 +32,26 @@ h1 {
   text-align: center;
 }
 
+
+/* Side navigation */
+
+.side {}
+.side a {
+  position: fixed;
+  top: 25%;
+  border-radius: 50px;
+  background: #AAA;
+  height: 50px;
+  width: 50px;
+  text-align: center;
+}
+.side a#prev {left: 3%;}
+.side a#next {right: 3%;}
+.side a i {
+  padding-top: 11px;
+}
+
+
 /* Overlays */
 
 .featured-image-wrapper {

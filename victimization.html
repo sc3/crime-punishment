@@ -1,12 +1,11 @@
 {% extends "_cpd.html" %}
 {% set victimization = 1 %}
 
-<div class="side">
-  <a id="prev" class="btn btn-default" href="/">Back to Landing Page</a>
-  <a id="next" class="btn btn-primary" href="/callforservice.html">Next Stage</a>
-</div>
-
 {% block content %}
+<div class="side">
+  <a id="prev" href="/"><i class="fa fa-2x fa-chevron-left"></i></a>
+  <a id="next" href="/callforservice.html"><i class="fa fa-2x fa-chevron-right"></i></a>
+</div>
 <div id="victimization-landing" class="featured-image-wrapper">
   <img class="featured-image" src={{ stages[victimization].featured_image }}>
   <h1>{{ stages[victimization].headline|markdown }}</h1>
