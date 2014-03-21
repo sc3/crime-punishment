@@ -1,12 +1,11 @@
 {% extends "_cpd.html" %}
 {% set arrest = 4 %}
 
-<div class="side">
-  <a id="prev" class="btn btn-default" href="/incidents.html">Previous Stage</a>
-  <a id="next" class="btn btn-primary" href="/prosecute.html">Next Stage</a>
-</div>
-
 {% block content %}
+<div class="side">
+  <a id="prev" href="/incidents.html"><i class="fa fa-2x fa-chevron-left"></i></a>
+  <a id="next" href="/jail.html"><i class="fa fa-2x fa-chevron-right"></i></a>
+</div>
 <div id="arrest-landing" class="featured-image-wrapper">
   <img class="featured-image" src={{ stages[arrest].featured_image }}>
   <h1>{{ stages[arrest].headline|markdown }}</h1>
