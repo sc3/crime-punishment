@@ -15,31 +15,31 @@
 {% macro inventory(stage) -%}
 
 {% if stage == 'Call for Service' %}
-{{ expandable(callforservice_fields, 'Open Data', 'available', 'false') }}
-{{ expandable(callforservice_fields, 'FOIA Data', 'foiable', 'true') }}
+{{ expandable('callforservice', callforservice_fields, 'Open Data', 'available', 'false') }}
+{{ expandable('callforservice', callforservice_fields, 'FOIA Data', 'foiable', 'true') }}
 {% endif %}
 
 {% if stage == 'Incidents' %}
-{{ expandable(incidents_fields, 'Open Data', 'available', 'true') }}
-{{ expandable(incidents_fields, 'FOIA Data', 'foiable', 'true') }}
-{{ expandable(incidents_fields, 'Unavailable Data', 'unavailable', 'false') }}
+{{ expandable('incidents', incidents_fields, 'Open Data', 'available', 'true') }}
+{{ expandable('incidents', incidents_fields, 'FOIA Data', 'foiable', 'true') }}
+{{ expandable('incidents', incidents_fields, 'Unavailable Data', 'unavailable', 'false') }}
 {% endif %}
 
 {% if stage == 'Arrest' %}
-{{ expandable(arrest_fields, 'FOIA Data', 'foiable', 'false') }}
-{{ expandable(arrest_fields, 'Unavailable Data', 'unavailable', 'false') }}
+{{ expandable('arrest', arrest_fields, 'FOIA Data', 'foiable', 'false') }}
+{{ expandable('arrest', arrest_fields, 'Unavailable Data', 'unavailable', 'false') }}
 {% endif %}
 
 {% if stage == 'Jail' %}
-{{ expandable(jail_fields, 'FOIA Data', 'foiable', 'true') }}
+{{ expandable('jail', jail_fields, 'FOIA Data', 'foiable', 'true') }}
 {% endif %}
 
 {% if stage == 'Court' %}
-{{ expandable(court_fields, 'Unavailable Data', 'unavailable', 'true') }}
+{{ expandable('court', court_fields, 'Unavailable Data', 'unavailable', 'true') }}
 {% endif %}
 
 {% if stage == 'Prison' %}
-{{ expandable(prison_fields, 'Open Data', 'available', 'true') }}
+{{ expandable('prison', prison_fields, 'Open Data', 'available', 'true') }}
 {% endif %}
 
 {%- endmacro %}
@@ -47,12 +47,13 @@
 
 <!-- Lower level mechanism for creating expandable sections. -->
 
-{% macro expandable(spreadsheet, section_name, availability, expand) -%}
-<div class="data-inventory">
-<h4>{{ section_name }}</h4>
-{% if expand == 'true' %}
-<div class="expandable">
+{% macro expandable(stage, spreadsheet, section_name, availability, expand) -%}
+<div id="{{stage}}-{{availability}}" 
+{% if expand == 'true' %} 
+  class="expandable"
 {% endif %}
+>
+<h4>{{ section_name }}</h4>
 <ul>
 {% for field in spreadsheet %}
 {% if field.availability == availability %}
@@ -60,8 +61,5 @@
 {% endif %}
 {% endfor %}
 </ul>
-{% if expand == 'true' %}
-</div>
-{% endif %}
 </div>
 {%- endmacro %}
