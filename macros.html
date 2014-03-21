@@ -15,8 +15,8 @@
 {% macro inventory(stage) -%}
 
 {% if stage == 'Call for Service' %}
-{{ expandable('callforservice', callforservice_fields, 'Open Data', 'available', 'false') }}
 {{ expandable('callforservice', callforservice_fields, 'FOIA Data', 'foiable', 'true') }}
+{{ expandable('callforservice', callforservice_fields, 'Unavailable Data', 'unavailable', 'true') }}
 {% endif %}
 
 {% if stage == 'Incidents' %}

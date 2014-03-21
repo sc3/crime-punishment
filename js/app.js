@@ -17,7 +17,10 @@ $(document).ready(function() {
   }, 300);
   
   $('#callforservice-foiable').expander({
-    slicePoint: 400
+    slicePoint: 200
+  });
+  $('#callforservice-unavailable').expander({
+    slicePoint: 300
   });
   $('#incidents-available').expander({
     slicePoint: 100
