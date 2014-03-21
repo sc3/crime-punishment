@@ -38,7 +38,7 @@ h1 {
 .side {}
 .side a {
   position: fixed;
-  top: 25%;
+  top: 40%;
   border-radius: 50px;
   border-style: solid;
   border-width: 1px;
@@ -52,8 +52,8 @@ h1 {
 .side a:hover{
   opacity: .65;
 }
-.side a#prev {left: 4%;}
-.side a#next {right: 4%;}
+.side a#prev {left: 2.5%;}
+.side a#next {right: 2.5%;}
 .side a i {
   padding-top: 11px;
 }
