@@ -1,12 +1,11 @@
 {% extends "_cpd.html" %}
 {% set court = 7 %}
 
-<div class="side">
-  <a id="prev" class="btn btn-default" href="/jail.html">Previous Stage</a>
-  <a id="next" class="btn btn-primary" href="/prison.html">Next Stage</a>
-</div>
-
 {% block content %}
+<div class="side">
+  <a id="prev" href="/jail.html"><i class="fa fa-2x fa-chevron-left"></i></a>
+  <a id="next" href="/prison.html"><i class="fa fa-2x fa-chevron-right"></i></a>
+</div>
 <div id="court-landing" class="featured-image-wrapper">
   <img class="featured-image" src={{ stages[court].featured_image }}>
   <h1>{{ stages[court].headline|markdown }}</h1>
