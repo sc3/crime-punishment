@@ -1,0 +1,1 @@
+<b>Crime and Punishment in Chicago</b> provides an index of data sources surrounding the criminal justice system in Chicago. We track data sources from the 911 call all the way to court or jail. We aggregate sources of data, provide insight into how this data is generated, discuss how to get it, and expose what data is unavailable. For more, see below.
