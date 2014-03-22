@@ -35,10 +35,10 @@ h1 {
 
 /* Side navigation */
 
-.side {}
 .side a {
+  z-index: 2;
   position: fixed;
-  top: 40%;
+  top: 45%;
   border-radius: 50px;
   border-style: solid;
   border-width: 1px;
@@ -48,6 +48,7 @@ h1 {
   width: 50px;
   text-align: center;
   color: #ed1c24; 
+  opacity: .85;
 }
 .side a:hover{
   opacity: .65;
@@ -62,6 +63,7 @@ h1 {
 /* Overlays */
 
 .featured-image-wrapper {
+  z-index: 1000;
   position: relative;
 }
 
