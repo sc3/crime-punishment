@@ -2,10 +2,10 @@
 {% set incidents = 3 %}
 
 {% block content %}
-<div class="side">
+<!-- <div class="side">
   <a id="prev" href="/callforservice.html"><i class="fa fa-2x fa-chevron-left"></i></a>
   <a id="next" href="/arrest.html"><i class="fa fa-2x fa-chevron-right"></i></a>
-</div>
+</div> -->
 <div id="incidents-landing" class="featured-image-wrapper">
   <img class="featured-image" src={{ stages[incidents].featured_image }}>
   <h1>{{ stages[incidents].headline|markdown }}</h1>
@@ -25,5 +25,11 @@
   <div class="col-md-4">
     {{ read_file("content/incidents_rail.md")|markdown }}
   </div>
+</div>
+<div id='footer'>
+    <div class='container'>
+        <a id="prev" href="/callforservice.html"><i class="fa fa-1x fa-chevron-left"></i>&nbsp;&nbsp;Previous</a>
+        <a id="next" href="/arrest.html">Next Stage: Arrest&nbsp;&nbsp;<i class="fa fa-1x fa-chevron-right"></i></a>
+    </div>
 </div>
 {% endblock content %}

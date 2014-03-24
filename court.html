@@ -2,10 +2,10 @@
 {% set court = 7 %}
 
 {% block content %}
-<div class="side">
+<!-- <div class="side">
   <a id="prev" href="/jail.html"><i class="fa fa-2x fa-chevron-left"></i></a>
   <a id="next" href="/prison.html"><i class="fa fa-2x fa-chevron-right"></i></a>
-</div>
+</div> -->
 <div id="court-landing" class="featured-image-wrapper">
   <img class="featured-image" src={{ stages[court].featured_image }}>
   <h1>{{ stages[court].headline|markdown }}</h1>
@@ -25,5 +25,11 @@
   <div class="col-md-4">
     {{ read_file("content/court_rail.md") | markdown }}
   </div>
+</div>
+<div id='footer'>
+    <div class='container'>
+        <a id="prev" href="/jail.html"><i class="fa fa-1x fa-chevron-left"></i>&nbsp;&nbsp;Previous</a>
+        <a id="next" href="/prison.html">Next Stage: Prison&nbsp;&nbsp;<i class="fa fa-1x fa-chevron-right"></i></a>
+    </div>
 </div>
 {% endblock content %}

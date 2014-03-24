@@ -16,10 +16,10 @@
 </div>
 <div class="content container">
   <div class="row">
-    <div id="intro-paragraph" class="copy col-md-5">
+    <div id="intro-paragraph" class="copy col-md-6">
       {{ read_file("content/index_about.md")|markdown }}
     </div>
-    <div id="intro-paragraph" class="copy col-md-5">
+    <div id="intro-paragraph" class="copy col-md-6">
       {{ read_file("content/index_data.md")|markdown }}
     </div>
   </div>
@@ -36,7 +36,13 @@
   <div class="row">
     <div class="copy col-md-8 col-md-offset-2">
       {{ read_file("content/index_credits.md")|markdown }}
+      <br><br>
     </div>
   </div>
+</div>
+<div id='footer'>
+    <div class='container'>
+        <a id="next" href="/victimization.html">First Stage: Victimization&nbsp;&nbsp;<i class="fa fa-1x fa-chevron-right"></i></a>
+    </div>
 </div>
 {% endblock content %}

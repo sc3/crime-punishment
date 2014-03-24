@@ -32,12 +32,12 @@ $(document).ready(function() {
     slicePoint: 200
   });
   $('#jail-foiable').expander({
-    slicePoint: 600
+    slicePoint: 1000
   });
   $('#court-unavailable').expander({
     slicePoint: 700
   });
   $('#prison-available').expander({
-    slicePoint: 100
+    slicePoint: 70
   });
 });
