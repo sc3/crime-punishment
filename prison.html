@@ -2,9 +2,9 @@
 {% set prison = 8 %}
 
 {% block content %}
-<div class="side">
+<!-- <div class="side">
   <a id="prev" href="/court.html"><i class="fa fa-2x fa-chevron-left"></i></a>
-</div>
+</div> -->
 <div id="prison-landing" class="featured-image-wrapper">
   <img class="featured-image" src={{ stages[prison].featured_image }}>
   <h1>{{ stages[prison].headline|markdown }}</h1>
@@ -24,5 +24,10 @@
   <div class="col-md-4">
     {{ read_file("content/prison_rail.md") | markdown }}
   </div>
+</div>
+<div id='footer'>
+    <div class='container'>
+        <a id="prev" href="/court.html"><i class="fa fa-1x fa-chevron-left"></i>&nbsp;&nbsp;Previous</a>
+    </div>
 </div>
 {% endblock content %}

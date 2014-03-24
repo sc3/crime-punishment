@@ -15,3 +15,5 @@ This is a list of the information that's collected by the OEMC for any caller. T
 <br>
 
 {{ inventory('Call for Service') }}
+
+<br><br>

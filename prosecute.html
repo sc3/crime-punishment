@@ -1,12 +1,11 @@
 {% extends "_cpd.html" %}
 {% set prosecute = 5 %}
 
-<div class="side">
-  <a id="prev" class="btn btn-default" href="/arrest.html">Previous Stage</a>
-  <a id="next" class="btn btn-primary" href="/jail.html">Next Stage</a>
-</div>
-
 {% block content %}
+<!-- <div class="side">
+  <a id="prev" href="/arrest.html"><i class="fa fa-2x fa-chevron-left"></i></a>
+  <a id="next" href="/jail.html"><i class="fa fa-2x fa-chevron-right"></i></a>
+</div> -->
 <div id="prosecute-landing" class="featured-image-wrapper">
   <img class="featured-image" src={{ stages[prosecute].featured_image }}>
   <h1>{{ stages[prosecute].headline|markdown }}</h1>
@@ -26,5 +25,11 @@
   <div class="col-md-4">
     {{ read_file("content/prosecute_rail.md")|markdown }}
   </div>
+</div>
+<div id='footer'>
+    <div class='container'>
+        <a id="prev" href="/arrest.html"><i class="fa fa-1x fa-chevron-left"></i>&nbsp;&nbsp;Previous</a>
+        <a id="next" href="/jail.html">Next Stage: Jail&nbsp;&nbsp;<i class="fa fa-1x fa-chevron-right"></i></a>
+    </div>
 </div>
 {% endblock content %}

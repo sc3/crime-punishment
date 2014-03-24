@@ -39,15 +39,16 @@ h1 {
   z-index: 2;
   position: fixed;
   top: 45%;
-  border-radius: 50px;
+  /*border-radius: 50px;
   border-style: solid;
   border-width: 1px;
   border-color: gray;
-  background: #ccc;
+  background: #ccc;*/
   height: 50px;
   width: 50px;
   text-align: center;
-  color: #ed1c24; 
+/*  color: #ed1c24; */
+  color: black;
   opacity: .85;
 }
 .side a:hover{
@@ -174,8 +175,7 @@ div.navbar-header {
     font-family: "Baskerville", serif !important;
     width: 125px;
     padding-left: 18px;
-    /* margin-left: -95px !important; */
-    background-color: rgba(20, 20, 20, 0.92);
+    background-color: rgba(20, 20, 20, 1);
 }
 
 ul.sections.nav.navbar-nav {
@@ -222,23 +222,31 @@ ul.sections.nav.navbar-nav {
 
 #footer {
   background-color: rgba(20, 20, 20, .92);
-  position: relative;
+  position: fixed;
+  width: 100%;
   bottom: 0;
   height: 37px;
 }
 
-#footer p {
-  margin-bottom: 0;
+#footer a {
+  margin-top: 10px;
+  color: #ddd;
+}
+
+#footer a:hover {
+  text-decoration: none;
+  color: #97BDDD;
 }
 
 #footer #next {
   position: absolute;
-  right: 10%;
+  float: right;
+  right: 5%;
 }
 
 #footer #prev {
   position: absolute;
-  left: 10%;
+  left: 5%;
 }
 
 
