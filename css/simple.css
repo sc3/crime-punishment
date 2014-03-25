@@ -107,7 +107,7 @@ h1 {
   position: absolute;
   width: 100%;
   left: 0;
-  bottom: 10px;
+  bottom: 5%;
   text-align: center;
 }
 
@@ -326,6 +326,15 @@ tr:not(:first-of-type) {
 
 /* Responsivity */
 
+@media (max-width: 1025px) {
+    #index-overlay {
+        top: 60%;
+    }
+    .photo-caption {
+        bottom: 5%;
+    }
+}
+
 @media (max-width: 1000px) {
   .navbar .social-menu {
     display: none;
@@ -359,6 +368,10 @@ tr:not(:first-of-type) {
   .navbar {
     height: 50px;
     background-color: rgba(20, 20, 20, 1);
+  }
+  
+  .navbar-toggle {
+      margin-right: 10px;
   }
   
   .navbar-toggle-header {
