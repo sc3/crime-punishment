@@ -4,9 +4,7 @@
     <div class="navbar-header">
       <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-ex1-collapse">
         <span class="sr-only">Toggle navigation</span>
-        <span class="icon-bar"></span>
-        <span class="icon-bar"></span>
-        <span class="icon-bar"></span>
+        <p class='navbar-toggle-header'>stages&nbsp;<i class="fa fa-1x fa-chevron-down"></i></p>
       </button>
       <a class="navbar-brand" href="./"><span class="nav1">Crime &#38; </span>Punishment</a>
     </div>
@@ -15,7 +13,7 @@
     <div class="collapse navbar-collapse navbar-ex1-collapse">
       <ul class="sections nav navbar-nav">
         {% for item in nav %}
-        <li><a href="{{ item.path }}" class="{% if PATH == item.path %}active{% endif %}">{{ item.title }}</a></li>
+        <li><a href="{{ item.path }}" class="{{ item.title }} {% if PATH == item.path %}active{% endif %}">{{ item.title }}</a></li>
         {% endfor %}
       </ul>
       <ul class="social-menu nav navbar-nav navbar-right">
