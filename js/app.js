@@ -13,8 +13,12 @@ $(document).ready(function() {
   $(window).on('resize', responsivize);
 
   setTimeout(function() {
-    $('div.featured-image-wrapper h1').fadeIn(1000); 
+    $('div.featured-image-wrapper h1').fadeIn(1000, function() {
+        $('#index-injunction').fadeIn(300);
+    }); 
   }, 300);
+  
+  $('.content.container').stickem();
   
   $('#callforservice-foiable').expander({
     slicePoint: 200
