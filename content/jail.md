@@ -9,14 +9,14 @@ The jail data inventory reflects the internal "inmate booking table" of the Cook
 
 #### Open Data
 
-{{ inventory('jail', 'open') }}
+{{ inventory('jail', 'open', 'no', '2x') }}
 
 #### FOIA Accessible Data
 
-{{ inventory('jail', 'foi', 'expand', '5x') }}
+{{ inventory('jail', 'foi', 'no', '5x') }}
 
 #### Unavailable Data
 
-{{ inventory('jail', 'unavailable', 'expand', '4x') }}
+{{ inventory('jail', 'unavailable', 'no', '2x') }}
 
 <br><br>
