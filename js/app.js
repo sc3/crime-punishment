@@ -18,8 +18,6 @@ $(document).ready(function() {
     }); 
   }, 300);
   
-  $('.process').affix();
-  
   $('#callforservice-foiable').expander({
     slicePoint: 200
   });
@@ -42,6 +40,6 @@ $(document).ready(function() {
     slicePoint: 700
   });
   $('#prison-available').expander({
-    slicePoint: 70
+    slicePoint: 250
   });
 });
