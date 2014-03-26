@@ -25,7 +25,7 @@ h1 {
   font-size: 4em;
 }
 
-.process h1 {
+#process h1 {
     margin-top: 0px !important;
 }
 
