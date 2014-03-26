@@ -18,7 +18,7 @@ There is very little.
 
 #### FOIA Accessible Data
 
-{{ inventory('callforservice', 'foi', 'expand', '2x') }}
+{{ inventory('callforservice', 'foi', 'no', '2x') }}
 
 #### Unavailable Data
 

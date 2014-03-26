@@ -8,7 +8,7 @@ The Illinois Department of Corrections (IDOC) allows you to search by last name,
 
 #### Open Data
 
-{{ inventory('prison', 'open', 'expand', '3x') }}
+{{ inventory('prison', 'open', 'no', '3x') }}
 
 #### FOIA Accessible Data
 
