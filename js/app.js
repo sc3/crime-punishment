@@ -17,32 +17,16 @@ $(document).ready(function() {
         $('#index-injunction').fadeIn(300);
     }); 
   }, 300);
+
+  expand_regex = /expandable-(\d)x/
   
-  $('#callforservice-foiable').expander({
-    slicePoint: 200
-  });
-  $('#callforservice-unavailable').expander({
-    slicePoint: 300
-  });
-  $('#incidents-available').expander({
-    slicePoint: 100
-  });
-  $('#incidents-foiable').expander({
-    slicePoint: 200
-  });
-  $('#incidents-unavailable').expander({
-    slicePoint: 200
-  });
-  $('#jail-foiable').expander({
-    slicePoint: 300
-  });
-  $('#jail-unavailable').expander({
-    slicePoint: 400
-  });
-  $('#court-unavailable').expander({
-    slicePoint: 700
-  });
-  $('#prison-available').expander({
-    slicePoint: 250
+  $('.expandable').filter(function(){
+    selector = '.' + expand_regex.exec(this.className)[0];
+    digit = expand_regex.exec(this.className)[1];
+    size = parseInt(digit);
+    numChars = size*100;
+    $(selector).expander({
+      slicePoint: numChars
+    });
   });
 });
