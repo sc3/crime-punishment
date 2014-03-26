@@ -1,4 +1,4 @@
-### About the Data
+## About the Data
 
 The three categories (open, FOIA, and unavailable) specify three distinct means of obtaining relevant data. *Open* describes data fields that are made readily available to the public via electronic means. Anyone can view this data easily online and it doesn't need to be requested.
 

@@ -16,7 +16,7 @@ a:hover {
 }
 
 h1, h2, h3, h4, h5, h6 {
-  font-family: 'Crimson Text', "Garamond", sans-serif;
+  font-family: 'Georgia', sans-serif;
   font-weight: 700;
 }
 
@@ -30,10 +30,6 @@ h1 {
   font-size: 1.1em;
 }
 
-#intro-paragraph {
-  text-align: center;
-}
-
 
 /* Side navigation */
 
@@ -44,7 +40,6 @@ h1 {
   height: 50px;
   width: 50px;
   text-align: center;
-/*  color: #ed1c24; */
   color: black;
   opacity: .85;
 }
@@ -67,7 +62,7 @@ h1 {
 
 .featured-image-wrapper h1 {
   color: #fff;
-  font-size: 80px;
+  font-size: 5em;
   text-shadow: 2px 2px 3px #000000;
   position: absolute;
   width: 100%;
@@ -94,6 +89,7 @@ h1 {
 }
 
 #index-overlay {
+  font-family: 'Souce Sans Pro', 'Helvetica' sans-serif !important;;
   color: #fff;
   font-size: 18px;
   text-shadow: 2px 2px 3px #000000;
@@ -199,6 +195,10 @@ a.Overview {
 
 ul.sections.nav.navbar-nav {
     font-size: 12px !important;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight: 300;
+    font-size: 12px;
+    font-variant: small-caps;
 }
 
 .navbar-default {
@@ -271,77 +271,17 @@ ul.sections.nav.navbar-nav {
 
 /* Images */
 
-.content .sticky-container img {
-  max-height: auto;
-  max-width: 90%;
-}
-
-.stickem-container {
-	position: relative;
-}
- 
-.stickit {
-    max-width: 70%;
-	position: fixed;
-	top: 45px;
-}
- 
-.stickit-end {
-	bottom: 0;
-	position: absolute;
-	right: 0;
-}
 
 
 /* Tables */
 
-#table-title {
-    text-align: center;
-    text-decoration: underline;
-}
-
-td {
+.victim-table td {
     width: 100px;
     text-align: center;
 }
 
-tr:not(:first-of-type) {
+.victim-table tr:not(:first-of-type) {
     height: 40px;
-}
-
-.circle_lots {
-    padding: 16px;
-    width: 1px;
-    border-radius: 100%;
-    margin-left: auto;
-    margin-right: auto;
-    width: 1%;
-}
-
-.circle_some {
-    padding: 12px;
-    width: 1px;
-    border-radius: 100%;
-    margin-left: auto;
-    margin-right: auto;
-    width: 1%;
-}
-
-.circle_little {
-    padding: 8px;
-    width: 1px;
-    border-radius: 100%;
-    margin-left: auto;
-    margin-right: auto;
-    width: 1%;
-}
-
-.gray {
-    background: #989898;
-}
-
-.red {
-    background: #b33;
 }
 
 

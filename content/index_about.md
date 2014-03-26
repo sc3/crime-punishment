@@ -1,4 +1,4 @@
-### About the Project
+## About the Project
 
 All over Chicago, every day, in every corner of our oblong city, people commit crimes. This project seeks to index the data that documents these crimes and what if any response there is from the local criminal justice system. We cover the collection of the voice of victims when they call 911, the daily notes of detectives who investigate crime, the material delivered to the court system when charges are filed, the records generated when those who are convicted arrive in prison, and so on.
 
