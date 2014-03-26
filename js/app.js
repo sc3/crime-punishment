@@ -22,14 +22,12 @@ $(document).ready(function() {
     }); 
   }, 300);
   
-  $('.affix').affix();
-  
-  $('#callforservice-foiable').expander({
-    slicePoint: 200
-  });
-  $('#callforservice-unavailable').expander({
-    slicePoint: 300
-  });
+  // $('#callforservice-foiable').expander({
+  //   slicePoint: 200
+  // });
+  // $('#callforservice-unavailable').expander({
+  //   slicePoint: 300
+  // });
   $('#incidents-available').expander({
     slicePoint: 100
   });
