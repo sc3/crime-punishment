@@ -1,6 +1,5 @@
 ### Rates of Report for Victimization
 
-<hr>
 <table class="victim-table">
      <tr>
         <td>
