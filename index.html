@@ -24,13 +24,13 @@
     </div>
   </div>
   <br><hr><br>
-  <div class="process row">
+  <div id="process" class="row">
     <div class="col-md-8">
       {{ read_file("content/index_rail.md")|markdown }}
     </div>
     <div class="copy col-md-4">
-        <div data-spy="affix" data-offset-top: "5000" class="affix">
-          {{ "![](/img/flowchart.jpg)"|markdown }}
+        <div class="flowchart">
+            {{ "![](/img/flowchart.jpg)"|markdown }}
         </div>
     </div>
   </div>

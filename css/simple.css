@@ -288,11 +288,10 @@ ul.sections.nav.navbar-nav {
 
 
 /* Flowchart */
-.affix {
-    position: fixed;
-    top: 0px;
-    width: 100%;
+.flowchart {
+    margin-top: 20px;
 }
+
 
 /* Tables */
 
