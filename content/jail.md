@@ -18,3 +18,5 @@ The jail data inventory reflects the internal "inmate booking table" of the Cook
 #### Unavailable Data
 
 {{ inventory('jail', 'unavailable', 'expand', '4x') }}
+
+<br><br>

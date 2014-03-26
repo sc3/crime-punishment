@@ -23,3 +23,5 @@ There is very little.
 #### Unavailable Data
 
 {{ inventory('callforservice', 'unavailable') }}
+
+<br><br>
