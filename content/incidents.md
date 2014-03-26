@@ -20,5 +20,3 @@ This is a list of the information that's collected by the Chicago Police Departm
 #### Unavailable Data
 
 {{ inventory('incidents', 'unavailable') }}
-
-<br><br>

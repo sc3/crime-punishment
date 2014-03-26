@@ -86,4 +86,3 @@
         </td>
     </tr>
 </table>
-<br><hr><br>

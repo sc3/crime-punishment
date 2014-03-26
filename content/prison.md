@@ -17,5 +17,3 @@ It is unclear to what extent IDOC is amenable to a FOI request. The Chicago Just
 #### Unavailable Data
 
 There is likely some prison data that would be unavailable, even from a FOIA request. The unavailable jail data might serve as a good reference point for understanding what kinds of fields are not accessible from a correctional institution.
-
-<br><br>
