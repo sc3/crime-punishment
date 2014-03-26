@@ -24,5 +24,3 @@ Although there is no requirement for them to meet it, is possible to request any
 #### Unavailable Data
 
 There are also some things that would be impossible to give out.
-
-<br><br>
