@@ -198,7 +198,7 @@ ul.sections.nav.navbar-nav {
     font-family: 'Source Sans Pro', sans-serif;
     font-weight: 300;
     font-size: 12px;
-    font-variant: small-caps;
+    text-transform: uppercase;
 }
 
 .navbar-default {
