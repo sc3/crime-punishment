@@ -32,6 +32,7 @@
 
 {% if stage == 'Jail' %}
 {{ expandable('jail', jail_fields, 'FOIA Data', 'foiable', 'true') }}
+{{ expandable('jail', jail_fields, 'Unavailable Data', 'unavailable', 'true') }}
 {% endif %}
 
 {% if stage == 'Court' %}

@@ -34,7 +34,10 @@ $(document).ready(function() {
     slicePoint: 200
   });
   $('#jail-foiable').expander({
-    slicePoint: 1000
+    slicePoint: 300
+  });
+  $('#jail-unavailable').expander({
+    slicePoint: 400
   });
   $('#court-unavailable').expander({
     slicePoint: 700
