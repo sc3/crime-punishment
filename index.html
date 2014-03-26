@@ -24,12 +24,14 @@
     </div>
   </div>
   <br><hr><br>
-  <div class="row stickem-container">
-    <div id="flowchart" class="stickem stickit col-md-5">
-      {{ "![](/img/flowchart.jpg)"|markdown }}
+  <div class="process row">
+    <div class="col-md-7 col-md-offset-1">
+      {{ read_file("content/index_rail.md")|markdown }}
     </div>
-    <div class="copy col-md-7">
-      {{ read_file("content/index_rail.md")|markdown }} 
+    <div class="copy col-md-4">
+        <div class="flowchart">
+            {{ "![](/img/flowchart.jpg)"|markdown }}
+        </div>
     </div>
   </div>
   <br><hr><br>
