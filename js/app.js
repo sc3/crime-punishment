@@ -6,6 +6,10 @@ function responsivize() {
     });
 }
 
+$( ".featured-image-wrapper" ).click(function() {
+  $( ".featured-image-wrapper, .navbar-brand" ).slideToggle( "slow" );
+});
+
 $(document).ready(function() {
 
   $('.featured-image-wrapper').imgLiquid();
@@ -18,7 +22,7 @@ $(document).ready(function() {
     }); 
   }, 300);
   
-  $('.process').affix();
+  $('.affix').affix();
   
   $('#callforservice-foiable').expander({
     slicePoint: 200
