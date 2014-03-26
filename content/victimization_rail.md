@@ -1,40 +1,40 @@
 ### Rates of Report for Victimization
-
+<hr>
 <table class="victim-table">
      <tr>
         <td>
         </td>
-        <td>
-            <p>% Reported</p>
-        </td>
-        <td>
+        <th>
+            <p>Percent Reported</p>
+        </th>
+        <th>
             <p>Police Reports</p>
-        </td>
-        <td>
+        </th>
+        <th>
             <p>Actually Occurred</p>
-        </td>    
+        </th>    
     </tr>
     <tr>
-        <td>
-            <p>Rape/Sexual Assault</p>
-        </td>
+        <th>
+            <p>Sexual Assault</p>
+        </th>
         <td>
             <p>28%</p>
         </td>
         <td>
     </tr>
     <tr>
-        <td>
+        <th>
             <p>Robbery</p>
-        </td>
+        </th>
         <td>
             <p>56%</p>
         </td>
     </tr>
     <tr>
-        <td>
+        <th>
             <p>Domestic Violence</p>
-        </td>
+        </th>
         <td>
             <p>55%</p>
         </td>
@@ -46,41 +46,41 @@
         </td>
     </tr>
     <tr>
-        <td>
+        <th>
             <p>Agg. Assaults</p>
-        </td>
+        </th>
         <td>
             <p>62%</p>
         </td>
     </tr>
     <tr>
-        <td>
+        <th>
             <p>Simple Assault</p>
-        </td>
+        </th>
         <td>
             <p>40%</p>
         </td>
     </tr>
     <tr>
-        <td>
+        <th>
             <p>Burglary</p>
-        </td>
+        </th>
         <td>
             <p>55%</p>
         </td>
     </tr>
     <tr>
-        <td>
-            <p>Motor Vehicle Theft</p>
-        </td>
+        <th>
+            <p>Vehicle Theft</p>
+        </th>
         <td>
             <p>79%</p>
         </td>
     </tr>
     <tr>
-        <td>
+        <th>
             <p>Theft</p>
-        </td>
+        </th>
         <td>
             <p>26%</p>
         </td>
