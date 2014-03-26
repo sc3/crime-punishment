@@ -2,15 +2,11 @@
 
 <!-- {# Switching table for generating data inventory sections.
      Call "{{ inventory('mystage') }}" in a markdown file, 
-     where 'mystage is the stage name defined here. 
+     where 'mystage' is the stage variable defined here. 
 
-     Define here, for each stage, the spreadsheet to pull from,
-     the section title to appear with the fields, the type of 
-     field to include in that section, and whether or not you
-     want an expandable. '  
+     The primary advantage of having this macro is to define the spreadsheet to pull from for a given stage name.
 
-     This whole macro should be drastically changed to be more 
-     DRY. #} !-->
+     The things to pass in to this macro include the availablility type of that section, as well optionally whether you want an expandable, and how much space the expandable should take up. #} !-->
 
 {% macro inventory(stage, availability, expand='no', size='1x') -%}
 
@@ -41,7 +37,9 @@
 {%- endmacro %}
 
 
-<!-- Lower level mechanism for creating expandable sections. -->
+<!-- Lower level mechanism for creating expandable sections. 
+
+     The reason everything is left aligned is because of how this macro is pulled into the spreadsheet. This could be fixed by fine-tuning Jinja's whitespace configuration. -->
 
 {% macro expandable(stage, spreadsheet, availability, expand, size) -%}
 <div id="{{stage}}-{{availability}}" 
