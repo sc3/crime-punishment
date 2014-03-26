@@ -147,7 +147,9 @@ h1 {
 
 .photo-caption {
   color: #fff;
-  font-size: 10px;
+  font-family: "Source Sans Pro", 'Helvetica', sans-serif;
+  font-weight: 300;
+  font-size: 11px;
   text-shadow: 1px 1px 2px #000000;
   position: absolute;
   width: 100%;
@@ -158,6 +160,10 @@ h1 {
   /* IE fixes for text shadow */
   display: block;
   filter: Shadow(Color=#000000, Direction=45, Strength=0.5);
+}
+
+.photo-caption:hover {
+    font-weight: 600;
 }
 
 
@@ -255,8 +261,6 @@ ul.sections.nav.navbar-nav {
 
 #footer {
   background-color: rgba(20, 20, 20, .92);
-  font-family: 'Souce Sans Pro', 'Helvetica' sans-serif;
-  font-weight: 300;
   position: fixed;
   width: 100%;
   bottom: 0;
@@ -264,6 +268,10 @@ ul.sections.nav.navbar-nav {
 }
 
 #footer a {
+  font-family: 'Souce Sans Pro', 'Helvetica' sans-serif;
+  font-weight: 300;
+  text-transform: uppercase;
+  font-size: 12px;
   margin-top: 10px;
   color: #ddd;
 }
@@ -419,11 +427,13 @@ th {
   }
 }
 
-@media (max-width: 482px) {
+@media (max-width: 535px) {
     .photo-caption {
       display: none;
     }
-    
+}
+
+@media (max-width: 482px) {
     #index-landing h1 {
       width: 92%;
     }
