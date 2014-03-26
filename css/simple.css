@@ -25,7 +25,7 @@ h1 {
   font-size: 4em;
 }
 
-.process h1 {
+.row h1 {
     margin-top: 0px !important;
 }
 
@@ -250,12 +250,6 @@ ul.sections.nav.navbar-nav {
   left: 16%;
 }
 
-/* Flowchart */
-
-#flowchart {
-  margin-top: 20px;
-}
-
 
 /* Footer */
 
@@ -293,11 +287,12 @@ ul.sections.nav.navbar-nav {
 }
 
 
-/* Images */
-.flowchart {
-    margin-top: 10px;
+/* Flowchart */
+.affix {
+    position: fixed;
+    top: 0px;
+    width: 100%;
 }
-
 
 /* Tables */
 

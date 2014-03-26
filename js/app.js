@@ -18,6 +18,8 @@ $(document).ready(function() {
     }); 
   }, 300);
   
+  $('.process').affix();
+  
   $('#callforservice-foiable').expander({
     slicePoint: 200
   });
