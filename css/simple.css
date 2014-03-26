@@ -288,8 +288,8 @@ ul.sections.nav.navbar-nav {
 
 
 /* Flowchart */
-.flowchart {
-    top: 20px;
+#flowchart {
+    margin-top: 200px;
 }
 
 

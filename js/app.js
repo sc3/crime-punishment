@@ -6,10 +6,6 @@ function responsivize() {
     });
 }
 
-$( ".featured-image-wrapper" ).click(function() {
-  $( ".featured-image-wrapper, .navbar-brand" ).slideToggle( "slow" );
-});
-
 $(document).ready(function() {
 
   $('.featured-image-wrapper').imgLiquid();
@@ -21,29 +17,16 @@ $(document).ready(function() {
         $('#index-injunction').fadeIn(300);
     }); 
   }, 300);
+
+  expand_regex = /expandable-(\d)x/
   
-  // $('#callforservice-foiable').expander({
-  //   slicePoint: 200
-  // });
-  // $('#callforservice-unavailable').expander({
-  //   slicePoint: 300
-  // });
-  $('#incidents-available').expander({
-    slicePoint: 100
-  });
-  $('#incidents-foiable').expander({
-    slicePoint: 200
-  });
-  $('#incidents-unavailable').expander({
-    slicePoint: 200
-  });
-  $('#jail-foiable').expander({
-    slicePoint: 1000
-  });
-  $('#court-unavailable').expander({
-    slicePoint: 700
-  });
-  $('#prison-available').expander({
-    slicePoint: 70
+  $('.expandable').filter(function(){
+    selector = '.' + expand_regex.exec(this.className)[0];
+    digit = expand_regex.exec(this.className)[1];
+    size = parseInt(digit);
+    numChars = size*100;
+    $(selector).expander({
+      slicePoint: numChars
+    });
   });
 });
