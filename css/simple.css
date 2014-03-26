@@ -288,20 +288,13 @@ ul.sections.nav.navbar-nav {
 
 
 /* Flowchart */
-.flowchart {
-    margin-top: 20px;
+
+.affix {
+  top: 20px;
 }
 
 
 /* Tables */
-
-.victim-table td {
-    width: 100px;
-}
-
-.victim-table tr:not(:first-of-type) {
-    height: 40px;
-}
 
 th {
     vertical-align: top;
