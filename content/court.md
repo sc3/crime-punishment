@@ -5,7 +5,13 @@ The data inventory is a list of the information that's collected by the Cook Cou
 
 ### Data Inventory
 
-The data inventory is a list of the information that's recorded by the Cook County Circuit Court for all the cases they hear. This inventory is different from the others in that it is divided into four categories: **(1)** *data available through a Freedom of Information (FOI) request*, **(2)** *data readily available*,  **(3)** data that is requestable. **(4)** *data that is collected but not available*. <br><br>
+The data inventory is a list of the information that's recorded by the Cook County Circuit Court for all the cases they hear. This inventory is different from the others in that it is divided into four categories:
+<ol>
+  <li>Data readily available,</li>
+  <li>Data available through a Freedom of Information (FOI) request, and</li>
+  <li>Data that is collected but not available.</li>
+</ol>
+<br>
 
 #### Open Data
 

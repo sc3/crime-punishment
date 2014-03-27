@@ -16,6 +16,14 @@ a:hover {
   text-decoration: none;
 }
 
+#process a {
+  color: #16298D;
+}
+
+#process a:hover {
+  color: #428bca;
+}
+
 h1, h2, h3, h4, h5, h6 {
   font-family: 'Georgia', sans-serif;
   font-weight: 700;
@@ -30,7 +38,7 @@ h1 {
 }
 
 .copy {
-  font-family: 'Souce Sans Pro', 'Helvetica' sans-serif !important;
+  font-family: 'Source Sans Pro', 'Helvetica', sans-serif;
   font-weight: 300;
   font-size: 1.1em;
 }
@@ -76,7 +84,6 @@ h1 {
   text-align: center;
   display: none;
   /* IE fixes for text shadow */
-  display: block;
   filter: Shadow(Color=#000000, Direction=45, Strength=1);
 }
 
@@ -94,10 +101,10 @@ h1 {
 }
 
 #index-overlay {
-  font-family: 'Souce Sans Pro', 'Helvetica' sans-serif !important;
+  font-family: 'Source Sans Pro', 'Helvetica', sans-serif;
   font-weight: 600;
   color: #fff;
-  font-size: 18px;
+  font-size: 1.4em;
   text-shadow: 2px 2px 3px #000000;
   width: 60%;
   padding-right: 5%;
@@ -106,7 +113,7 @@ h1 {
   position: absolute;
   bottom: 15%;
   /* IE fixes for text shadow */
-  display: block;
+  display: none;
   filter: Shadow(Color=#000000, Direction=45, Strength=1);
 }
 
@@ -115,7 +122,7 @@ h1 {
 }
 
 .featured-image-wrapper .scroll-injunction {
-  font-family: 'Souce Sans Pro', 'Helvetica' sans-serif !important;
+  font-family: 'Source Sans Pro', 'Helvetica', sans-serif;
   font-weight: 300;
   color: #fff;
   text-shadow: 2px 2px 3px #000000;
@@ -162,24 +169,8 @@ h1 {
   filter: Shadow(Color=#000000, Direction=45, Strength=0.5);
 }
 
-.photo-caption:hover {
-    font-weight: 600;
-}
-
 
 /* Navbar */
-
-.circle {
-  font-size: 11px;
-  color: #000;
-  background-color: #FFF;
-  border-radius: 8px;
-  height: 17px;
-  width: 17px;
-  line-height: 16px;
-  display: inline-block;
-  text-align: center;
-}
 
 .navbar {
   height: 37px;
@@ -209,7 +200,7 @@ a.Overview {
 
 ul.sections.nav.navbar-nav {
     font-size: 12px !important;
-    font-family: 'Source Sans Pro', sans-serif;
+    font-family: 'Source Sans Pro', 'Helvetica', sans-serif;
     font-weight: 300;
     font-size: 12px;
     text-transform: uppercase;
@@ -262,7 +253,7 @@ ul.sections.nav.navbar-nav {
 }
 
 #footer a {
-  font-family: 'Souce Sans Pro', 'Helvetica' sans-serif;
+  font-family: 'Source Sans Pro', 'Helvetica', sans-serif;
   font-weight: 300;
   text-transform: uppercase;
   font-size: 12px;
@@ -311,20 +302,27 @@ th {
   max-width: 100%; 
 }
 
-.credit {
-  font-size: 10px;
+#credits {
+  font-size: 0.9em;
   color: gray;
 }
 
 /* Responsivity */
 
+@media (max-width: 1192px) {
+  #index-overlay {
+    font-size: 1.2em;
+    top: 60%;
+  }
+}
+
 @media (max-width: 1025px) {
-    #index-overlay {
-        top: 55%;
-    }
-    .photo-caption {
-        margin-bottom: 5%;
-    }
+  #index-overlay {
+      top: 55%;
+  }
+  .photo-caption {
+      margin-bottom: 5%;
+  }
 }
 
 @media (max-width: 1000px) {
@@ -356,7 +354,7 @@ th {
   }
 }
 
-@media (max-width: 768px) {
+@media (max-width: 769px) {
   .navbar {
     height: 50px;
     background-color: rgba(20, 20, 20, 1);
@@ -368,7 +366,7 @@ th {
   
   .navbar-toggle-header {
     color: white;
-    font-family: 'Source Sans Pro', sans-serif;
+    font-family: 'Source Sans Pro', 'Helvetica', sans-serif;
     font-weight: 300;
     font-size: 12px;
     font-variant: small-caps;
@@ -416,7 +414,7 @@ th {
 
 @media (max-width: 601px) {
     .photo-caption {
-      display: none;
+      display: none !important;
     }
     #index-overlay {
         top: 50%;
