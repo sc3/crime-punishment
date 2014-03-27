@@ -86,3 +86,5 @@
         </td>
     </tr>
 </table>
+<br>
+**We are awaiting more data for this chart from the Chicago Police Department. Updates will follow soon.**
