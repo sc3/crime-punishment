@@ -4,7 +4,13 @@ This office prosecutes crimes. Prosecutors work closely with the investigating a
 
 ### Data Inventory 
 
-The data inventory is a list of the information that's recorded by the State's Attorney's Office for all the cases that they prosecute. Conceptually, there are three possibilities for this data: **(1)** *data available through a Freedom of Information (FOI) request*, **(2)** *data readily available* and **(3)** *data that is collected but not available*. <br><br>
+The data inventory is a list of the information that's recorded by the State's Attorney's Office for all the cases that they prosecute. Conceptually, there are three possibilities for this data:
+<ol>
+  <li>Data readily available,</li>
+  <li>Data available through a Freedom of Information (FOI) request, and</li>
+  <li>Data that is collected but not available.</li>
+</ol>
+<br>
 
 #### Open Data
 

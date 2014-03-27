@@ -6,8 +6,13 @@ Inmates who can't afford bond or are not granted bond have to wait for their cou
 
 ### Data Inventory
 
-The data inventory is a list of the information that's collected by the Chicago Police Department for anyone who's arrested. The inventory is divided into three categories: **(1)** *data available through a Freedom of Information (FOI) request*, **(2)** *data readily available* and **(3)** *data that is collected but not available*. <br><br>
-
+The data inventory is a list of the information that's collected by the Chicago Police Department for anyone who's arrested. The inventory is divided into three categories:
+<ol>
+  <li>Data readily available,</li>
+  <li>Data available through a Freedom of Information (FOI) request, and</li>
+  <li>Data that is collected but not available.</li>
+</ol>
+<br>
 
 #### Open Data
 

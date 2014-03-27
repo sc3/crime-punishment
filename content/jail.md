@@ -4,7 +4,13 @@ The Cook County Jail houses an average of 8,900 inmates each year. The vast majo
 
 ### Data Inventory  
 
-The jail data inventory reflects the internal "inmate booking table" of the Cook County Jail. Our inventory is divided into three categories: **(1)** *data available through a Freedom of Information (FOI) request*, **(2)** *data readily available* and **(3)** *data that is collected but not available*. <br><br>
+The jail data inventory reflects the internal "inmate booking table" of the Cook County Jail. Our inventory is divided into three categories:
+<ol>
+  <li>Data readily available,</li>
+  <li>Data available through a Freedom of Information (FOI) request, and</li>
+  <li>Data that is collected but not available.</li>
+</ol>
+<br>
 
 #### Open Data
 
@@ -17,5 +23,3 @@ The jail data inventory reflects the internal "inmate booking table" of the Cook
 #### Unavailable Data
 
 {{ inventory('jail', 'unavailable', 'no', '2x') }}
-
-<br><br>
