@@ -18,7 +18,7 @@ Currently, there is no information publicly available or online from the Prosecu
 
 #### FOIA Accessible Data
 
-The State's Attorney's Office has in the past been ruled by a judge to be exempt from the minimum requirements Illinois's FOI law sets. They maintain this, and refused a minimal FOI request that the Chicago Justice Project sent asking which fields they collect.
+The State's Attorney's Office has in the past been ruled by a judge to be exempt from the requirements Illinois's FOI law sets. They maintain this, and refused a minimal FOI request that the Chicago Justice Project sent asking what fields they collect.
 
 #### Unavailable Data
 

@@ -25,7 +25,7 @@ A judge has ruled that Court data is immune to FOI requests. This may not apply 
 
 Although there is no requirement for them to meet it, is possible to request any of the Court's data. Whether or not such requests will be satisfied is at the discretion of the Chief Judge of the Cook County Court, which is currently Judge Timothy Evans. The Chicago Justice Project was successful in requesting data about Convictions:
 
-{{ inventory('court', 'requestable', 'expand', '3x') }}
+{{ inventory('court', 'requestable', 'no', '3x') }}
 
 #### Unavailable Data
 

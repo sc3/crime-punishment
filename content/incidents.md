@@ -17,11 +17,11 @@ This is a list of the information that's collected by the Chicago Police Departm
 
 #### Open Data
 
-{{ inventory('incidents', 'open', 'expand', '3x') }}
+{{ inventory('incidents', 'open', 'no', '3x') }}
 
 #### FOIA Accessible Data
 
-{{ inventory('incidents', 'foi', 'expand', '3x') }}
+{{ inventory('incidents', 'foi', 'no', '3x') }}
 
 #### Unavailable Data
 
