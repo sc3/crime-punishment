@@ -2,10 +2,6 @@
 {% set callforservice = 2 %}
 
 {% block content %}
-<!-- <div class="side">
-  <a id="prev" href="/victimization.html"><i class="fa fa-2x fa-chevron-left"></i></a>
-  <a id="next" href="/incidents.html"><i class="fa fa-2x fa-chevron-right"></i></a>
-</div> -->
 <div id="callforservice-landing" class="featured-image-wrapper">
   <img class="featured-image" src = {{ stages[callforservice].featured_image }}>
   <h1>{{ stages[callforservice].headline|markdown }}</h1>
@@ -24,7 +20,12 @@
   </div>
   <div class="col-md-4">
     {{ read_file("content/callforservice_rail.md")|markdown }}
-    <br><br>
+  </div>
+  <div id="credits" class="row">
+    <div class="copy col-md-8 col-md-offset-2">
+      <hr>
+      {{ read_file("content/credits.md")|markdown }}
+    </div>
   </div>
 </div>
 <div id='footer'>

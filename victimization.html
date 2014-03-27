@@ -2,10 +2,6 @@
 {% set victimization = 1 %}
 
 {% block content %}
-<!-- <div class="side">
-  <a id="prev" href="/"><i class="fa fa-2x fa-chevron-left"></i></a>
-  <a id="next" href="/callforservice.html"><i class="fa fa-2x fa-chevron-right"></i></a>
-</div> -->
 <div id="victimization-landing" class="featured-image-wrapper">
   <img class="featured-image" src={{ stages[victimization].featured_image }}>
   <h1>{{ stages[victimization].headline|markdown }}</h1>
@@ -24,6 +20,12 @@
   </div>
   <div class="col-md-5">
     {{ read_file("content/victimization_rail.md")|markdown }}
+  </div>
+  <br><hr><br>
+  <div id="credits" class="row">
+    <div class="copy col-md-8 col-md-offset-2">
+      {{ read_file("content/credits.md")|markdown }}
+    </div>
   </div>
 </div>
 <div id='footer'>

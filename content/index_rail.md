@@ -1,14 +1,18 @@
 # Process
-### [1. Victimization](/victimization.html)
+### [1. Victimization    <i class="fa fa-1x fa-chevron-right"></i>](/victimization.html)
 <table>
 <tr>
     <th>Open</th>
-    <td>The U.S. Justice Dept. releases the results of its National Crime Victimization Survey (NCVS) openly online. Other national data exists, but is not as relevant to uncovering victimization rates. Local data is extremely hard to come by.</td>
+    <td>The U.S. Justice Dept. releases the results of its National Crime Victimization Survey (NCVS) openly online. Other national data exists, but is not as relevant to uncovering victimization rates.</td>
+</tr>
+<tr>
+    <th>Unavailable</th>
+    <td>Local data is extremely hard to come by.</td>
 </tr>
 </table>
 <br>
 
-### [2. Call for Service](/callforservice.html)
+### [2. Call for Service    <i class="fa fa-1x fa-chevron-right"></i>](/callforservice.html)
 <table>
 <tr>
     <th>Open</th>
@@ -25,7 +29,7 @@
 </table> 
 <br> 
 
-### [3. Incidents](/incidents.html)
+### [3. Incidents    <i class="fa fa-1x fa-chevron-right"></i>](/incidents.html)
 <table>
 <tr>
     <th>Open</th>
@@ -39,10 +43,10 @@
     <th>Unavailable</th>
     <td>Personal information such as names and badge numbers are omitted from the data in all cases.</td>
 </tr>
-</table>  
+</table>
 <br>
 
-### [4. Arrest](/arrest.html)
+### [4. Arrest    <i class="fa fa-1x fa-chevron-right"></i>](/arrest.html)
 <table>
 <tr>
     <th>Open</th>
@@ -59,7 +63,7 @@
 </table> 
 <br>
 
-### [5. Prosecute](/prosecute.html)
+### [5. Prosecute    <i class="fa fa-1x fa-chevron-right"></i>](/prosecute.html)
 <table>
 <tr>
     <th>Open</th>
@@ -76,7 +80,7 @@
 </table> 
 <br>
 
-### [6. Jail](/jail.html)
+### [6. Jail    <i class="fa fa-1x fa-chevron-right"></i>](/jail.html)
 <table>
 <tr>
     <th>Open</th>
@@ -93,7 +97,7 @@
 </table>  
 <br>
 
-### [7. Court](/court.html)
+### [7. Court    <i class="fa fa-1x fa-chevron-right"></i>](/court.html)
 <table>
 <tr>
     <th>Open</th>
@@ -114,7 +118,7 @@
 </table>
 <br>
 
-### [8. Prison](/prison.html)
+### [8. Prison    <i class="fa fa-1x fa-chevron-right"></i>](/prison.html)
 <table>
 <tr>
     <th>Open</th>

@@ -4,7 +4,8 @@ Once someone is found guilty of a crime and sentenced to more to more than a yea
 
 ### Data Inventory  
 
-The Illinois Department of Corrections (IDOC) allows you to search by last name, birth date, or inmate number to locate information regarding the status of a single inmate; this data is reported below. <br><br>
+The Illinois Department of Corrections (IDOC) allows you to search by last name, birth date, or inmate number to locate information regarding the status of a single inmate; this data is reported below.
+<br>
 
 #### Open Data
 
