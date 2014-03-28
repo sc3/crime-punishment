@@ -7,7 +7,7 @@
 </tr>
 <tr>
     <th>Unavailable</th>
-    <td>Local data is extremely hard to come by.</td>
+    <td>If crime goes unreported, there is no data to record.</td>
 </tr>
 </table>
 <br>
@@ -16,15 +16,15 @@
 <table>
 <tr>
     <th>Open</th>
-    <td>Little data on police calls for service in Chicago is publicly available or on the internet.</td>
+    <td>The City of Chicago does not currently publish 911 Calls for Service on the data portal at this time.</td>
 </tr>
 <tr>
     <th>FOIA</th>
-    <td>Most call for service data is available via a Freedom of Information (FOI) request; past requests have shown collected fields like district (where the event occurred), event type, remarks about what happened, etc.</td>
+    <td>Most call for service data is available via a Freedom of Information (FOIA) request; past requests have shown collected fields like district (where the event occurred), event type, remarks about what happened, etc.</td>
 </tr>
 <tr>
     <th>Unavailable</th>
-    <td>Few fields are totally unavailable, only personal information such as Home Address.</td>
+    <td>Most of the fields that are unavailable contain personally identifiable information such as the victim's name and address.</td>
 </tr>
 </table> 
 <br> 
@@ -33,11 +33,11 @@
 <table>
 <tr>
     <th>Open</th>
-    <td>A good portion of the crime incident data is available to the public, inluding fields like date, hundred block of occurrence, whether or not an arrest was made, seriousness of the crime (IUCR), and about two weeks afterwards, (sometimes) the coordinates of the incident.</td>
+    <td>A good portion of the crime incident data is available to the public, including fields like date, hundred block of occurrence, whether or not an arrest was made, seriousness of the crime (IUCR), and about two weeks afterwards, (sometimes) the coordinates of the incident.</td>
 </tr>
 <tr>
     <th>FOIA</th>
-    <td>Most of the rest of the crime incident data can be obtained through a FOI request, inluding age, race and other personally identifying information, whether injury resulted, relationships involved, and info about the responding officer.</td>
+    <td>Most of the rest of the crime incident data can be obtained through a FOIA request, including age, race and other personally identifying information, whether injury resulted, relationships involved, and info about the responding officer.</td>
 </tr>
 <tr>
     <th>Unavailable</th>
@@ -71,7 +71,7 @@
 </tr>
 <tr>
     <th>FOIA</th>
-    <td>There is also no information available about this stage of the system through a FOI request. The State's Attorney's Office is not obliged to respond to this basic level of accessibility.</td>
+    <td>There is also no information available about this stage of the system through a FOIA request. The State's Attorney's Office is not obliged to respond to this basic level of accessibility.</td>
 </tr>
 <tr>
     <th>Unavailable</th>
@@ -92,7 +92,7 @@
 </tr>
 <tr>
     <th>Unavailable</th>
-    <td>Very little data is unavailable, this includes personal identifying information such as home address.</td>
+    <td>Most of this data is available including personally identifying information such as home address.</td>
 </tr>
 </table>  
 <br>
@@ -101,7 +101,7 @@
 <table>
 <tr>
     <th>Open</th>
-    <td>No data is available online to the public, though technically in person many records are accessible.</td>
+    <td>No data is available online to the public. However, residents can appear in person and are able to access court records on site.</td>
 </tr>
 <tr>
     <th>FOIA</th>
@@ -109,11 +109,11 @@
 </tr>
 <tr>
     <th>Requestable</th>
-    <td>The court is unique in that you may be able to get some data, whether in bulk or not, by submitting a request to the Chief Judge of the Cook County Court. Others have been successful in their requests, and have made public their data.</td>
+    <td>The court is unique in that you may be able to certain data, whether in bulk or not, by submitting a request to the Chief Judge of the Cook County Court. Others have been successful in their requests, and have made public their data.</td>
 </tr>
 <tr>
     <th>Unavailable</th>
-    <td>If you are unsuccessful in your request to get court data from the Judge, nearly all data about specific cases is unavailable.</td>
+    <td>For the court system, the judge decides what data is or isn't available.</td>
 </tr>
 </table>
 <br>
@@ -122,14 +122,14 @@
 <table>
 <tr>
     <th>Open</th>
-    <td>Some of the inmate data is available through the Illinois Department of Corrections (IDOC) website. Like the County Jail, though, there is no bulk data available except possibly through third parties.</td>
+    <td>Some of the inmate data is available through the Illinois Department of Corrections (IDOC) website. Like the County Jail, there is no bulk data available except through third parties.</td>
 </tr>
 <tr>
     <th>FOIA</th>
-    <td>The Chicago Justice Project's FOI request to see what other fields the IDOC collects has not been responded to yet. It's unclear whether or not they are required to respond.</td>
+    <td>The Chicago Justice Project's FOIA request to see what other fields the IDOC collects has not been responded to yet.</td>
 </tr>
 <tr>
     <th>Unavailable</th>
-    <td>There is likely a lot of unavailable data, such as identifying person information and case info.</td>
+    <td>The Chicago Justice Project's FOIA request to see what other fields the IDOC collects has not been responded to yet.</td>
 </tr>
 </table> 
