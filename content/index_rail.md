@@ -88,7 +88,7 @@
 </tr>
 <tr>
     <th>FOIA</th>
-    <td>The Sheriff's Office keeps detailed records of inmates, including some booking information, security level of custody, biometrics like finger print, and several different numbers used to identify the inmate to different local and federal agencies.</td>
+    <td>The Sheriff's Office keeps detailed records of inmates, including some booking information, security level of custody, biometrics like finger print, and several different numbers used to identify the inmate to local and federal agencies.</td>
 </tr>
 <tr>
     <th>Unavailable</th>
