@@ -88,11 +88,11 @@
 </tr>
 <tr>
     <th>FOIA</th>
-    <td>The Sheriff's Office keeps detailed records of inmates, and much of it is requestable through FOIA.</td>
+    <td>The Sheriff's Office keeps detailed records of inmates, including some booking information, security level of custody, biometrics like finger print, and several different numbers used to identify the inmate to different local and federal agencies.</td>
 </tr>
 <tr>
     <th>Unavailable</th>
-    <td>Very little data is unavailable, this includes personal identifying information such as home address.</td>
+    <td>Only a few fields are unavailable, such as private information like Social Security number, Emergency Contacts, as well as a number used to identify individuals across all bookings.</td>
 </tr>
 </table>  
 <br>
