@@ -11,14 +11,14 @@ There are many municipalities that publish live or near-live listing of dispatch
 This is a list of the information that's collected by the OEMC for any caller. The inventory is divided into three categories:
 <ol>
   <li>Data readily available,</li>
-  <li>Data available through a Freedom of Information (FOI) request, and</li>
+  <li>Data available through a Freedom of Information (FOIA) request, and</li>
   <li>Data that is collected but not available.</li>
 </ol>
 <br>
 
 #### Open Data
 
-There is very little.
+The City of Chicago does not publish this data set on the portal at this time. 
 
 #### FOIA Accessible Data
 
