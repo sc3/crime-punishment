@@ -19,8 +19,7 @@ SPREADSHEET_KEY = "0AtIgbhrbjJC_dGZldkpEUDB0bmRhY1Z3aU9jRlI1VlE"
 # S3 bucket configuration
 S3_BUCKETS = {
     # Provide target -> s3 url pairs, such as:
-    "staging": "s3://chicago-justice.beta.recoveredfactory.net",
-    "production": "s3://chicago-justice.smartchicagoapps.org"
+    "production": "s3://crime-punishment.smartchicagoapps.org"
 }
 
 # Repository this project is based on (used for updates)
