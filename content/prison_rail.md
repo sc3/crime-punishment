@@ -11,3 +11,12 @@ It's also unclear what data is available through Illinois' Freedom of Informatio
 ##### Oregon, USA
 
 The state of Oregon makes a very large amount of data about their prison available through their [data portal](https://data.oregon.gov/browse?q=Prison%20&sortBy=relevance&utf8=%E2%9C%93). This includes forecasts of prison populations, census of current prison populations by institutions, and admissions data. The amount and quality of the data definitely makes Oregon the national standard for transparency in correctional data. 
+
+### Other Models
+
+* [Florida Department of Corrections](http://www.dc.state.fl.us/AppCommon/)
+* [Indiana Department of Corrections](http://www.in.gov/idoc/2376.htm)
+* [Arizona Department of Corrections](http://www.azcorrections.gov/inmate_datasearch/Index_Minh.aspx)
+* [Iowa Department of Correction](https://data.iowa.gov/node/557)
+* [Washington State Department of Corrections](http://www.doc.wa.gov/aboutdoc/statistics.asp)
+* [Louisiana Department of Public Safety and Corrections](http://www.doc.la.gov/quicklinks/statistics/statistics-briefing-book/)
