@@ -9,3 +9,7 @@ To access data from the Chicago Police Department you need to [file a request fo
 ##### Henrico County (Virginia)  
 
 [Henrico County](http://randolph.co.henrico.va.us/public-data-access/searcharrest.aspx) makes arrest data available. This is the only source we have located that makes this data available online; however, while this data is searchable online by charge, you cannot download the data in bulk.
+
+### Other Models 
+
+* [Dallas County (Iowa)](http://www.co.dallas.ia.us/government/sheriff/jail-division/arrest-inquiry-database) 
