@@ -11,3 +11,18 @@ To attempt to get access to additional electronic court data you have to [file a
 ##### Maryland Courts  
 
 [The Maryland Courts](http://casesearch.courts.state.md.us/inquiry/processDisclaimer.jis) allow access to the most robust amount of data of any court we located. Their website lists what occurs in every court hearing while also detailing information regarding the officer that arrested the defendant, the prosecutor(s) prosecuting the case, and the judge presiding over the case. This site also details information regarding the defendant's lawyer. Not a single court would allow the bulk downloading of data involved in the cases.  
+
+### Other Models
+* [Federal Court System](http://www.pacer.gov/)
+* [Idaho State](https://www.idcourts.us/repository/mainpublic_id.do?forward=mainpublic_id)
+* [Washington State Courts](http://dw.courts.wa.gov/index.cfm?fa=home.cljsearch&terms=accept&flashform=0)
+* [California State Courts](http://www.courts.ca.gov/12941.htm)
+* [North Dakota State Courts](http://www.ndcourts.gov/publicsearch/default.html)
+* [Pennsylvania State Courts](http://ujsportal.pacourts.us/)
+* [DC Courts](https://www.dccourts.gov/cco/maincase.jsf)
+* [Wisconson State Courts](http://wcca.wicourts.gov/index.xsl)
+* [Maryland State Courts](http://casesearch.courts.state.md.us/inquiry/processDisclaimer.jis)
+* [Minnesota State Courts](http://pa.courts.state.mn.us/default.aspx)
+* [McClean County Court (Illinois)](http://www.mcleancountyil.gov/index.aspx?NID=137)
+* [Richmond County (South Carolina)](http://www5.rcgov.us/SCJDWeb/PublicIndex/%28S%2811mkpkyl0dg1bylocnywysft%29%29/disclaimer.aspx?AspxAutoDetectCookieSupport=1)
+* [Denton County (Texas)](http://justice1.dentoncounty.com/PublicAccess/default.aspx)
