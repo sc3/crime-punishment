@@ -11,3 +11,15 @@ To access greater or more specific data from the Chicago Police Department, you 
 ##### City of Chicago (Illinois)  
 
 [The City of Chicago's data portal](https://data.cityofchicago.org/Public-Safety/Crimes-2001-to-present/ijzp-q8t2) provides excellent access to crime incident data that is either usable online or can be downloaded for later use. While the portal leads other cities in usability the Chicago Police Department only makes available crime incident data.
+
+### Other Models
+
+* [Dallas Police Department (Bulk Download)](ftp://66.97.146.93)
+* [Richmond Police Department (Virginia)](http://eservices.ci.richmond.va.us/applications/crimeinfo/index.asp)
+* [Henrico County, Virgina](http://randolph.co.henrico.va.us/public-data-access/searchicr.aspx) 
+* [San Jose Police Department](http://www.sjpd.org/crimestats/CrimeReports.html) 
+* [Fairfax County Virgina](http://www.fairfaxcounty.gov/policeevents/)
+* [Austin Police Department](https://www.austintexas.gov/police/reports/index.cfm)
+* [Richmond Police Department (California)](http://crimeview.ci.richmond.ca.us/crimeviewcommunity/default.asp)
+* [Indianapolis Police Department](http://maps.indy.gov/MapIndy/Index.html?theme=crimeviewer)
+* [Philadephia Police Department](http://www.phila.gov/map#id=c2d43f13123843688c7d6c1add5ddba2) 
