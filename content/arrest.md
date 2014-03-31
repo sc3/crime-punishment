@@ -1,6 +1,6 @@
 ### Summary
 
-A person can get to jail two different ways. First, police officers file misdemeanor charges to court - even if the case ends up being toss out of court by the judge. Inmates who can't afford bond or are not granted bond have to wait for their court hearing in jail. Second,the state's attorney's office reviews the evidence for a felony case and agrees to file changes.
+A person can get to jail two different ways. First, police officers file misdemeanor charges to court - even if the case ends up being tossed out of court by the judge. Inmates who can't afford bond or are not granted bond have to wait for their court hearing in jail. Second, the state's attorney's office reviews the evidence for a felony case and agrees to file changes.
 
 Inmates who can't afford bond or are not granted bond have to wait for their court hearing in jail. Other inmates include anyone who has ben sentenced to less than a year in jail.
 
