@@ -1,5 +1,5 @@
 ### Summary
-Investigating crime can start from two places. First, police officers or from a victim of a crime. After an arrest, police officers and detectives have an important discretion; they can choose whether to file a misdemeanor or felony case with the Cook County Court. 
+Investigating crime can start from two places: police officers or from a victim of a crime. After an arrest, police officers and detectives have an important discretion; they can choose whether to file a misdemeanor or felony case with the Cook County Court. 
 
 An incident report is any contact that a police officer has with a resident. Not every incident turns into an arrest. 
 
