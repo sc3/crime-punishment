@@ -19,7 +19,7 @@ The only publicly availble data is accessible in person.
 
 #### FOIA Accessible Data
 
-A judge has ruled that Court data is immune to FOI requests. This may not apply equally to all units operating under the Court.
+A judge has ruled that Court data is immune to FOIA requests. This may not apply equally to all units operating under the Court.
 
 #### Requestable Data
 
@@ -29,6 +29,6 @@ Although there is no requirement for them to meet it, is possible to request any
 
 #### Unavailable Data
 
-There are also some things that would be impossible to give out.
+Because the Court approves data releases on a case by case basis, there is no set standards as to what data is and is not available. 
 
 <br><br>
