@@ -16,7 +16,7 @@
 <table>
 <tr>
     <th>Open</th>
-    <td>The City of Chicago does not currently publish 911 Calls for Service on the data portal at this time.</td>
+    <td>The City of Chicago does not publish 911 Calls for Service on the data portal at this time.</td>
 </tr>
 <tr>
     <th>FOIA</th>
@@ -33,11 +33,11 @@
 <table>
 <tr>
     <th>Open</th>
-    <td>A good portion of the crime incident data is available to the public, including fields like date, hundred block of occurrence, whether or not an arrest was made, seriousness of the crime (IUCR), and about two weeks afterwards, (sometimes) the coordinates of the incident.</td>
+    <td>A good portion of the incident report data is available to the public, including fields like date, hundred block of occurrence, whether or not an arrest was made, seriousness of the crime (IUCR), and about two weeks afterwards, (sometimes) the coordinates of the incident.</td>
 </tr>
 <tr>
     <th>FOIA</th>
-    <td>Most of the rest of the crime incident data can be obtained through a FOIA request, including age, race and other personally identifying information, whether injury resulted, relationships involved, and info about the responding officer.</td>
+    <td>Most of the rest of the crime incident data can be obtained through a FOIA request, including age, race and other personally identifying information, relationships involved, whether or not an arrest was made, and info about the responding officer.</td>
 </tr>
 <tr>
     <th>Unavailable</th>
@@ -50,15 +50,15 @@
 <table>
 <tr>
     <th>Open</th>
-    <td>No data from an arrest or filing of charges is made available to the public.</td>
+    <td>Unlike the closely related incident data, no data from an arrest or filing of charges is made available to the public.</td>
 </tr>
 <tr>
     <th>FOIA</th>
-    <td>Most arrest data is made available through the FOIA, such as name and ethnicity of the arrestee.</td>
+    <td>Arrest data made available through the FOIA, includes the name and personal info of the arrestee, and might also include fields such as where inmates were booked, the time of their arrest, and by which officer they were booked.</td>
 </tr>
 <tr>
     <th>Unavailable</th>
-    <td>The home address of the arrestee is not available.</td>
+    <td>The home address of the arrestee as well as other personal data is not available.</td>
 </tr>
 </table> 
 <br>
@@ -71,11 +71,11 @@
 </tr>
 <tr>
     <th>FOIA</th>
-    <td>There is also no information available about this stage of the system through a FOIA request. The State's Attorney's Office is not obliged to respond to this basic level of accessibility.</td>
+    <td>There is also no information available about this stage of the system through a FOIA request. Others have attempted to request data from the State's Attorney's Office and have been unsuccessful. They are not obliged to respond to this basic level of accessibility.</td>
 </tr>
 <tr>
     <th>Unavailable</th>
-    <td>The State's Attorney's Office keeps their data, to whatever extent they collect it, totally unavailable. </td>
+    <td>The State's Attorney's Office keeps their data, to whatever extent they collect it, totally unavailable. This might include things like notes from a proseuctor, reasons a case was not pursued by the State, and other data reflecting their perspective of inmate's court cases.</td>
 </tr>
 </table> 
 <br>
@@ -105,7 +105,7 @@
 </tr>
 <tr>
     <th>FOIA</th>
-    <td>The Courts are the second agency exempted from the FOIA requirements.</td>
+    <td>In general, the courts are exempted from the FOIA requirements. This may not apply to every related agency.</td>
 </tr>
 <tr>
     <th>Requestable</th>
@@ -122,7 +122,7 @@
 <table>
 <tr>
     <th>Open</th>
-    <td>Some of the inmate data is available through the Illinois Department of Corrections (IDOC) website. Like the County Jail, there is no bulk data available except through third parties.</td>
+    <td>Basic inmate data is available through the Illinois Department of Corrections (IDOC) website. Like the County Jail, there is no bulk data available except possibly through a third party (but we know of no one presently exposing bulk data).</td>
 </tr>
 <tr>
     <th>FOIA</th>
