@@ -71,7 +71,7 @@
 </tr>
 <tr>
     <th>FOIA</th>
-    <td>There is also no information available about this stage of the system through a FOIA request. Others have attempted to request data from the State's Attorney's Office and have been unsuccessful. They are obliged to respond to this basic level of accessibility.</td>
+    <td>There is also no information available about this stage of the system through a FOIA request. Others have attempted to request data from the State's Attorney's Office and have been unsuccessful. They are not obliged to respond to this basic level of accessibility.</td>
 </tr>
 <tr>
     <th>Unavailable</th>
