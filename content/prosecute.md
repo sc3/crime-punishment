@@ -1,6 +1,6 @@
 ### Summary
 
-The office of the State's Attorney prosecutes crimes. Prosecutors work closely with the investigating agency, which includes Chicago Police, Cook County Sheriff's office. The Feloney Review Units takes the case to determine what charges to file and whether there is enough evidence to prosecute the case. This unit alone has the authority to approve homicide charges; or, in cases involving juveniles, homicide charges or any lesser charge arising from the same occurrence (Not including drug or syndicated gambling charges).  
+The office of the State's Attorney prosecutes crimes. Prosecutors work closely with the investigating agency, which includes Chicago Police, Cook County Sheriff's office. The Felony Review Units takes the case to determine what charges to file and whether there is enough evidence to prosecute the case. This unit alone has the authority to approve homicide charges; or, in cases involving juveniles, homicide charges or any lesser charge arising from the same occurrence (Not including drug or syndicated gambling charges).  
 
 ### Data Inventory 
 
@@ -18,7 +18,7 @@ Currently, there is no information publicly available or online from the Prosecu
 
 #### FOIA Accessible Data
 
-The State's Attorney's Office has in the past been ruled by a judge to be exempt from the requirements Illinois's FOIA law sets. They maintain this, and refused a minimal FOIA request that the Chicago Justice Project sent asking what fields they collect.
+The State's Attorney's Office has in the past been ruled by a judge to be exempt from the requirements set by Illinois's FOIA law. Using this as a justification, they refused a minimal FOIA request that the Chicago Justice Project sent asking what fields they collect.
 
 #### Unavailable Data
 
