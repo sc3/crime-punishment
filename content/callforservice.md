@@ -22,7 +22,7 @@ The City of Chicago does not publish this data set on the portal at this time.
 
 #### FOIA Accessible Data
 
-{{ inventory('callforservice', 'foi', 'no', '2x') }}
+{{ inventory('callforservice', 'foi') }}
 
 #### Unavailable Data
 

@@ -1,52 +1,53 @@
 
 
 <!-- {# Switching table for generating data inventory sections.
-     Call "{{ inventory('mystage') }}" in a markdown file, 
-     where 'mystage' is the stage variable defined here. 
+     Call "{{ inventory('mystage', 'theavailability') }}" in a 
+     markdown file, where 'mystage' is the stage variable defined
+     here. 
 
-     The primary advantage of having this macro is to define the spreadsheet to pull from for a given stage name.
+     The primary advantage of having this macro is to define the 
+     spreadsheet to pull from for a given stage name. The second
+     thing to pass in to this macro besides the name of the stage
+     is the availablility type of that section. #} !-->
 
-     The things to pass in to this macro include the availablility type of that section, as well optionally whether you want an expandable, and how much space the expandable should take up. #} !-->
-
-{% macro inventory(stage, availability, expand='no', size='1x') -%}
+{% macro inventory(stage, availability) -%}
 
 {% if stage == 'callforservice' %}
-{{ expandable(stage, callforservice_fields, availability, expand, size) }}
+{{ expandable(callforservice_fields, stage, availability) }}
 {% endif %}
 
 {% if stage == 'incidents' %}
-{{ expandable(stage, incidents_fields, availability, expand, size) }}
+{{ expandable(incidents_fields, stage, availability) }}
 {% endif %}
 
 {% if stage == 'arrest' %}
-{{ expandable(stage, arrest_fields, availability, expand, size) }}
+{{ expandable(arrest_fields, stage, availability) }}
 {% endif %}
 
 {% if stage == 'jail' %}
-{{ expandable(stage, jail_fields, availability, expand, size) }}
+{{ expandable(jail_fields, stage, availability) }}
 {% endif %}
 
 {% if stage == 'court' %}
-{{ expandable(stage, court_fields, availability, expand, size) }}
+{{ expandable(court_fields, stage, availability) }}
 {% endif %}
 
 {% if stage == 'prison' %}
-{{ expandable(stage, prison_fields, availability, expand, size) }}
+{{ expandable(prison_fields, stage, availability) }}
 {% endif %}
 
 {%- endmacro %}
 
 
-<!-- Lower level mechanism for creating expandable sections. 
+<!-- {# Lower level mechanism for pulling fields from a spreadsheet 
+     by their availability. 
 
-     The reason everything is left aligned is because of how this macro is pulled into the spreadsheet. This could be fixed by fine-tuning Jinja's whitespace configuration. -->
+     The reason everything is left aligned is because of how 
+     this macro is pulled into the spreadsheet. This could be 
+     fixed by fine-tuning Jinja's whitespace configuration. #} -->
 
-{% macro expandable(stage, spreadsheet, availability, expand, size) -%}
-<div id="{{stage}}-{{availability}}" 
-{% if expand == 'expand' %} 
-  class="expandable expandable-{{size}}"
-{% endif %}
->
+{% macro expandable(spreadsheet, stage, availability) -%}
+<div id="{{stage}}-{{availability}}">
 <ul>
 {% for field in spreadsheet %}
 {% if field.availability == availability %}
@@ -56,3 +57,4 @@
 </ul>
 </div>
 {%- endmacro %}
+
