@@ -18,12 +18,17 @@
     </tr>
     <tr>
         <th>
-            <p>Sexual Assault</p>
+            <p>Rape/Sexual Assault</p>
         </th>
         <td>
             <p>28%</p>
         </td>
         <td>
+            <p>1,462</p>
+        </td>
+        <td>
+            <p>2,520</p>
+        </td>
     </tr>
     <tr>
         <th>
@@ -31,6 +36,12 @@
         </th>
         <td>
             <p>56%</p>
+        </td>
+        <td>
+            <p>13,469</p>
+        </td>
+        <td>
+            <p>19,394</p>
         </td>
     </tr>
     <tr>
@@ -49,18 +60,16 @@
     </tr>
     <tr>
         <th>
-            <p>Agg. Assaults</p>
+            <p>Agg. Assaults & Batteries</p>
         </th>
         <td>
             <p>62%</p>
         </td>
-    </tr>
-    <tr>
-        <th>
-            <p>Simple Assault</p>
-        </th>
         <td>
-            <p>40%</p>
+            <p>12,802</p>
+        </td>
+        <td>
+            <p>17,667</p>
         </td>
     </tr>
     <tr>
@@ -70,13 +79,25 @@
         <td>
             <p>55%</p>
         </td>
+        <td>
+            <p>22,797</p>
+        </td>
+        <td>
+            <p>33,056</p>
+        </td>
     </tr>
     <tr>
         <th>
-            <p>Vehicle Theft</p>
+            <p>Motor Vehicle Theft</p>
         </th>
         <td>
             <p>79%</p>
+        </td>
+        <td>
+            <p>16,428</p>
+        </td>
+        <td>
+            <p>23,821</p>
         </td>
     </tr>
     <tr>
@@ -86,7 +107,13 @@
         <td>
             <p>26%</p>
         </td>
+        <td>
+            <p>74,253</p>
+        </td>
+        <td>
+            <p>129,200</p>
+        </td>
     </tr>
 </table>
 <br>
-**We are awaiting more data for this chart from the Chicago Police Department. Updates will follow soon.**
+_Updated data as of June 24, 2014._
