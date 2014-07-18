@@ -7,13 +7,13 @@
         <td>
         </td>
         <th>
-            <p>Percent Reported</p>
+            <p>Percent Reported Nationally</p>
         </th>
         <th>
-            <p>Police Reports</p>
+            <p>Police Reports, 2012</p>
         </th>
         <th>
-            <p>Actually Occurred</p>
+            <p>(Est.) Actually Occurred, 2012</p>
         </th>    
     </tr>
     <tr>
